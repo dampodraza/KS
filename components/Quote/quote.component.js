@@ -1,0 +1,20 @@
+import React from "react";
+import Image from "next/image";
+
+const Quote = () => {
+  return (
+    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-32 pb-10">
+      <div className="text-centermb-6">
+        {" "}
+        <div className="flex justify-center mb-4">
+          <img src="/icons/quote.svg" alt="quote" />
+        </div>
+      </div>
+      <p className="text-[17px] font-josefin-italic mb-6 text-center">
+        Nikt nie jest tobą i to jest twoja supermoc.
+      </p>
+    </section>
+  );
+};
+
+export default Quote;
