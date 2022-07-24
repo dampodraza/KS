@@ -1,6 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import mailIcon from '../../public/icons/mail.png'
+import instaIcon from '../../public/icons/insta.svg'
+import fbIcon from '../../public/icons/fb.svg'
+import tiktokIcon from '../../public/icons/tiktok.svg'
 
 const Footer = () => {
   return (
@@ -19,7 +23,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex flex-rowjustify-center">
-            <Image src={`/icons/mail.png`} alt="mail" width={17} height={16} />
+            <Image src={mailIcon} alt="mail" width={17} height={16} />
             <p className="text-[11px] ml-4">kasia.maria.podraza@gmail.com</p>
           </div>
         </div>
@@ -32,7 +36,7 @@ const Footer = () => {
             >
               <Image
                 className="cursor-pointer"
-                src={`/icons/insta.svg`}
+                src={instaIcon}
                 alt="insta"
                 width={22}
                 height={21}
@@ -44,7 +48,7 @@ const Footer = () => {
             >
               <Image
                 className="cursor-pointer"
-                src={`/icons/fb.svg`}
+                src={fbIcon}
                 alt="fb"
                 width={23}
                 height={22}
@@ -53,7 +57,7 @@ const Footer = () => {
             <Link href="https://stackoverflow.com/" passHref={true}>
               <Image
                 className="cursor-pointer"
-                src={`/icons/tiktok.svg`}
+                src={tiktokIcon}
                 alt="tiktok"
                 width={26}
                 height={27}

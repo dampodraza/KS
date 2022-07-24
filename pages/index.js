@@ -19,6 +19,7 @@ import Footer from "../components/Footer/footer.component";
 import DlaczegoJa2 from "../components/DlaczegoJa/dlaczegoJa2.component";
 import DlaczegoJa1 from "../components/DlaczegoJa/dlaczegoJa1.component";
 import Navigation from "../components/Navigation/navigation.component";
+import landingImg from '../public/images/landing-img.jpeg';
 
 export default function Home({ postDesc, postImage, postTitle, postLink }) {
   const isMobile = useCheckMobileScreen(800);
@@ -34,7 +35,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
       <main>
         <section className="relative">
           <Image
-            src="/images/landing-img.png"
+            src={landingImg}
             priority
             layout="fill"
             objectFit="cover"

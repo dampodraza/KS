@@ -46,7 +46,7 @@ const DlaczegoJa2 = ({isMobile}) => {
               <div className="flex flex-col text-2xl relative">
                 <div className="absolute top-0 -left-16">
                   {" "}
-                  <Image src="/images/quote.png" width="100" height="80" />
+                  <Image src="/images/quote.svg" width="100" height="80" />
                 </div>
                 <span className="text-3xl z-50 font-josefin-italic leading-9">
                   Rozmowy z Kasią to cudowny czas, w którym to ty i twoje
@@ -62,7 +62,7 @@ const DlaczegoJa2 = ({isMobile}) => {
               <div className="flex flex-col text-2xl relative">
                 <div className="absolute top-0 -left-16">
                   {" "}
-                  <Image src="/images/quote.png" width="100" height="80" />
+                  <Image src="/images/quote.svg" width="100" height="80" />
                 </div>
                 <span className="text-3xl z-50 font-josefin-italic leading-9">
                   Rozmowy z Kasią to cudowny czas, w którym to ty i twoje

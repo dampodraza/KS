@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import kasiaDamianImg from '../../public/images/kasia-damian-img.jpeg';
+import kasiaBluesImg from '../../public/images/kasiablues.jpeg';
+import kasiaJogaImg from '../../public/images/kasia-joga.jpeg';
 
 const MojaHistoria = () => {
   return (
@@ -69,7 +72,7 @@ const MojaHistoria = () => {
       </p>
       <div className="block text-left">
         <Image
-          src={"/images/kasia-damian-img.png"}
+          src={kasiaDamianImg}
           alt={`kasia-damian-img`}
           width={263}
           height={368}
@@ -78,7 +81,7 @@ const MojaHistoria = () => {
       </div>
       <div className="block">
         <Image
-          src={"/images/kasiablues.png"}
+          src={kasiaBluesImg}
           alt={`kasia-blues`}
           width={390}
           height={244}
@@ -103,7 +106,7 @@ const MojaHistoria = () => {
       </p>
       <div className="block">
         <Image
-          src={"/images/kasia-joga.png"}
+          src={kasiaJogaImg}
           alt={`kasia-joga`}
           width={390}
           height={251}

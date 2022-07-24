@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import CalendarButton from "../ui/calendarButton";
-
+import jogaImg from '../../public/images/joga-img.jpeg';
 const Coaching = () => {
   return (
     <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-20">
@@ -31,7 +31,7 @@ const Coaching = () => {
       <CalendarButton bgColor="bg-green-100" />
       <div className="block">
         <Image
-          src={"/images/joga-img.png"}
+          src={jogaImg}
           alt={`joga-img`}
           width={390}
           height={278}

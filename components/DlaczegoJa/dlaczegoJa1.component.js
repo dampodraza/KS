@@ -1,15 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
+import kasiaDrawing from '../../public/images/kasia-drawing.png';
 
 const DlaczegoJa1 = () => {
     return (
         <section className="flex bg-[#F8F3F0] h-screen justify-center items-center">
         <div className="px-10 md:px-96 flex flex-col	items-center ">
-          <p className="text-3xl	font-spartan-bold mb-8 ">
+          <p className="text-2xl	font-spartan-bold mb-8 ">
             Dlaczego właśnie ja?
           </p>
-          <Image src={`/images/kasia-drawing.png`} alt="kasia-drawing" width={324} height={310}/>
-          <p className="text-sm md:text-3xl font-josefin-italic pt-2 text-justify">
+          <Image src={kasiaDrawing} alt="kasia-drawing" width={324} height={310}/>
+          <p className="text-sm md:text-3xl font-josefin-italic pt-2 text-justify mb-10">
             Pracuje w oparciu o wiedzę psychologiczną, rozwojową,
             neurologiczną, medycynę wschodu, ze świadomością i ciałem,
             wykorzystując własne doświadczenie i traktując każdego człowieka

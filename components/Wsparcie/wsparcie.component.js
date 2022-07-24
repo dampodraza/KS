@@ -33,7 +33,7 @@ const Wsparcie = () => {
       <CalendarButton bgColor="bg-blue-100"/>
       <div className="block">
         <Image
-          src={"/images/wsparcie-img.png"}
+          src={"/images/wsparcie-img.jpeg"}
           alt={`wsparcie-img`}
           width={390}
           height={278}

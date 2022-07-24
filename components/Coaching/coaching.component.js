@@ -7,7 +7,7 @@ const Coaching = () => {
       <p className="text-5xl font-spartan-bold mb-6 text-center">COACHING</p>
       <div className="block">
         <Image
-          src={"/images/coaching-img.png"}
+          src={"/images/coaching-img.jpeg"}
           alt={`coaching-img`}
           width={390}
           height={278}
