@@ -3,7 +3,7 @@ import Image from "next/image";
 import CalendarButton from "../ui/calendarButton";
 const Wsparcie = () => {
   return (
-    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-32">
+    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-20">
       <p className="text-5xl font-spartan-bold mb-6 text-center">WSPARCIE</p>
       <p className="font-josefin-italic mx-10">
         Perła nie powstaje podczas leżenia w uzdrowisku. Perła powstaje z wyzwań
@@ -29,10 +29,7 @@ const Wsparcie = () => {
         tym świecie, dzielenia sie swoim czułym sercem nie będąc dla nikogo
         ciężarem nie sprawiając nikomu kłopotu jak sie czujesz i jak głęboko
         odczuwasz i doświadczasz świat.
-      </p>
-      <p className="text-2xl mt-6 mb-6">
-        Każdy kryzys to ukryta szansa.
-      </p>
+      </p> 
       <CalendarButton bgColor="bg-blue-100"/>
       <div className="block">
         <Image

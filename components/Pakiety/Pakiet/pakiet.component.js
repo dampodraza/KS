@@ -21,8 +21,8 @@ const Pakiet = ({ description, price, imgSrc, bgColor, rounded }) => {
         </div>
 
         <div className="flex flex-col w-1/2">
-          <p className="font-josefin-italic mb-4">{description}</p>
-          <p className="text-3xl font-spartan-bold">{price} zł</p>
+          <p className="text-sm font-josefin-italic mb-4 px-2 ">{description}</p>
+          <p className="text-2xl font-spartan-bold">{price} zł</p>
         </div>
       </div>
     </div>

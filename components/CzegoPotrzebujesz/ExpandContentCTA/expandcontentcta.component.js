@@ -15,6 +15,7 @@ const ExpandContentCTA = ({title, buttonText, textColor, bgColor, contentList, n
         <>
         <p className={`text-7xl ${textColor} mb-2`}>{title}</p>
           <Image
+            priority
             src={contentExpanded[name] ? "/icons/arrow-up.png": "/icons/arrow-down.png"}
             onClick={() => expandContent(name)}
             alt={`arrow-expand-${name}`}

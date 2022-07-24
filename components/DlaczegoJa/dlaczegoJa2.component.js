@@ -5,7 +5,7 @@ import Carousel from '../Carousel/carousel';
 import { coachingWsparcie, jogaZdrowie } from '../../content/coRobie';
 const DlaczegoJa2 = ({isMobile}) => {
     return (
-        <section className="flex bg-[#F8F3F0] h-screen justify-center items-center">
+        <section className="flex bg-[#F8F3F0]  justify-center items-center">
           {isMobile && (
             <>
               <div className="flex flex-col">

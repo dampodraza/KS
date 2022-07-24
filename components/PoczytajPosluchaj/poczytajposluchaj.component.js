@@ -4,10 +4,6 @@ import parse from "html-react-parser";
 import Link from "next/link";
 const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
 
-  useEffect(() => {
-    console.log(postLink);
-  }
-  , [postLink]);
   return (
     <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-32 px-5">
       <p className="text-4xl font-spartan-bold mb-6 text-center">Poczytaj</p>
@@ -34,9 +30,9 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
         </div>
         <div className="flex flex-col justify-center align-center">
           <p className="uppercase text-sm font-bold">{parse(postTitle)}</p>
-          <p className="text-xs font-josefin">
+          <div className="text-xs font-josefin">
             {parse(postDesc.substring(0, 350))}
-          </p>
+          </div>
           {postLink && <Link href={postLink} passHref={true}>
             <button className="border border-black	rounded-xl max-w-[100px] text-[12px] bg-white m-auto px-3 py-1 hover:bg-primary-yellow-100">
               czytaj więcej...
@@ -46,9 +42,9 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
       </div>
       <p className="text-4xl font-spartan-bold mb-6 text-center">Posłuchaj</p>
       <div className="flex flex-col">
-      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/0Qxe0OD0KkihZ4vxLLWToO?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/3bc77aPPmmU8NxK2XUbt94?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/3s3kZU1d4DEqfvoWkImKi9?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/0Qxe0OD0KkihZ4vxLLWToO?utm_source=generator" width="100%" height="152" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/3bc77aPPmmU8NxK2XUbt94?utm_source=generator" width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/3s3kZU1d4DEqfvoWkImKi9?utm_source=generator" width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </div>
     </section>
   );

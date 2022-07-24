@@ -4,9 +4,9 @@ import { coachingList, wsparcieList, jogaList } from "../../content/cta";
 
 const CzegoPotrzebujesz = ({}) => {
   return (
-    <section className="flex bg-[#F8F3F0] flex-col   items-center pt-32">
+    <section className="flex bg-[#F8F3F0] flex-col   items-center pt-20">
       <p className="text-4xl font-spartan-bold mb-6 text-center">
-        C zego potrzebujesz?
+        Czego potrzebujesz?
       </p>
       <p className="text-lg px-10 mb-10 font-josefin-italic text-center">
         Może być tak, że połączymy różne z tych opcji. Może być tak, że

@@ -3,7 +3,7 @@ import Image from "next/image";
 import CalendarButton from '../ui/calendarButton'
 const Coaching = () => {
   return (
-    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-32">
+    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-20">
       <p className="text-5xl font-spartan-bold mb-6 text-center">COACHING</p>
       <div className="block">
         <Image

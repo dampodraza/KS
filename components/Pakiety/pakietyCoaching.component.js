@@ -2,7 +2,7 @@ import Pakiet from "./Pakiet/pakiet.component";
 
 const PakietyCoaching = () => {
   return (
-    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-32">
+    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-20">
         <p className="text-5xl font-spartan-bold mb-6 text-center mb-20">Pakiety COACHING</p>
       <Pakiet
         bgColor="bg-pink-100"

@@ -4,7 +4,7 @@ import CalendarButton from "../ui/calendarButton";
 
 const Coaching = () => {
   return (
-    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-32">
+    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-20">
       <p className="text-5xl font-spartan-bold mb-6 text-center">JOGA</p>
       <p className="font-josefin-italic mx-10">
         Perła nie powstaje podczas leżenia w uzdrowisku. Perła powstaje z wyzwań
@@ -38,9 +38,7 @@ const Coaching = () => {
           layout="responsive"
         />
       </div>
-      <p className="text-2xl mt-6 mb-6">
-      Joga nie zabiera czasu lecz go daje.
-      </p>
+      <p className="text-xl mt-6">Joga nie zabiera czasu lecz go daje.</p>
     </section>
   );
 };
