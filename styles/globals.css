@@ -34,6 +34,15 @@ a {
 }
 
 @font-face {
+  font-family: "Spartan-light";
+  src: url("../public//fonts/SpartanMB-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
   font-family: "Josefin-italic";
   src: url("../public//fonts/JosefinSans-Italic-VariableFont_wght.ttf");
   font-weight: 300;
@@ -126,12 +135,12 @@ a {
 }
 
 .embla__button--prev {
-  left: 27px;
+  left: 20px;
   fill: black;
 }
 
 .embla__button--next {
-  right: 27px;
+  right: 20px;
   fill: black;
 
 }
@@ -174,6 +183,7 @@ a {
 .embla-slide-text {
   padding: 0 50px;
   font-family: 'Josefin-italic';
+  font-size: 12px;
   text-align: center;
 }
 

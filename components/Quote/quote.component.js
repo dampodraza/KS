@@ -10,8 +10,8 @@ const Quote = () => {
           <img src="/icons/quote.svg" alt="quote" />
         </div>
       </div>
-      <p className="text-[17px] font-josefin-italic mb-6 text-center">
-        Nikt nie jest tobą i to jest twoja supermoc.
+      <p className="text-3xl mb-6 text-center">
+        Nikt nie jest tobą <br></br>i to jest twoja supermoc.
       </p>
     </section>
   );

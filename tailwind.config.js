@@ -31,17 +31,14 @@ module.exports = {
           101: '#DFD8D7',
           102: '#857E7D'
         }
-        
-        // 'bg-light-yellow': '#F8F3F0',
-        // 'primary-yellow': '#F7C604',
-        // 'primary-blue': '#8EAEBA',
-        // 'primary-green': '#588F61',
+      
       },
       fontFamily: {
         'sans': ['Josefin Sans', ...defaultTheme.fontFamily.sans],
         'josefin-italic': ['Josefin-italic', 'sans-serif'],
         'spartan': ['Spartan', 'sans-serif'],
-        'spartan-bold': ['Spartan-bold', 'sans-serif']
+        'spartan-bold': ['Spartan-bold', 'sans-serif'],
+        'spartan-light': ['Spartan-light', 'sans-serif']
 
       },
     },

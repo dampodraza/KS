@@ -1,13 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import kasiaDamianImg from '../../public/images/kasia-damian-img.jpeg';
-import kasiaBluesImg from '../../public/images/kasiablues.jpeg';
-import kasiaJogaImg from '../../public/images/kasia-joga.jpeg';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const MojaHistoria = () => {
   return (
-    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-20">
-      <p className="text-5xl font-spartan-bold mb-6 text-center">
+    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-10">
+      <p className="text-4xl font-spartan-bold mb-6 text-center">
         Moja historia
       </p>
       <div className="block">
@@ -19,100 +21,101 @@ const MojaHistoria = () => {
           layout="responsive"
         />
       </div>
-      <p className="font-josefin-italic mx-10 mt-10">
+      <p className="font-spartan-light mx-10 mt-4 mb-4">
         Mantra według której żyje to wdzięczność. Być wdzięcznym za to kim
         jestem. Wdzięcznym za to, co mam wokół siebie. Jestem wdzięczna że mogę
         służyć, ponieważ urodziliśmy się na tym świecie by służyć. W tym życiu
         nigdy nie chodzi o ciebie. Wdzięczność za to, że mogę żyć moim
-        marzeniem. <br></br>Mieszkam na wsi, mam piękne życie, męża i psa.
-        Ukończyłam Łódzką Szkołę Filmową, kurs Bussines Coaching Diploma na PWC
-        oraz nauczycielski kurs jogi RYT 200. Obecnie studiuje psychologie.
-        Najlepsze co umiem robić w życiu to pomagać, dlatego czuje się
-        wyróżniona mogąc z tego uczynić moją pracę. Mówią, że mam kreatywny
-        umysł i nadzwyczajną empatię. Uwielbiam zarządzać, planować i
-        organizować. Piszę bloga od 13 roku życia. Interesuje się jogą,
-        medytacją oraz oddychaniem. Podziwiam Wayna Dyera, Brene Brown i wielu
-        ludzi, z którymi pracuje nad ich rozwojem. Jestem miłośniczką słuchania
-        ludzkich historii, uczenia się i zmian. Nie ma dla mnie rzeczy
-        niemożliwych, a marzenia realizuje błyskawicznie. Cenię swoje zdrowie,
-        uważam się za szczęściarę i wierzę, że życie zawsze chcę dla nas dobrze.{" "}
-        <br></br>
-        <br></br>Życie nie dzieje się w pudełku. Nie ma żadnych zasad. To ty
-        decydujesz co robisz z życiem. Jeśli chcesz być stary możesz być stary.
-        Wszystko jest w umyśle. Nie wkładaj życia do pudełka. Że należy tak albo
-        tak. Patrzeć na świat z podziwem każdego dnia. Jesteś tu aby dać światy
-        trochę miłości. Jeśli pomogę jednej osobie to podążam za celem.Nigdy się
-        nie nudzę - jestem zajęty cieszeniem się z życia. Bogactwo nie rzeczy
-        materialne,
+        marzeniem. Mieszkam na wsi, mam piękne życie, męża i psa. Ukończyłam
+        Łódzką Szkołę Filmową, kurs Bussines Coaching Diploma na PWC oraz
+        nauczycielski kurs jogi RYT 200.
       </p>
-      <p className="font-josefin-italic mx-10 mt-10 mb-10">
-        Życie nie dzieje się w pudełku. Nie ma żadnych zasad. To ty decydujesz
-        co robisz z życiem. Jeśli chcesz być stary możesz być stary. Wszystko
-        jest w umyśle. Nie wkładaj życia do pudełka. Że należy tak albo tak.
-        Patrzeć na świat z podziwem każdego dnia. Jesteś tu aby dać światy
-        trochę miłości. Jeśli pomogę jednej osobie to podążam za celem.Nigdy się
-        nie nudzę - jestem zajęty cieszeniem się z życia. Bogactwo nie rzeczy
-        materialne, zdrowie to bogactwo, mąż to bogactwo, rodzina to bogactwo,
-        pies to bogactwo.<br></br>
-        <br></br> Zawsze miałam długie listy tego czego chciałam od życia długie
-        listy celów. I robiłam plany co za rok dwa pięć dziesięć lat. Ale w
-        ciagu kilku lat to trochę odeszło. Stało sie to bardziej poczucie
-        zobaczymy co sie stanie. To takie poczucie ze życie zaprowadzi mnie w
-        ciekawe miejsca. A ja jestem na to gotowa i otwarta. Dopóki mam otwarte
-        serce żeby sie komunikować poprzez autentyczność dzielenia sie i
-        połączenia. <br></br>
-        <br></br>Życie nie dzieje się w pudełku. Nie ma żadnych zasad. To ty
-        decydujesz co robisz z życiem. Jeśli chcesz być stary możesz być stary.
-        Wszystko jest w umyśle. Nie wkładaj życia do pudełka. Że należy tak albo
-        tak. Patrzeć na świat z podziwem każdego dnia. Jesteś tu aby dać światy
-        trochę miłości. Jeśli pomogę jednej osobie to podążam za celem.Nigdy się
-        nie nudzę - jestem zajęty cieszeniem się z życia. Bogactwo nie rzeczy
-        materialne, zdrowie to bogactwo, mąż to bogactwo, rodzina to bogactwo,
-        pies to bogactwo.
-      </p>
-      <div className="block text-left">
+      <div>
+      <Accordion sx={{ bgcolor: '#F8F3F0', boxShadow: "none"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <p className="text-lg font-spartan-bold">Rodzina i wartości</p>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion sx={{ bgcolor: '#F8F3F0', boxShadow: "none"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <p className="text-lg font-spartan-bold">Kariera i pasja</p>
+        </AccordionSummary>
+        <AccordionDetails>
+        <div className="block">
         <Image
-          src={kasiaDamianImg}
-          alt={`kasia-damian-img`}
-          width={263}
-          height={368}
-          //   layout="fixed"
-        />
-      </div>
-      <div className="block">
-        <Image
-          src={kasiaBluesImg}
-          alt={`kasia-blues`}
+          src={"/images/kasia-img.png"}
+          alt={`kasia-img`}
           width={390}
-          height={244}
+          height={330}
           layout="responsive"
         />
       </div>
-      <p className="font-josefin-italic mx-10 mt-10 mb-10">
-        Życie nie dzieje się w pudełku. Nie ma żadnych zasad. To ty decydujesz
-        co robisz z życiem. Jeśli chcesz być stary możesz być stary. Wszystko
-        jest w umyśle. Nie wkładaj życia do pudełka. Że należy tak albo tak.
-        Patrzeć na świat z podziwem każdego dnia. Jesteś tu aby dać światy
-        trochę miłości. Jeśli pomogę jednej osobie to podążam za celem.Nigdy się
-        nie nudzę - jestem zajęty cieszeniem się z życia. Bogactwo nie rzeczy
-        materialne, zdrowie to bogactwo, mąż to bogactwo, rodzina to bogactwo,
-        pies to bogactwo.<br></br><br></br> Zawsze miałam długie listy tego czego chciałam od
-        życia długie listy celów. I robiłam plany co za rok dwa pięć dziesięć
-        lat. Ale w ciagu kilku lat to trochę odeszło. Stało sie to bardziej
-        poczucie zobaczymy co sie stanie. To takie poczucie ze życie zaprowadzi
-        mnie w ciekawe miejsca. A ja jestem na to gotowa i otwarta. Dopóki mam
-        otwarte serce żeby sie komunikować poprzez autentyczność dzielenia sie i
-        połączenia.
-      </p>
-      <div className="block">
-        <Image
-          src={kasiaJogaImg}
-          alt={`kasia-joga`}
-          width={390}
-          height={251}
-          layout="responsive"
-        />
+          <Typography>
+          Kiedy uświadomisz sobie że życie jest darem, zdecyduj się na życie pełne sensu, życie z celem. 
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion sx={{ bgcolor: '#F8F3F0', boxShadow: "none"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <p className="text-lg font-spartan-bold">Zmiany i zawody</p>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion sx={{ bgcolor: '#F8F3F0', boxShadow: "none"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <p className="text-lg font-spartan-bold">Życie i miłość</p>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion sx={{ bgcolor: '#F8F3F0', boxShadow: "none"}}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <p className="text-lg font-spartan-bold">Cele i marzenia</p>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
       </div>
+     
     </section>
   );
 };

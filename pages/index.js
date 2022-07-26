@@ -60,17 +60,17 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
         </section>
         <section className="flex bg-[#F8F3F0] h-screen justify-center items-center">
           <div className="px-10 md:px-96 flex flex-col	items-center ">
-            <p className="text-base md:text-5xl	font-spartan-bold pb-8 ">
+            <p className="text-3xl text-center md:text-5xl	font-spartan-bold pb-8 ">
               Świat potrzebuje takich ludzi jak Ty.<br></br>A Ty potrzebujesz
               takich ludzi jak ja.
             </p>
-            <p className="text-base md:text-3xl text-center leading-9 font-josefin-italic">
+            <p className="text-base md:text-3xl text-center leading-[26px] font-spartan-light">
               Wierzę, że każdy z nas ma potencjał do tworzenia zmian, które
               chcemy widzieć w świecie. Ale zbyt często utknęliśmy, czując, że
-              nie możemy. Chcę to zmienić.<br></br> Świat potrzebuje ludzi
+              nie możemy. Chcę to zmienić.<br></br><br></br> Świat potrzebuje ludzi
               takich jak ty. Ludzi obdarzonych współczuciem i pragnieniem
               zmiany. Ludzi, którzy widzą problem i szukają rozwiązania.
-              <br></br> A ty potrzebujesz ludzi takich jak ja. Kogoś, kto nie
+              <br></br><br></br> A ty potrzebujesz ludzi takich jak ja. Kogoś, kto nie
               tylko pomoże Ci znaleźć pewność siebie, aby zrobić coś więcej, ale
               także wesprze Cię w tworzeniu życia, które kochasz.
             </p>

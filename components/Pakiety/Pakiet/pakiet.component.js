@@ -4,7 +4,7 @@ import Image from "next/image";
 const Pakiet = ({ description, price, imgSrc, bgColor, rounded }) => {
   return (
     <div>
-      <div className="flex flex-row items-center mb-10">
+      <div className="flex flex-row items-center mb-10 mr-5">
         <div className="flex w-1/2 justify-center">
           <div className="relative">
             <div
@@ -21,8 +21,8 @@ const Pakiet = ({ description, price, imgSrc, bgColor, rounded }) => {
         </div>
 
         <div className="flex flex-col w-1/2">
-          <p className="text-sm font-josefin-italic mb-4 px-2 ">{description}</p>
-          <p className="text-2xl font-spartan-bold">{price} zł</p>
+          <p className="font-josefin-italic mb-4 text-left leading-[18px]">{description}</p>
+          <p className="text-xl font-spartan-bold text-left">{price} zł</p>
         </div>
       </div>
     </div>

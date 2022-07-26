@@ -5,11 +5,11 @@ import Carousel from '../Carousel/carousel';
 import { coachingWsparcie, jogaZdrowie } from '../../content/coRobie';
 const DlaczegoJa2 = ({isMobile}) => {
     return (
-        <section className="flex bg-[#F8F3F0]  justify-center items-center">
+        <section className="flex bg-[#F8F3F0] justify-center items-center">
           {isMobile && (
             <>
-              <div className="flex flex-col">
-                <div className="flex flex-row justify-center">
+              <div className="flex flex-col justify-center items-center">
+                {/* <div className="flex flex-row justify-center"> */}
                   {coachingWsparcie.map(({ iconName, title, description }, i) => (
                     <IconBlock
                       key={i}
@@ -18,8 +18,8 @@ const DlaczegoJa2 = ({isMobile}) => {
                       description={description}
                     />
                   ))}
-                </div>
-                <div className="flex flex-row mb-10 justify-center">
+                {/* </div> */}
+                {/* <div className="flex flex-row mb-10 justify-center"> */}
                   {jogaZdrowie.map(({ iconName, title, description }, i) => (
                     <IconBlock
                       key={i}
@@ -28,14 +28,14 @@ const DlaczegoJa2 = ({isMobile}) => {
                       description={description}
                     />
                   ))}
-                </div>
-                <div className="flex flex-row justify-center	">
+                {/* </div> */}
+                <div className="flex flex-row justify-center mt-10	">
                   <div>
                     {" "}
                     <img src="/icons/quote.svg" alt="quote" />
                   </div>
                 </div>
-                <div className=" mb-10">
+                <div className="mb-10">
                   <Carousel />
                 </div>
               </div>
@@ -46,7 +46,7 @@ const DlaczegoJa2 = ({isMobile}) => {
               <div className="flex flex-col text-2xl relative">
                 <div className="absolute top-0 -left-16">
                   {" "}
-                  <Image src="/images/quote.svg" width="100" height="80" />
+                  <Image src="/images/quote.png" width="100" height="80" />
                 </div>
                 <span className="text-3xl z-50 font-josefin-italic leading-9">
                   Rozmowy z Kasią to cudowny czas, w którym to ty i twoje
@@ -62,7 +62,7 @@ const DlaczegoJa2 = ({isMobile}) => {
               <div className="flex flex-col text-2xl relative">
                 <div className="absolute top-0 -left-16">
                   {" "}
-                  <Image src="/images/quote.svg" width="100" height="80" />
+                  <Image src="/images/quote.png" width="100" height="80" />
                 </div>
                 <span className="text-3xl z-50 font-josefin-italic leading-9">
                   Rozmowy z Kasią to cudowny czas, w którym to ty i twoje
