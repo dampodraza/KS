@@ -4,7 +4,7 @@ import kasiaDrawing from "../../public/images/kasia-drawing.png";
 
 const DlaczegoJa1 = () => {
   return (
-    <section className="flex bg-[#F8F3F0] h-screen justify-center items-center">
+    <section className="flex bg-[#F8F3F0] justify-center items-center pt-20 pb-10">
       <div className="px-10 md:px-96 flex flex-col	items-center ">
         <p className="text-2xl	font-spartan-bold mb-2 ">Dlaczego właśnie ja?</p>
         <Image

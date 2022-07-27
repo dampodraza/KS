@@ -24,7 +24,7 @@ const Joga = () => {
           layout="responsive"
         />
       </div>
-      <p className="text-lg font-spartan-bold mt-6 mb-6">Joga nie zabiera czasu lecz go daje.</p>
+      <p className="text-lg font-spartan-bold mt-6 ">Joga nie zabiera czasu lecz go daje.</p>
     </section>
   );
 };

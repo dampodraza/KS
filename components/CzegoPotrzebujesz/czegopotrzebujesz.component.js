@@ -4,7 +4,7 @@ import { coachingList, wsparcieList, jogaList } from "../../content/cta";
 
 const CzegoPotrzebujesz = ({}) => {
   return (
-    <section className="flex bg-[#F8F3F0] flex-col   items-center pt-4">
+    <section className="flex bg-[#F8F3F0] flex-col items-center pt-2">
       <p className="text-3xl font-spartan-bold mb-4 text-center">
         W czym mogę służyć?
       </p>

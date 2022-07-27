@@ -1,10 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import AccordionBlock from "../ui/accordionBlock";
 
 const MojaHistoria = () => {
   return (
@@ -21,101 +17,59 @@ const MojaHistoria = () => {
           layout="responsive"
         />
       </div>
-      <p className="font-spartan-light mx-10 mt-4 mb-4">
-        Mantra według której żyje to wdzięczność. Być wdzięcznym za to kim
-        jestem. Wdzięcznym za to, co mam wokół siebie. Jestem wdzięczna że mogę
-        służyć, ponieważ urodziliśmy się na tym świecie by służyć. W tym życiu
-        nigdy nie chodzi o ciebie. Wdzięczność za to, że mogę żyć moim
-        marzeniem. Mieszkam na wsi, mam piękne życie, męża i psa. Ukończyłam
-        Łódzką Szkołę Filmową, kurs Bussines Coaching Diploma na PWC oraz
-        nauczycielski kurs jogi RYT 200.
+      <p className="font-spartan-light mx-4 mt-4 mb-4">
+        Pełna przygód i licznych zwrotów akcji historia o tym, jak ważne jest
+        cieszyć się każdą chwilą swojego życia. Opowieść o dziewczynie tak
+        normalnej, że aż podobnej do Ciebie. Z tą różnicą, że żyje za dwóch.
+        Uświadomienie sobie tego doprowadziło mnie do jednego z najważniejszych
+        odkryć w sobie. To był mój punkt zwrotny. Wiem teraz, że najlepszym
+        sposobem na poznanie świata jest słuchanie tego, jak doświadczają go
+        inni ludzie. Podróżuję przez życie jako wnikliwy obserwator, zbierając
+        bogate doświadczenie i jednocześnie czerpiąc wiedzę z doświadczeń
+        innych. Praca z ludźmi to ogromny przywilej i zaszczyt. To napełnia mnie
+        miłością i jestem za to wdzięczna.
       </p>
       <div>
-      <Accordion sx={{ bgcolor: '#F8F3F0', boxShadow: "none"}}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <p className="text-lg font-spartan-bold">Rodzina i wartości</p>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion sx={{ bgcolor: '#F8F3F0', boxShadow: "none"}}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <p className="text-lg font-spartan-bold">Kariera i pasja</p>
-        </AccordionSummary>
-        <AccordionDetails>
-        <div className="block">
-        <Image
-          src={"/images/kasia-img.png"}
-          alt={`kasia-img`}
-          width={390}
-          height={330}
-          layout="responsive"
+        <AccordionBlock
+          header="Rodzina i wartości"
+          content="  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget."
+        />
+        <AccordionBlock
+          header="Kariera i pasja"
+          content="asd"
+          extra={
+            <div className="block">
+              <Image
+                src={"/images/kasia-img.png"}
+                alt={`kasia-img`}
+                width={390}
+                height={330}
+                layout="responsive"
+              />
+            </div>
+          }
+        />
+         <AccordionBlock
+          header="Zmiany i zawody"
+          content="  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget."
+        />
+         <AccordionBlock
+          header="Zycie i miłość"
+          content="  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget."
+        />
+         <AccordionBlock
+          header="Cele i marzenia"
+          content="  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget."
         />
       </div>
-          <Typography>
-          Kiedy uświadomisz sobie że życie jest darem, zdecyduj się na życie pełne sensu, życie z celem. 
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion sx={{ bgcolor: '#F8F3F0', boxShadow: "none"}}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <p className="text-lg font-spartan-bold">Zmiany i zawody</p>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion sx={{ bgcolor: '#F8F3F0', boxShadow: "none"}}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <p className="text-lg font-spartan-bold">Życie i miłość</p>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion sx={{ bgcolor: '#F8F3F0', boxShadow: "none"}}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <p className="text-lg font-spartan-bold">Cele i marzenia</p>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      </div>
-     
     </section>
   );
 };

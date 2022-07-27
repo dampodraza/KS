@@ -34,7 +34,7 @@ const ExpandContentCTA = ({
         height={"12"}
       />
       {contentExpanded[name] && (
-        <ul className="list-disc font-josefin-italic mt-3">
+        <ul className="list-disc font-spartan mt-3">
           {contentList.map((item) => (
             <li key={item + name}>{item}</li>
           ))}
