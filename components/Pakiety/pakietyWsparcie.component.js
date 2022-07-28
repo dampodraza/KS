@@ -12,7 +12,7 @@ const PakietyWsparcie = () => {
           "To jest oferta jednej sesji wsparcia, która poszerzy perspektywę Twojego problemu, tak aby widoczne były różne jego rozwiązania."
         }
         price="150"
-        imgSrc="/images/pakiety/wsparcie-sesja.png"
+        imgSrc="/images/pakiety/wsparcie/wsparcie-sesja.jpg"
       />
       <Pakiet
         bgColor="bg-grey-101"
@@ -20,7 +20,7 @@ const PakietyWsparcie = () => {
           "To jest pakiet 10 sesji wsparcia podczas, których z uważnością i akceptacją spojrzysz na swoje życie z dystansu, odnajdując rozwiązania, które wcześniej nie były dostępne. "
         }
         price="1200"
-        imgSrc="/images/pakiety/wsparcie-10sesji.png"
+        imgSrc="/images/pakiety/wsparcie/wsparcie-10sesji.jpg"
       />
       <Pakiet
         rounded="full"
@@ -29,7 +29,7 @@ const PakietyWsparcie = () => {
           "To jest ofert jednej sesji wsparcia dla osób będących w trudnej sytuacji życiowej, a chcących się z tą sytuacją zmierzyć, jak również z niej wydostać."
         }
         price="0"
-        imgSrc="/images/pakiety/wsparcie-trudna-sytuacja.png"
+        imgSrc="/images/pakiety/wsparcie/wsparcie-trudna-sytuacja.png"
       />
     </section>
   );
