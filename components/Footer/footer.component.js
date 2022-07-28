@@ -8,9 +8,10 @@ import tiktokIcon from '../../public/icons/tiktok.svg'
 
 const Footer = () => {
   return (
-    <footer className="flex items-center	  h-[128px] bg-black text-white 	">
-      <div className="flex justify-between flex-row px-10 w-full">
-        <div className="flex flex-col gap-y-4">
+    <footer className="flex items-center	  h-[209px] bg-black text-white 	">
+      <div className="flex justify-between flex-col px-10 w-full">
+      <p className="text-lg font-spartan-bold text-center mb-4">Kontakt</p>
+        <div className="flex flex-row gap-x-5 mb-4">
           <div className="flex flex-row ">
             <Image
               src={`/icons/telephone.png`}
@@ -24,12 +25,12 @@ const Footer = () => {
           </div>
           <div className="flex flex-rowjustify-center">
             <Image src={mailIcon} alt="mail" width={17} height={16} />
-            <p className="text-[11px] ml-4">kasia.maria.podraza@gmail.com</p>
+            <p className="text-[11px] ml-4 underline">kasia.maria.podraza@gmail.com</p>
           </div>
         </div>
         <div className="flex flex-col text-center gap-y-1">
-          <p className="text-[11px]">Obserwuj mnie</p>
-          <div className="flex flex-row gap-x-2 justify-center">
+          <p className="text-lg font-spartan-bold mb-2">Obserwuj mnie</p>
+          <div className="flex flex-row gap-x-2 justify-center ">
             <Link
               href="https://www.instagram.com/kasiapodraza/"
               passHref={true}
@@ -38,8 +39,8 @@ const Footer = () => {
                 className="cursor-pointer"
                 src={instaIcon}
                 alt="insta"
-                width={22}
-                height={21}
+                width={40}
+                height={40}
               />
             </Link>
             <Link
@@ -50,8 +51,8 @@ const Footer = () => {
                 className="cursor-pointer"
                 src={fbIcon}
                 alt="fb"
-                width={23}
-                height={22}
+                width={40}
+                height={40}
               />
             </Link>
             <Link href="https://stackoverflow.com/" passHref={true}>
@@ -59,8 +60,8 @@ const Footer = () => {
                 className="cursor-pointer"
                 src={tiktokIcon}
                 alt="tiktok"
-                width={26}
-                height={27}
+                width={45}
+                height={47}
               />
             </Link>
           </div>

@@ -20,7 +20,7 @@ const DlaJasnosciCoaching = dynamic(() =>
   import("../components/DlaJasnosci/coaching.component")
 );
 import Navigation from "../components/Navigation/navigation.component";
-import landingImg from "../public/images/kk5.jpg";
+import landingImg from "../public/images/kk6.png";
 import DlaJasnosciWsparcie from "../components/DlaJasnosci/wsparcie.component";
 import DlaJasnosciJoga from "../components/DlaJasnosci/joga.component";
 import useOnScreen from "../hooks/useOnScreen.ts";
@@ -62,7 +62,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
       <Navigation isMobile={isMobile} />
       <main>
         <section>
-          <div className="relative w-screen h-screen mt-[-209px]">
+          <div className="relative w-screen h-screen mt-[-239px]">
             <Image
               src={landingImg}
               priority
@@ -71,7 +71,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
               objectPosition={"right"}
               alt="podobroLogo"
             />
-            <p className="absolute text-[20px] top-[209px] left-4 max-w-[230px] text-center font-spartan-bold leading-[22px]">
+            <p className="absolute text-[20px] top-[215px] left-4 max-w-[230px] text-center font-spartan-bold leading-[22px]">
               Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
               Ale zawsze możesz  kontrolować, to, co dzieje się w środku.
             </p>
