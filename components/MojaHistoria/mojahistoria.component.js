@@ -1,8 +1,47 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import AccordionBlock from "../ui/accordionBlock";
+import SkeletonCard from "../SkeletonCard/skeletonCard.component";
+const RodzinaWartosci = dynamic(() => import("./rodzinawartosci.component"), {
+  loading: () => <SkeletonCard />,
+});
+const KarieraPasja = dynamic(() => import("./karierapasja.component"), {
+  loading: () => <SkeletonCard />,
+});
+const ZmianyZawody = dynamic(() => import("./zmianyzawody.component"), {
+  loading: () => <SkeletonCard />,
+});
+const ZycieMilosc = dynamic(() => import("./zyciemilosc.component"), {
+  loading: () => <SkeletonCard />,
+});
+const CeleMarzenia = dynamic(() => import("./celemarzenia.component"), {
+  loading: () => <SkeletonCard />,
+});
+
+const useAccordionLazyLoad = () => {
+  const [expanded, setExpanded] = useState(false);
+  const handleChange = (exp) => {
+    setExpanded(exp);
+  };
+  return {
+    handleChange,
+    expanded,
+  };
+};
 
 const MojaHistoria = () => {
+  const { handleChange: rodzinaChange, expanded: isRodzinaWartosciOpen } =
+    useAccordionLazyLoad();
+  const { handleChange: karieraChange, expanded: isKarieraPasjaOpen } =
+    useAccordionLazyLoad();
+  const { handleChange: zmianyChange, expanded: isZmianyZawodyOpen } =
+    useAccordionLazyLoad();
+  const { handleChange: zycieChange, expanded: isZycieiMiloscOpen } =
+    useAccordionLazyLoad();
+    const { handleChange: celeChange, expanded: isCeleMarzeniaOpen } =
+    useAccordionLazyLoad();
+
   return (
     <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-10">
       <p className="text-4xl font-spartan-bold mb-6 text-center">
@@ -31,43 +70,29 @@ const MojaHistoria = () => {
       </p>
       <div>
         <AccordionBlock
+          expanded={(value) => rodzinaChange(value)}
           header="Rodzina i wartości"
-          content="  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget."
+          extra={<>{isRodzinaWartosciOpen && <RodzinaWartosci />}</>}
         />
         <AccordionBlock
           header="Kariera i pasja"
-          content="asd"
-          extra={
-            <div className="block">
-              <Image
-                src={"/images/kasia-img.png"}
-                alt={`kasia-img`}
-                width={390}
-                height={330}
-                layout="responsive"
-              />
-            </div>
-          }
+          expanded={(value) => karieraChange(value)}
+          extra={<>{isKarieraPasjaOpen && <KarieraPasja />}</>}
         />
-         <AccordionBlock
+        <AccordionBlock
           header="Zmiany i zawody"
-          content="  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget."
+          expanded={(value) => zmianyChange(value)}
+          extra={<>{isZmianyZawodyOpen && <ZmianyZawody />}</>}
         />
-         <AccordionBlock
+        <AccordionBlock
           header="Zycie i miłość"
-          content="  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget."
+          expanded={(value) => zycieChange(value)}
+          extra={<>{isZycieiMiloscOpen && <ZycieMilosc />}</>}
         />
-         <AccordionBlock
+        <AccordionBlock
           header="Cele i marzenia"
-          content="  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget."
+          expanded={(value) => celeChange(value)}
+          extra={<>{isCeleMarzeniaOpen && <CeleMarzenia />}</>}
         />
       </div>
     </section>

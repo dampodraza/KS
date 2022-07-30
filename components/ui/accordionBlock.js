@@ -4,9 +4,9 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-const AccordionBlock = ({ header, content, extra }) => {
+const AccordionBlock = ({ header, content, extra, expanded }) => {
   return (
-    <Accordion sx={{ bgcolor: "#F8F3F0", boxShadow: "none" }}>
+    <Accordion sx={{ bgcolor: "#F8F3F0", boxShadow: "none" }} onChange={(e, exp) => expanded(exp)}>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"

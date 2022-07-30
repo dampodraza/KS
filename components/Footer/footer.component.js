@@ -9,9 +9,9 @@ import tiktokIcon from '../../public/icons/tiktok.svg'
 const Footer = () => {
   return (
     <footer className="flex items-center	  h-[209px] bg-black text-white 	">
-      <div className="flex justify-between flex-col px-10 w-full">
+      <div className="flex justify-between flex-col px-7 w-full">
       <p className="text-lg font-spartan-bold text-center mb-4">Kontakt</p>
-        <div className="flex flex-row gap-x-5 mb-4">
+        <div className="flex flex-row justify-between mb-4">
           <div className="flex flex-row ">
             <Image
               src={`/icons/telephone.png`}
