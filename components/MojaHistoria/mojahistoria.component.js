@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import AccordionBlock from "../ui/accordionBlock";
 import SkeletonCard from "../SkeletonCard/skeletonCard.component";
+import useAccordionLazyLoad from '../../hooks/useAccordionLazyLoad.ts'
 const RodzinaWartosci = dynamic(() => import("./rodzinawartosci.component"), {
   loading: () => <SkeletonCard />,
 });
@@ -18,17 +19,6 @@ const ZycieMilosc = dynamic(() => import("./zyciemilosc.component"), {
 const CeleMarzenia = dynamic(() => import("./celemarzenia.component"), {
   loading: () => <SkeletonCard />,
 });
-
-const useAccordionLazyLoad = () => {
-  const [expanded, setExpanded] = useState(false);
-  const handleChange = (exp) => {
-    setExpanded(exp);
-  };
-  return {
-    handleChange,
-    expanded,
-  };
-};
 
 const MojaHistoria = () => {
   const { handleChange: rodzinaChange, expanded: isRodzinaWartosciOpen } =

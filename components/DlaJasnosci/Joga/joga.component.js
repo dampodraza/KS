@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import AccordionBlock from "../ui/accordionBlock";
-import CalendarButton from "../ui/calendarButton";
+import AccordionBlock from "../../ui/accordionBlock";
+import CalendarButton from "../../ui/calendarButton";
 
 
 const DlaJasnosciJoga = () => {

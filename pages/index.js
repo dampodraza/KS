@@ -17,12 +17,12 @@ import Footer from "../components/Footer/footer.component";
 import DlaczegoJa2 from "../components/DlaczegoJa/dlaczegoJa2.component";
 import DlaczegoJa1 from "../components/DlaczegoJa/dlaczegoJa1.component";
 const DlaJasnosciCoaching = dynamic(() =>
-  import("../components/DlaJasnosci/coaching.component")
+  import("../components/DlaJasnosci/Coaching/coaching.component")
 );
 import Navigation from "../components/Navigation/navigation.component";
 import landingImg from "../public/images/kk6.png";
-import DlaJasnosciWsparcie from "../components/DlaJasnosci/wsparcie.component";
-import DlaJasnosciJoga from "../components/DlaJasnosci/joga.component";
+import DlaJasnosciWsparcie from "../components/DlaJasnosci/Wsparcie/wsparcie.component";
+import DlaJasnosciJoga from "../components/DlaJasnosci/Joga/joga.component";
 import useOnScreen from "../hooks/useOnScreen.ts";
 
 export default function Home({ postDesc, postImage, postTitle, postLink }) {
