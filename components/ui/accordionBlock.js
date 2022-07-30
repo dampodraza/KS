@@ -6,19 +6,34 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 const AccordionBlock = ({ header, content, extra, expanded }) => {
   return (
-    <Accordion sx={{ bgcolor: "#F8F3F0", boxShadow: "none" }} onChange={(e, exp) => expanded(exp)}>
-      <AccordionSummary
-        expandIcon={<ExpandMoreIcon />}
-        aria-controls="panel1a-content"
-        id="panel1a-header"
+    <>
+      <Accordion
+        sx={{ bgcolor: "#F8F3F0", boxShadow: "none" }}
+        onChange={(e, exp) => {
+          try {
+            expanded(exp);
+          } catch {
+            console.log("error");
+          }
+        }}
       >
-        <p className="text-lg font-spartan-bold">{header}</p>
-      </AccordionSummary>
-      <AccordionDetails>
-        {extra}
-        <Typography>{content}</Typography>
-      </AccordionDetails>
-    </Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id={`${header}`}
+        >
+          <p className="text-lg font-spartan-bold">{header}</p>
+        </AccordionSummary>
+        <AccordionDetails>
+          {content && (
+            <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+              {content}
+            </p>
+          )}
+          {extra && extra}
+        </AccordionDetails>
+      </Accordion>
+    </>
   );
 };
 
