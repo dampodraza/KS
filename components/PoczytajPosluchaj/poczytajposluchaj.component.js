@@ -52,57 +52,10 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
       </div>
       <hr className="flex w-4/5 m-auto"></hr>
       <p className="text-4xl font-spartan-bold mb-6 text-center mt-8">Posłuchaj</p>
-      {/* <div className="flex flex-row items-center mb-6">
-        <div className="relative overflow-hidden rounded-lg w-[63px] h-[75px] mr-2">
-          <Image src={imgSrc} alt="image" layout="fill" objectFit="cover" />
-        </div>
-        <div className="flex flex-col align-left">
-          <p className="text-xs pb-1 ">UMIEJĘTNOSC PRACY W STRESIE</p>
-          <audio controls className="w-[260px]">
-            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" />
-          </audio>
-        </div>
-      </div> */}
-      <div className="flex flex-col gap-y-6">
-      <Paper sx={{ p: 2, backgroundColor: "#F3F5F6" }} elevation={3}>
-        <div className="flex flex-row">
-          <div className="relative overflow-hidden rounded-lg w-[50px] h-[65px] mr-2">
-            <Image src={imgSrc} alt="image" layout="fill" objectFit="cover" />
-          </div>
-          <div className="flex flex-col ">
-            <p className="text-xs  ">UMIEJĘTNOSC PRACY W STRESIE</p>
-            <audio controls className="w-[240px]">
-              <source src="https://file-examples.com/storage/fe52cb0c4862dc676a1b341/2017/11/file_example_MP3_700KB.mp3" />
-            </audio>
-          </div>
-        </div>
-      </Paper>
-      <Paper sx={{ p: 2, backgroundColor: "#F3F5F6" }} elevation={3}>
-        <div className="flex flex-row">
-          <div className="relative overflow-hidden rounded-lg w-[50px] h-[65px] mr-2">
-            <Image src={imgSrc} alt="image" layout="fill" objectFit="cover" />
-          </div>
-          <div className="flex flex-col ">
-            <p className="text-xs  ">UMIEJĘTNOSC PRACY W STRESIE</p>
-            <audio controls className="w-[240px]">
-              <source src="https://file-examples.com/storage/fe52cb0c4862dc676a1b341/2017/11/file_example_MP3_700KB.mp3" />
-            </audio>
-          </div>
-        </div>
-      </Paper>
-      <Paper sx={{ p: 2, backgroundColor: "#F3F5F6" }} elevation={3}>
-        <div className="flex flex-row">
-          <div className="relative overflow-hidden rounded-lg w-[50px] h-[65px] mr-2">
-            <Image src={imgSrc} alt="image" layout="fill" objectFit="cover" />
-          </div>
-          <div className="flex flex-col ">
-            <p className="text-xs  ">UMIEJĘTNOSC PRACY W STRESIE</p>
-            <audio controls className="w-[240px]">
-              <source src="https://file-examples.com/storage/fe52cb0c4862dc676a1b341/2017/11/file_example_MP3_700KB.mp3" />
-            </audio>
-          </div>
-        </div>
-      </Paper>
+      <div className="flex flex-col">
+      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/0Qxe0OD0KkihZ4vxLLWToO?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/3bc77aPPmmU8NxK2XUbt94?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/3s3kZU1d4DEqfvoWkImKi9?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </div>
       
     </section>
