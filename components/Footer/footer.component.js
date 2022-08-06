@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import mailIcon from '../../public/icons/mail.png'
+import mailIcon from '../../public/icons/mail.svg'
 import instaIcon from '../../public/icons/insta.svg'
 import fbIcon from '../../public/icons/fb.svg'
 import tiktokIcon from '../../public/icons/tiktok.svg'
@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex flex-row justify-between mb-4">
           <div className="flex flex-row ">
             <Image
-              src={`/icons/telephone.png`}
+              src={`/icons/phone.svg`}
               alt="telephone"
               width={18}
               height={18}

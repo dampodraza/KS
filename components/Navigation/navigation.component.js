@@ -92,19 +92,19 @@ const Navigation = ({ isMobile }) => {
               </svg>
             </div>
             <ul className="flex flex-col items-center justify-between min-h-[250px] text-2xl">
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-gray-400 my-8 uppercase cursor-pointer">
                 <Link href="/" passHref>
-                  Home
+                  <span className="font-spartan-bold">Home</span>
                 </Link>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-gray-400 my-8 uppercase cursor-pointer	">
                 <Link href="/blog" passHref>
-                  Blog
+                <span className="font-spartan-bold">Blog</span>
                 </Link>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-gray-400 my-8 uppercase cursor-pointer">
                 <Link href="/kontakt" passHref>
-                  Kontakt
+                <span className="font-spartan-bold">Kontakt</span>
                 </Link>
               </li>
             </ul>

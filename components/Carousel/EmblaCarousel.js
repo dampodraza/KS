@@ -33,13 +33,13 @@ const EmblaCarousel = ({ slides }) => {
   const slidy = [
     {
       key: 1,
-      text: "Rozmowy z Kasią to cudowny czas, w którym to ty i twoje marzenia jesteście najważniejsi. Kasia jest bardzo wrażliwa na potrzeby drugiego człowieka, a jednocześnie niezwykle wymagająca. Dzięki jej empatii ale i zdecydowaniu dzieje się magia: z każdym spotkaniem jesteś bliżej wyznaczonego celu, mimo że na początku wydaje się on nieosiągalny. Każdy powinien to przeżyć, żeby zrozumieć, że z odpowiednim coachem przy boku nie ma rzeczy niemożliwych.",
-      name: "Karolina",
+      text: "Dzięki Kasi i sesjom coachingowym, zrealizowałam najważniejszy cel – wróciłam na rynek pracy po trzyletniej nieobecności. Na początku wcale nie było łatwo, jednak z każdym spotkaniem czułam, że coś się zmienia, że zmieniam się ja i tym samym moje podejście do otaczającego świata i wyzwań. W trakcie całego procesu miałam poczucie bezpieczeństwa, dzięki czemu mogłam otworzyć się na zmianę bez obaw przed oceną. Kasia potrafi też trafnie zadawać pytania, wspierać i motywować do działania. Nie ocenia, stara się zrozumieć i wydobyć z drugiej osoby, to co jest w niej najlepsze. Dzięki Kasi znalazłam pracę, odzyskałam pewność siebie i dobyłam narzędzia do dalszej pracy nad sobą. To było wspaniałe doświadczenie i najlepsza inwestycja w przyszłość. Każdemu życzę takiego Coacha!",
+      name: "Katarzyna",
     },
     {
       key: 2,
-      text: "Dzięki Kasi i sesjom coachingowym, zrealizowałam najważniejszy cel – wróciłam na rynek pracy po trzyletniej nieobecności. Na początku wcale nie było łatwo, jednak z każdym spotkaniem czułam, że coś się zmienia, że zmieniam się ja i tym samym moje podejście do otaczającego świata i wyzwań. W trakcie całego procesu miałam poczucie bezpieczeństwa, dzięki czemu mogłam otworzyć się na zmianę bez obaw przed oceną. Kasia potrafi też trafnie zadawać pytania, wspierać i motywować do działania. Nie ocenia, stara się zrozumieć i wydobyć z drugiej osoby, to co jest w niej najlepsze. Dzięki Kasi znalazłam pracę, odzyskałam pewność siebie i dobyłam narzędzia do dalszej pracy nad sobą. To było wspaniałe doświadczenie i najlepsza inwestycja w przyszłość. Każdemu życzę takiego Coacha!",
-      name: "Katarzyna",
+      text: "Rozmowy z Kasią to cudowny czas, w którym to ty i twoje marzenia jesteście najważniejsi. Kasia jest bardzo wrażliwa na potrzeby drugiego człowieka, a jednocześnie niezwykle wymagająca. Dzięki jej empatii ale i zdecydowaniu dzieje się magia: z każdym spotkaniem jesteś bliżej wyznaczonego celu, mimo że na początku wydaje się on nieosiągalny. Każdy powinien to przeżyć, żeby zrozumieć, że z odpowiednim coachem przy boku nie ma rzeczy niemożliwych.",
+      name: "Karolina",
     },
     {
       key: 3,
