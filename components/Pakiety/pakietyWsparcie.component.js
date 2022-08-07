@@ -2,8 +2,8 @@ import Pakiet from "./Pakiet/pakiet.component";
 
 const PakietyWsparcie = () => {
   return (
-    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-4">
-      <p className="text-3xl font-spartan-bold mb-6 text-center mb-12">
+    <section className="flex bg-[#F8F3F0] flex-col  text-center ">
+      <p className="text-3xl font-spartan-bold mb-6 text-center mb-10">
         Pakiety WSPARCIE
       </p>
       <Pakiet

@@ -46,7 +46,7 @@ const DlaJasnosciCoaching = () => {
     useAccordionLazyLoad();
 
   return (
-    <section className="flex bg-[#F8F3F0] text-center justify-center items-center pt-20 pb-10">
+    <section className="flex bg-[#F8F3F0] text-center justify-center items-center pt-10 pb-10">
       <div className=" flex flex-col ">
         <p className="text-3xl font-spartan-bold mb-2 ">Dla jasności</p>
 

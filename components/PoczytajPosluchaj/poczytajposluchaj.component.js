@@ -11,9 +11,10 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 
 const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
-
   return (
-    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-10 px-5">
+    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-8 px-5">
+      <hr className="flex w-4/5 m-auto pb-8"></hr>
+
       <p className="text-4xl font-spartan-bold mb-4 text-center">Poczytaj</p>
       <p className="mb-5 text-sm">
         Witaj w mojej przestrzeni. Możesz przeczytać i posłuchać tego, co mi w
@@ -51,13 +52,22 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
         </div>
       </div>
       <hr className="flex w-4/5 m-auto"></hr>
-      <p className="text-4xl font-spartan-bold mb-6 text-center mt-8">Posłuchaj</p>
+      <p className="text-4xl font-spartan-bold mb-6 text-center mt-8">
+        Posłuchaj
+      </p>
       <div className="flex flex-col">
-      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/0Qxe0OD0KkihZ4vxLLWToO?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/3bc77aPPmmU8NxK2XUbt94?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/3s3kZU1d4DEqfvoWkImKi9?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe
+          style={{ borderRadius: "12px", marginBottom: "20px" }}
+          src="https://open.spotify.com/embed/episode/0Qxe0OD0KkihZ4vxLLWToO?utm_source=generator"
+          width="100%"
+          height="152"
+          frameBorder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        ></iframe>
+        {/* <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/3bc77aPPmmU8NxK2XUbt94?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/3s3kZU1d4DEqfvoWkImKi9?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> */}
       </div>
-      
     </section>
   );
 };

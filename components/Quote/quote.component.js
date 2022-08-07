@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Quote = () => {
   return (
-    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-32 pb-10">
+    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-8 pb-10">
       <div className="text-centermb-6">
         {" "}
         <div className="flex justify-center mb-4">

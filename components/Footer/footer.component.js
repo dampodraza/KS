@@ -8,24 +8,24 @@ import tiktokIcon from '../../public/icons/tiktok.svg'
 
 const Footer = () => {
   return (
-    <footer className="flex items-center	  h-[209px] bg-black text-white 	">
+    <footer className="flex items-center	  h-[247px] bg-black text-white 	">
       <div className="flex justify-between flex-col px-7 w-full">
       <p className="text-lg font-spartan-bold text-center mb-4">Kontakt</p>
-        <div className="flex flex-row justify-between mb-4">
-          <div className="flex flex-row ">
+        <div className="flex flex-col align-left mb-4 pl-14">
+          <div className="flex flex-row mb-4">
             <Image
-              src={`/icons/phone.svg`}
+              src={`/icons/tele.svg`}
               alt="telephone"
-              width={18}
-              height={18}
+              width={34}
+              height={34}
             />
             <Link href="tel:535-525-235" passHref={true}>
-              <p className=" text-[11px] ml-4 cursor-pointer">535-525-235</p>
+              <p className=" text-lg ml-4 cursor-pointer">535-525-235</p>
             </Link>
           </div>
           <div className="flex flex-rowjustify-center">
-            <Image src={mailIcon} alt="mail" width={17} height={16} />
-            <p className="text-[11px] ml-4 underline">kasia.maria.podraza@gmail.com</p>
+            <Image src={mailIcon} alt="mail" width={35} height={32} />
+            <p className="text-sm ml-4 underline">kasia.maria.podraza@gmail.com</p>
           </div>
         </div>
         <div className="flex flex-col text-center gap-y-1">

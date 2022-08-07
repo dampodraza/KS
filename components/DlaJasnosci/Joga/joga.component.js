@@ -46,11 +46,11 @@ const DlaJasnosciJoga = () => {
     useAccordionLazyLoad();
   const { handleChange: coWyrozniaChange, expanded: isCoWyrozniahangeOpen } =
     useAccordionLazyLoad();
-    const { handleChange: gdzieSesjachange, expanded: isGdzieSesjaChangeOpen } =
+  const { handleChange: gdzieSesjachange, expanded: isGdzieSesjaChangeOpen } =
     useAccordionLazyLoad();
 
   return (
-    <section className="flex bg-[#F8F3F0] text-center justify-center items-center pt-12 pb-10">
+    <section className="flex bg-[#F8F3F0] text-center justify-center items-center pt-10 pb-10">
       <div className="flex flex-col w-full">
         <p className="text-3xl font-spartan-bold mb-2 ">Dla jasności</p>
 
@@ -94,7 +94,7 @@ const DlaJasnosciJoga = () => {
           expanded={(value) => coWyrozniaChange(value)}
           extra={<>{isCoWyrozniahangeOpen && <CoWyroznia />}</>}
         />
-        <CalendarButton bgColor="bg-blue-100" />
+        <CalendarButton bgColor="bg-green-100" />
       </div>
     </section>
   );
