@@ -4,6 +4,7 @@ import CalendarButton from "../../ui/calendarButton";
 import dynamic from "next/dynamic";
 import useAccordionLazyLoad from "../../../hooks/useAccordionLazyLoad.ts";
 import SkeletonCard from "../../SkeletonCard/skeletonCard.component";
+import Button from "../../ui/button";
 const CoToWsparcie = dynamic(() => import("./cotowsparcie.component"), {
   loading: () => <SkeletonCard />,
 });
@@ -109,7 +110,7 @@ const DlaJasnosciWsparcie = () => {
             </>
           }
         />
-        <CalendarButton bgColor="bg-blue-100" />
+        <Button withIcon color="bg-blue-100" text="Umów się na sesje" />
       </div>
     </section>
   );

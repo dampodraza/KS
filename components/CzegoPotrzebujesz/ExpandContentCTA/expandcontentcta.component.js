@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import Button from "../../ui/button";
 
 const ExpandContentCTA = ({
   title,
@@ -24,8 +25,8 @@ const ExpandContentCTA = ({
       <Image
         src={
           contentExpanded[name]
-            ? "/icons/arrow-up.png"
-            : "/icons/arrow-down.png"
+            ? "/icons/arrow-up.svg"
+            : "/icons/arrow-down.svg"
         }
         className="mb-"
         onClick={() => expandContent(name)}
@@ -40,11 +41,9 @@ const ExpandContentCTA = ({
           ))}
         </ul>
       )}
-      <button
-        className={`${bgColor} border border-black rounded-2xl pt-1 pb-1 px-6 mt-3 mb-10 mt-5 hover:opacity-70`}
-      >
-        <span className=" font-spartan-bold text-xs">{buttonText}</span>
-      </button>
+      <div className="mb-4">
+      <Button color={bgColor} text={buttonText} />
+      </div>
     </>
   );
 };

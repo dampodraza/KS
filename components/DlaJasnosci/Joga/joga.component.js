@@ -5,6 +5,7 @@ import CalendarButton from "../../ui/calendarButton";
 import SkeletonCard from "../../SkeletonCard/skeletonCard.component";
 import useAccordionLazyLoad from "../../../hooks/useAccordionLazyLoad.ts";
 import dynamic from "next/dynamic";
+import Button from "../../ui/button";
 
 const CoStrace = dynamic(() => import("./costrace.component"), {
   loading: () => <SkeletonCard />,
@@ -94,7 +95,7 @@ const DlaJasnosciJoga = () => {
           expanded={(value) => coWyrozniaChange(value)}
           extra={<>{isCoWyrozniahangeOpen && <CoWyroznia />}</>}
         />
-        <CalendarButton bgColor="bg-green-100" />
+        <Button withIcon color="bg-green-103" text="Umów się na sesje" />
       </div>
     </section>
   );

@@ -11,7 +11,9 @@ import PakietyCoaching from "../components/Pakiety/pakietyCoaching.component";
 import PakietyWsparcie from "../components/Pakiety/pakietyWsparcie.component";
 import PakietyJoga from "../components/Pakiety/pakietyJoga.component";
 import MojaHistoria from "../components/MojaHistoria/mojahistoria.component";
-const PoczytajPosluchaj = dynamic(() => import("../components/PoczytajPosluchaj/poczytajposluchaj.component"));
+const PoczytajPosluchaj = dynamic(() =>
+  import("../components/PoczytajPosluchaj/poczytajposluchaj.component")
+);
 import Quote from "../components/Quote/quote.component";
 import Footer from "../components/Footer/footer.component";
 import DlaczegoJa2 from "../components/DlaczegoJa/dlaczegoJa2.component";
@@ -21,6 +23,8 @@ const DlaJasnosciCoaching = dynamic(() =>
 );
 import Navigation from "../components/Navigation/navigation.component";
 import landingImg from "../public/images/kk6.png";
+import landingImgDesktop from "../public/images/landing-desktop.jpg";
+
 import DlaJasnosciWsparcie from "../components/DlaJasnosci/Wsparcie/wsparcie.component";
 import DlaJasnosciJoga from "../components/DlaJasnosci/Joga/joga.component";
 import useOnScreen from "../hooks/useOnScreen.ts";
@@ -62,36 +66,38 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
       <Navigation isMobile={isMobile} />
       <main>
         <section>
-          <div className="relative w-screen h-screen mt-[-239px]">
-            <Image
-              src={landingImg}
-              priority
-              layout="fill"
-              objectFit="cover"
-              objectPosition={"right"}
-              alt="podobroLogo"
-            />
-            <p className="absolute text-[20px] top-[215px] left-4 max-w-[230px] text-center font-spartan-bold leading-[22px]">
-              Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
-              Ale zawsze możesz  kontrolować, to, co dzieje się w środku.
-            </p>
-          </div>
-          {/* <div className="w-full h-screen relative mt-[-209px]">
-            <div className="flex h-screen justify-center items-center">
-              {!isMobile && (
-                <>
-                  <div className="text-3xl px-10 font-josefin-italic">
-                    Nie zawsze możesz kontrolować to, Ale zawsze możesz
-                    kontrolować, to, co dzieje się na zewnątrz.
-                  </div>
-                  <div className="text-3xl px-10 font-josefin-italic">
-                    Nie zawsze możesz kontrolować to, Ale zawsze możesz
-                    kontrolować, to, co dzieje się na zewnątrz.
-                  </div>
-                </>
-              )}
+          {isMobile ? (
+            <div className="relative w-screen h-screen mt-[-239px]">
+              <Image
+                src={landingImg}
+                priority
+                layout="fill"
+                objectFit="cover"
+                objectPosition={"right"}
+                alt="podobroLogo"
+              />
+              <p className="absolute text-[20px] top-[215px] left-4 max-w-[230px] text-center font-spartan-bold leading-[22px]">
+                Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
+                Ale zawsze możesz  kontrolować, to, co dzieje się w środku.
+              </p>
             </div>
-          </div> */}
+          ) : (
+            <div className="relative w-screen h-screen mt-[-200px]">
+              <Image
+                src={landingImgDesktop}
+                priority
+                layout="fill"
+                objectFit="cover"
+                alt="podobroLogo"
+              />
+              <p className="absolute text-[30px] top-1/2 left-28 max-w-[450px] text-center font-josefin-italic leading-[30px]">
+                Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
+              </p>
+              <p className="absolute text-[30px] top-1/2 right-28 max-w-[450px] text-center font-josefin-italic leading-[30px]">
+              Ale zawsze możesz  kontrolować, to, co dzieje się w środku.
+              </p>
+            </div>
+          )}
         </section>
         <section className="flex bg-[#F8F3F0] justify-center items-center pt-20">
           <div className="px-10 md:px-96 flex flex-col	items-center ">

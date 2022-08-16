@@ -4,6 +4,7 @@ import AccordionBlock from "../../ui/accordionBlock";
 import CalendarButton from "../../ui/calendarButton";
 import useAccordionLazyLoad from "../../../hooks/useAccordionLazyLoad.ts";
 import SkeletonCard from "../../SkeletonCard/skeletonCard.component";
+import Button from "../../ui/button";
 const CoToCoaching = dynamic(() => import("./cotocoaching.component"), {
   loading: () => <SkeletonCard />,
 });
@@ -122,7 +123,7 @@ const DlaJasnosciCoaching = () => {
             </>
           }
         />
-        <CalendarButton bgColor="bg-yellow-100" />
+        <Button withIcon text="Umów się na sesje" color="bg-yellow-100" />
       </div>
     </section>
   );

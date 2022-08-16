@@ -39,8 +39,8 @@ const CzegoPotrzebujesz = ({}) => {
         title="Joga"
         name="joga"
         buttonText="Dowiedz się więcej"
-        textColor="text-green-100"
-        bgColor="bg-green-100"
+        textColor="text-green-103"
+        bgColor="bg-green-103"
         contentList={jogaList}
       />
     </section>

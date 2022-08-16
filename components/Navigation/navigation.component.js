@@ -12,7 +12,7 @@ const Navigation = ({ isMobile }) => {
         !isMobile ? "sticky" : "relative"
       } top-0 z-50 sm:relative`}
     >
-      <div className=" px-8 py-8 mx-auto">
+      <div className="lg:px-20 px-8 py-8 mx-auto">
         <div className="flex items-center justify-between">
           <div>
             <Link href="/" passHref>
@@ -75,7 +75,7 @@ const Navigation = ({ isMobile }) => {
           </div>
           <div className={isNavOpen ? styles.showMenuNav : styles.hideMenuNav}>
             <div
-              className="absolute top-0 right-0 px-7 py-16"
+              className="absolute top-0 right-0 lg:px-20 lg:py-20 px-7 py-16"
               onClick={() => setIsNavOpen(false)}
             >
               <svg
