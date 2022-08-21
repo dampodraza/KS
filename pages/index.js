@@ -171,7 +171,7 @@ export async function getServerSideProps({ req, res }) {
   return {
     props: {
       postDesc: post[0].excerpt.rendered,
-      postImage: post[0].yoast_head_json.og_image[0].url || "",
+      postImage: post[0].jetpack_featured_media_url || "",
       postTitle: post[0].title.rendered,
       postLink: post[0].link,
     },
