@@ -30,7 +30,7 @@ module.exports = {
         grey: {
           101: '#DFD8D7',
           102: '#857E7D'
-        }
+        },
       
       },
       fontFamily: {
@@ -39,7 +39,6 @@ module.exports = {
         'spartan': ['Spartan', 'sans-serif'],
         'spartan-bold': ['Spartan-bold', 'sans-serif'],
         'spartan-light': ['Spartan-light', 'sans-serif']
-
       },
     },
   },

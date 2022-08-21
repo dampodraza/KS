@@ -50,6 +50,25 @@ a {
   font-display: swap;
 }
 
+@media (min-width: 600px) {
+  .embla {
+    position: relative;
+    background-color: #F8F3F0;
+    padding: 20px;
+    max-width: 750px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .embla-slide-text {
+    padding: 0 50px;
+    font-family: 'Josefin-italic';
+    font-size: 25px !important;
+    text-align: center;
+  }
+ }
+
+
 .embla {
   position: relative;
   background-color: #F8F3F0;

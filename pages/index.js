@@ -99,13 +99,13 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
             </div>
           )}
         </section>
-        <section className="flex bg-[#F8F3F0] justify-center items-center pt-20">
-          <div className="px-10 md:px-96 flex flex-col	items-center ">
-            <p className="text-3xl text-center md:text-5xl	font-spartan-bold pb-8 ">
+        <section className="flex bg-[#F8F3F0] justify-center items-center pt-20 md:h-screen">
+          <div className="px-10 md:px-40 flex flex-col	items-center ">
+            <p className="text-3xl md:text-6xl  md:leading-[60px] text-center font-spartan-bold pb-8 md:pb-20">
               Świat potrzebuje takich ludzi jak Ty.<br></br>A Ty potrzebujesz
               takich ludzi jak ja.
             </p>
-            <p className="text-base md:text-3xl text-center leading-[26px] font-spartan-light">
+            <p className="text-base md:text-4xl text-center leading-[26px] font-spartan-light md:font-josefin-italic">
               Wierzę, że każdy z nas ma potencjał do tworzenia zmian, które
               chcemy widzieć w świecie. Ale zbyt często utknęliśmy, czując, że
               nie możemy. Chcę to zmienić.<br></br>
@@ -160,18 +160,20 @@ export async function getServerSideProps({ req, res }) {
   let post;
   try {
     post = await fetch(
-      "https://jaknieteraztokiedy.com/wp-json/wp/v2/posts/9524"
-    ).then((res) => res.json());
+      "https://blog.podobro.pl/wp-json/wp/v2/posts?per_page=1"
+    ).then((res) => {
+      return res.json();
+    });
   } catch (err) {
     console.log("err", err);
   }
 
   return {
     props: {
-      postDesc: post.excerpt.rendered,
-      postImage: post.jetpack_featured_media_url,
-      postTitle: post.title.rendered,
-      postLink: post.link,
+      postDesc: post[0].excerpt.rendered,
+      postImage: post[0].yoast_head_json.og_image[0].url || "",
+      postTitle: post[0].title.rendered,
+      postLink: post[0].link,
     },
   };
 }

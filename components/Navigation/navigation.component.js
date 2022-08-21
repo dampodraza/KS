@@ -94,17 +94,17 @@ const Navigation = ({ isMobile }) => {
             <ul className="flex flex-col items-center justify-between min-h-[250px] text-2xl">
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer">
                 <Link href="/" passHref>
-                  <span className="font-spartan-bold">Home</span>
+                  <span className="font-spartan-bold md:text-5xl">Home</span>
                 </Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer	">
                 <Link href="/blog" passHref>
-                <span className="font-spartan-bold">Blog</span>
+                <span className="font-spartan-bold md:text-5xl">Blog</span>
                 </Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer">
                 <Link href="/kontakt" passHref>
-                <span className="font-spartan-bold">Kontakt</span>
+                <span className="font-spartan-bold md:text-5xl">Kontakt</span>
                 </Link>
               </li>
             </ul>

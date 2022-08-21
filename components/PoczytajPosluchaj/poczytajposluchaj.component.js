@@ -9,6 +9,7 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
+import Button from "../ui/button";
 
 const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
   return (
@@ -43,11 +44,9 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
             {parse(postDesc.substring(0, 350))}
           </div>
           {postLink && (
-            <Link href={postLink} passHref={true}>
-              <button className="border border-black	rounded-xl max-w-[100px] text-[12px] bg-white m-auto px-3 py-1 hover:bg-primary-yellow-100">
-                czytaj więcej...
-              </button>
-            </Link>
+            // <Link href={postLink} passHref={true}>
+              <Button withLink text="czytaj więcej..." color="bg-white" link={postLink}/>
+            // </Link>
           )}
         </div>
       </div>
@@ -65,8 +64,7 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
           allowfullscreen=""
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         ></iframe>
-        {/* <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/3bc77aPPmmU8NxK2XUbt94?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-      <iframe style={{borderRadius:'12px', marginBottom: '20px'}} src="https://open.spotify.com/embed/episode/3s3kZU1d4DEqfvoWkImKi9?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> */}
+    
       </div>
     </section>
   );
