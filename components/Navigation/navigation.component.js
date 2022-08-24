@@ -98,8 +98,13 @@ const Navigation = ({ isMobile }) => {
                 </Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer	">
-                <Link href="/blog" passHref>
+                <Link href="https://blog.podobro.pl" passHref>
                 <span className="font-spartan-bold md:text-5xl">Blog</span>
+                </Link>
+              </li>
+              <li className="border-b border-gray-400 my-8 uppercase cursor-pointer">
+                <Link href="/rezerwacja" passHref>
+                <span className="font-spartan-bold md:text-5xl">Umów się na sesję</span>
                 </Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer">

@@ -2,10 +2,10 @@ import React from "react";
 import ExpandContentCTA from "./ExpandContentCTA/expandcontentcta.component";
 import { coachingList, wsparcieList, jogaList } from "../../content/cta";
 
-const CzegoPotrzebujesz = ({}) => {
+const CzegoPotrzebujesz = ({isMobile}) => {
   return (
     <section className="flex bg-[#F8F3F0] flex-col items-center pt-2">
-      <p className="text-3xl font-spartan-bold mb-4 text-center">
+      {isMobile && (<><p className="text-3xl font-spartan-bold mb-4 text-center">
         W czym mogę służyć?
       </p>
       <p className="px-4 mb-10 font-spartan-light text-center leading-[26px]">
@@ -16,7 +16,7 @@ const CzegoPotrzebujesz = ({}) => {
         być w sobie i zdać sobie sprawę potrzebuje wsparcia. Każdy z nas ma taki
         wewnętrzny głos, który w różnych momentach zycia próbuje przemówić,
         ważne aby dać mu do tego przestrzeń. <br></br>Witaj w tym miejscu.
-      </p>
+      </p></>)}
 
       <ExpandContentCTA
         title="Coaching"

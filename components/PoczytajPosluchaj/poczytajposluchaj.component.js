@@ -29,11 +29,10 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
                 "rounded-2xl relative overflow-hidden w-[140px] h-[191px]"
               }
             >
-              <Image
+              <img
                 src={postImage}
                 alt="image"
-                layout="fill"
-                objectFit="cover"
+                className="object-cover h-[191px]"
               />
             </div>
           )}
@@ -44,9 +43,7 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
             {parse(postDesc.substring(0, 350))}
           </div>
           {postLink && (
-            // <Link href={postLink} passHref={true}>
               <Button withLink text="czytaj więcej..." color="bg-white" link={postLink}/>
-            // </Link>
           )}
         </div>
       </div>
