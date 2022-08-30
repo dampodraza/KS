@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
               <div class="flex flex-wrap mt-10 justify-center">
                 <div class="m-3">
                   <a
-                    href="https://www.facebook.com/katarzyna.stefanska1"
+                    href="https://www.facebook.com/kasiapodraza1"
                     title="Quicktoolz On Facebook"
                     class="md:w-32 bg-white tracking-wide text-gray-800 font-bold rounded border-2 border-blue-600 hover:border-blue-600 hover:bg-blue-600 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
                   >
