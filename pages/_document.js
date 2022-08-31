@@ -29,43 +29,6 @@ export default function Document() {
         <Main />
         
         <NextScript />
-        <Script id="script" strategy="lazyOnload">
-          {`
-             var bookero_config = {
-              id: '5PiKYeuzS4lN',
-              container: 'bookero',
-              type: 'calendar',
-              position: '',
-              plugin_css: true,
-              lang: 'pl'
-            };
-          
-            (function() {
-            var d = document, s = d.createElement('script');
-            s.src = 'https://cdn.bookero.pl/plugin/v2/js/bookero-compiled.js';
-            d.body.appendChild(s);
-            })();
-                `}
-        </Script>
-        {/* <div
-          id="script"
-          dangerouslySetInnerHTML={{ __html: `<script type="text/javascript">
-          var bookero_config = {
-            id: '5PiKYeuzS4lN',
-            container: 'bookero',
-            type: 'calendar',
-            position: '',
-            plugin_css: true,
-            lang: 'pl'
-          };
-        
-          (function() {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://cdn.bookero.pl/plugin/v2/js/bookero-compiled.js';
-          d.body.appendChild(s);
-          })();
-        </script>` }}
-        /> */}
 
       </body>
     </Html>
