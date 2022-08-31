@@ -14,18 +14,17 @@ const PoczytajPosluchaj = dynamic(() =>
   import("../components/PoczytajPosluchaj/poczytajposluchaj.component")
 );
 import Quote from "../components/Quote/quote.component";
-import DlaczegoJa2 from "../components/DlaczegoJa/dlaczegoJa2.component";
-import DlaczegoJa1 from "../components/DlaczegoJa/dlaczegoJa1.component";
+import DlaczegoJa from "../components/DlaczegoJa/dlaczegoJa.component";
 const DlaJasnosciCoaching = dynamic(() =>
   import("../components/DlaJasnosci/Coaching/coaching.component")
 );
-import landingImg from "../public/images/kk6.png";
+import landingImg from "../public/images/kk6.jpg";
 import landingImgDesktop from "../public/images/landing-desktop.jpg";
-
 import DlaJasnosciWsparcie from "../components/DlaJasnosci/Wsparcie/wsparcie.component";
 import DlaJasnosciJoga from "../components/DlaJasnosci/Joga/joga.component";
 import useOnScreen from "../hooks/useOnScreen.ts";
 import Layout from './layout'
+
 
 export default function Home({ postDesc, postImage, postTitle, postLink }) {
   const isMobile = useCheckMobileScreen(800);
@@ -66,7 +65,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
             <div className="relative w-screen h-screen mt-[-239px]">
               <Image
                 src={landingImg}
-                priority
+                // priority
                 layout="fill"
                 objectFit="cover"
                 objectPosition={"right"}
@@ -101,7 +100,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
               Świat potrzebuje takich ludzi jak Ty.<br></br>A Ty potrzebujesz
               takich ludzi jak ja.
             </p>
-            <p className="text-base md:text-4xl text-center leading-[26px] font-spartan-light md:font-josefin-italic">
+            <p className="text-base md:text-[30px] text-center leading-[26px] font-spartan-light md:font-josefin-italic">
               Wierzę, że każdy z nas ma potencjał do tworzenia zmian, które
               chcemy widzieć w świecie. Ale zbyt często utknęliśmy, czując, że
               nie możemy. Chcę to zmienić.<br></br>
@@ -116,8 +115,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
           </div>
 
         </section>
-        <DlaczegoJa1 />
-        <DlaczegoJa2 isMobile={isMobile} />
+        <DlaczegoJa />
         <CzegoPotrzebujesz />
         <Coaching />
         <div ref={DlaJasnosciCoachingRef}>
@@ -141,7 +139,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
             />
           )}
         </div>
-        <Quote />
+        <Quote isMobile={isMobile}/>
         </Layout>
   );
 }
