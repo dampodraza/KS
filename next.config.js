@@ -2,8 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: 'cloudinary',
-    domains: ['blog.podobro.pl', 'res.cloudinary.com'],
+    domains: ['res.cloudinary.com'],
   },
 }
 
