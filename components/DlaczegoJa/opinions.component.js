@@ -14,7 +14,7 @@ const Opinions = ({ isMobile }) => {
             className="rounded-[35px]"
           />
         )}
-        <div className="flex flex-row justify-center pt-10 pl-12	">
+        <div className="flex flex-row justify-center pt-10	">
           <div className="flex flex-col justify-center item-center">
             <div className="flex justify-center item-center">
               {" "}

@@ -11,7 +11,7 @@ const MojaHistoria = () => {
 
   return (
     <section className="flex bg-[#F8F3F0] flex-col  text-center md:flex-row md:h-screen">
-      <div className="flex flex-col w-1/2 relative">
+      <div className="flex flex-col md:w-1/2 relative">
           <Image
             src={"/images/moja-historia-desktop.jpg"}
             alt={`kasia-img`}
@@ -20,7 +20,7 @@ const MojaHistoria = () => {
             layout="fill"
           />
       </div>
-      <div className="flex flex-col w-1/2">
+      <div className="flex flex-col md:w-1/2">
         <p className="text-4xl font-spartan-bold mb-6 text-center">
           Moja historia
         </p>
