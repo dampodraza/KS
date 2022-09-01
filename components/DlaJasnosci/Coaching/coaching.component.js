@@ -1,51 +1,15 @@
 import React from "react";
-import dynamic from "next/dynamic";
 import AccordionBlock from "../../ui/accordionBlock";
-import CalendarButton from "../../ui/calendarButton";
-import useAccordionLazyLoad from "../../../hooks/useAccordionLazyLoad.ts";
-import SkeletonCard from "../../SkeletonCard/skeletonCard.component";
 import Button from "../../ui/button";
-const CoToCoaching = dynamic(() => import("./cotocoaching.component"), {
-  loading: () => <SkeletonCard />,
-});
-const IleTrwaSesja = dynamic(() => import("./iletrwasesja.component"), {
-  loading: () => <SkeletonCard />,
-});
-const JakWygladaSesja = dynamic(() => import("./jakwygladasesja.component"), {
-  loading: () => <SkeletonCard />,
-});
-const IleToKosztuje = dynamic(() => import("./iletokosztuje.component"), {
-  loading: () => <SkeletonCard />,
-});
-const GdzieSesja = dynamic(() => import("./gdziesesja.component"), {
-  loading: () => <SkeletonCard />,
-});
-const IlePotrzebuje = dynamic(() => import("./ilesesji.component"), {
-  loading: () => <SkeletonCard />,
-});
-const JakUmowic = dynamic(() => import("./jaksieumowic.component"), {
-  loading: () => <SkeletonCard />,
-});
-const DlaJasnosciCoaching = () => {
-  const {
-    handleChange: coToCoachingChange,
-    expanded: isCoToCoachingChangeOpen,
-  } = useAccordionLazyLoad();
-  const { handleChange: trwaSesjaChange, expanded: isTrwaSesjaChangeOpen } =
-    useAccordionLazyLoad();
-  const {
-    handleChange: wygladaSesjaChange,
-    expanded: isWygladaSesjaChangeOpen,
-  } = useAccordionLazyLoad();
-  const { handleChange: ileKosztujeChange, expanded: isIleKosztujeOpen } =
-    useAccordionLazyLoad();
-  const { handleChange: gdzieSesjaChange, expanded: isGdzieSesjaOpen } =
-    useAccordionLazyLoad();
-  const { handleChange: ilePotrzebujeChange, expanded: isIlePotrzebujeOpen } =
-    useAccordionLazyLoad();
-  const { handleChange: jakUmowicChange, expanded: isJakUmowicOpen } =
-    useAccordionLazyLoad();
+import CoToCoaching from "./cotocoaching.component";
+import IleTrwaSesja from "./iletrwasesja.component";
+import JakWygladaSesja from "./jakwygladasesja.component";
+import IleToKosztuje from "./iletokosztuje.component";
+import GdzieSesja from "./gdziesesja.component";
+import IlePotrzebuje from './ilesesji.component';
+import JakUmowic from './jaksieumowic.component';
 
+const DlaJasnosciCoaching = () => {
   return (
     <section className="flex bg-[#F8F3F0] text-center justify-center items-center pt-10 pb-10">
       <div className=" flex flex-col ">
@@ -53,55 +17,49 @@ const DlaJasnosciCoaching = () => {
 
         <AccordionBlock
           header="Co to jest coaching?"
-          expanded={(value) => coToCoachingChange(value)}
           extra={
             <>
-              {isCoToCoachingChangeOpen && <CoToCoaching />}
+              <CoToCoaching />
             </>
           }
         />
         <AccordionBlock
           header="Ile trwa sesja?"
-          expanded={(value) => trwaSesjaChange(value)}
           extra={
             <>
-            {isTrwaSesjaChangeOpen && <IleTrwaSesja />}
+           <IleTrwaSesja />
             </>
           }
         />
         <AccordionBlock
           header="Jak wygląda sesja?"
-          expanded={(value) => wygladaSesjaChange(value)}
           extra={
             <>
-            {isWygladaSesjaChangeOpen && <JakWygladaSesja />}
+          <JakWygladaSesja />
             </>
           }
         />
         <AccordionBlock
           header="Ile to kosztuje?"
-          expanded={(value) => ileKosztujeChange(value)}
           extra={
             <>
-            {isIleKosztujeOpen && <IleToKosztuje />}
+         <IleToKosztuje />
             </>
           }
         />
         <AccordionBlock
           header="Gdzie odbywa się sesja?"
-          expanded={(value) => gdzieSesjaChange(value)}
           extra={
             <>
-            {isGdzieSesjaOpen && <GdzieSesja />}
+        <GdzieSesja />
             </>
           }
         />
         <AccordionBlock
           header="Ile sesji potrzebuje?"
-          expanded={(value) => ilePotrzebujeChange(value)}
           extra={
             <>
-            {isIlePotrzebujeOpen && <IlePotrzebuje />}
+        <IlePotrzebuje />
             </>
           }
         />
@@ -116,10 +74,9 @@ const DlaJasnosciCoaching = () => {
         />
         <AccordionBlock
           header="Jak się umówić?"
-          expanded={(value) => jakUmowicChange(value)}
           extra={
             <>
-            {isJakUmowicOpen && <JakUmowic />}
+       <JakUmowic />
             </>
           }
         />
