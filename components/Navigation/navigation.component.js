@@ -16,12 +16,21 @@ const Navigation = ({ isMobile }) => {
         <div className="flex items-center justify-between">
           <div className="cursor-pointer">
             <Link href="/" passHref>
-              <Image
-                src="/images/logo-desktop.svg"
-                alt="logo"
-                width={isMobile ? "113" : "187"}
-                height={isMobile ? "83" : "137"}
-              />
+              {isMobile ? (
+                <Image
+                  src="/images/logo-mobile.svg"
+                  alt="logo"
+                  width={"91"}
+                  height={"60"}
+                />
+              ) : (
+                <Image
+                  src="/images/logo-desktop.svg"
+                  alt="logo"
+                  width={"187"}
+                  height={"137"}
+                />
+              )}
             </Link>
           </div>
 
@@ -155,12 +164,16 @@ const Navigation = ({ isMobile }) => {
             <ul className="flex flex-col items-center justify-between min-h-[250px] text-2xl">
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer">
                 <Link href="/" passHref>
-                  <span className="font-spartan-bold md:text-6xl hover:opacity-60">Home</span>
+                  <span className="font-spartan-bold md:text-6xl hover:opacity-60">
+                    Home
+                  </span>
                 </Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer	">
                 <Link href="https://blog.podobro.pl" passHref>
-                  <span className="font-spartan-bold md:text-6xl hover:opacity-60">Blog</span>
+                  <span className="font-spartan-bold md:text-6xl hover:opacity-60">
+                    Blog
+                  </span>
                 </Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer">
@@ -172,7 +185,9 @@ const Navigation = ({ isMobile }) => {
               </li>
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer">
                 <Link href="/kontakt" passHref>
-                  <span className="font-spartan-bold md:text-6xl hover:opacity-60">Kontakt</span>
+                  <span className="font-spartan-bold md:text-6xl hover:opacity-60">
+                    Kontakt
+                  </span>
                 </Link>
               </li>
             </ul>
