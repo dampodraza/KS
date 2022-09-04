@@ -3,12 +3,12 @@ import Image from "next/image";
 import kasiaDrawing from "../../public/images/kasia-drawing.png";
 import DlaczegoJaIcons from "./dlaczegoJaIcons.component";
 import Opinions from "./opinions.component";
-import useCheckMobileScreen from "../../hooks/useCheckMobileScreen.ts";
+import {isMobile} from 'react-device-detect';
+
 const DlaczegoJa = () => {
-  const isMobile = useCheckMobileScreen(800);
   return (
     <>
-      <section className="flex bg-[#F8F3F0] justify-center items-center pt-10 pb-6 md:h-screen">
+      <section className="flex bg-[#F8F3F0] justify-center items-center pt-10 pb-6 md:h-screen md:px-28">
         <div className="flex flex-col items-center justify-center md:basis-4/12	">
         {!isMobile && <Image
             src={kasiaDrawing}

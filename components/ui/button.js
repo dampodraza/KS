@@ -3,15 +3,15 @@ import Link from "next/link";
 
 const Button = ({ color, text, withIcon = false, withLink = false, link }) => {
   return (
-    <div className="relative w-[146px] h-[41px] text-center my-0 mx-auto mt-6 mb-4">
+    <div className="relative w-[146px] h-[41px] text-center my-0 mx-auto mt-6 mb-4 md:w-[240px] md:h-[60px]">
       <div
-        className={`rounded-md absolute bg-black w-[146px] h-[41px] top-[8px] left-[5px]`}
+        className={`rounded-md absolute bg-black w-[146px] h-[41px] top-[8px] left-[5px] md:w-[240px] md:h-[60px]`}
       ></div>
       {withLink ? (
         <Link href={link} passHref={true}>
           <div
             className={`items-center inline-flex justify-center align-center 
-        rounded-md ${color} relative  w-[146px] h-[41px] border border-black hover:bg-[#F8F3F0] cursor-pointer	`}
+        rounded-md ${color} relative  w-[146px] h-[41px] border border-black hover:bg-[#F8F3F0] cursor-pointer	md:w-[240px] md:h-[60px]`}
           >
             {withIcon && (
               <svg
@@ -33,7 +33,7 @@ const Button = ({ color, text, withIcon = false, withLink = false, link }) => {
             <span
               className={`${
                 withIcon && "ml-2"
-              } mt-1 font-spartan-bold text-[10px] uppercase`}
+              } mt-1 font-spartan-bold text-[10px] uppercase md:text-[18px]`}
             >
               {text}
             </span>
@@ -42,7 +42,7 @@ const Button = ({ color, text, withIcon = false, withLink = false, link }) => {
       ) : (
         <div
           className={`items-center inline-flex justify-center align-center 
-        rounded-md ${color} relative  w-[146px] h-[41px] border border-black hover:bg-[#F8F3F0] cursor-pointer	`}
+        rounded-md ${color} relative  w-[146px] h-[41px] border border-black hover:bg-[#F8F3F0] cursor-pointer	md:w-[240px] md:h-[60px]`}
         >
           {withIcon && (
             <svg
@@ -64,7 +64,7 @@ const Button = ({ color, text, withIcon = false, withLink = false, link }) => {
           <span
             className={`${
               withIcon && "ml-2"
-            } mt-1 font-spartan-bold text-[10px] uppercase`}
+            } mt-1 font-spartan-bold text-[10px] uppercase md:text-[18px]`}
           >
             {text}
           </span>

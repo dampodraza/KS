@@ -1,6 +1,5 @@
-import React, { useState, useCallback, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
-import useCheckMobileScreen from "../hooks/useCheckMobileScreen.ts";
 import CzegoPotrzebujesz from "../components/CzegoPotrzebujesz/czegopotrzebujesz.component";
 import Coaching from "../components/Coaching/coaching.component";
 import Wsparcie from "../components/Wsparcie/wsparcie.component";
@@ -10,6 +9,7 @@ import PakietyCoaching from "../components/Pakiety/pakietyCoaching.component";
 import PakietyWsparcie from "../components/Pakiety/pakietyWsparcie.component";
 import PakietyJoga from "../components/Pakiety/pakietyJoga.component";
 import MojaHistoria from "../components/MojaHistoria/mojahistoria.component";
+import {isMobile} from 'react-device-detect';
 const PoczytajPosluchaj = dynamic(() =>
   import("../components/PoczytajPosluchaj/poczytajposluchaj.component")
 );
@@ -19,7 +19,7 @@ const DlaJasnosciCoaching = dynamic(() =>
   import("../components/DlaJasnosci/Coaching/coaching.component")
 );
 import landingImg from "../public/images/kk6.jpg";
-import landingImgDesktop from "../public/images/landing-desktop.jpg";
+import landingImgDesktop from "../public/images/landing-desktop2.jpg";
 import DlaJasnosciWsparcie from "../components/DlaJasnosci/Wsparcie/wsparcie.component";
 import DlaJasnosciJoga from "../components/DlaJasnosci/Joga/joga.component";
 import useOnScreen from "../hooks/useOnScreen.ts";
@@ -27,7 +27,6 @@ import Layout from './layout'
 
 
 export default function Home({ postDesc, postImage, postTitle, postLink }) {
-  const isMobile = useCheckMobileScreen(800);
   const DlaJasnosciCoachingRef = useRef();
   const footerRef = useRef();
   const footerRefValue = useOnScreen(footerRef);
@@ -65,7 +64,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
             <div className="relative w-screen h-screen mt-[-239px]">
               <Image
                 src={landingImg}
-                // priority
+                priority
                 layout="fill"
                 objectFit="cover"
                 objectPosition={"right"}
@@ -77,7 +76,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
               </p>
             </div>
           ) : (
-            <div className="relative w-screen h-screen mt-[-200px]">
+            <div className="relative w-screen h-screen ">
               <Image
                 src={landingImgDesktop}
                 priority

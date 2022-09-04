@@ -3,8 +3,8 @@ import seeTheGood from "../../public/images/see-the-good.jpg";
 import Image from "next/image";
 const Opinions = ({ isMobile }) => {
   return (
-    <section className="bg-[#F8F3F0] h-screen">
-      <div className="flex flex-row items-center justify-center ">
+    <section className="bg-[#F8F3F0] h-screen md:px-28">
+      <div className="flex flex-row items-center justify-center md:justify-between ">
         {!isMobile && (
           <Image
             src={seeTheGood}
