@@ -18,8 +18,8 @@ import DlaczegoJa from "../components/DlaczegoJa/dlaczegoJa.component";
 const DlaJasnosciCoaching = dynamic(() =>
   import("../components/DlaJasnosci/Coaching/coaching.component")
 );
-import landingImg from "../public/images/kk6.jpg";
-import landingImgDesktop from "../public/images/landing-desktop2.jpg";
+import landingImg from "../public/images/landing-mobile.jpg";
+import landingImgDesktop from "../public/images/landing-desktop5.jpg";
 import DlaJasnosciWsparcie from "../components/DlaJasnosci/Wsparcie/wsparcie.component";
 import DlaJasnosciJoga from "../components/DlaJasnosci/Joga/joga.component";
 import useOnScreen from "../hooks/useOnScreen.ts";
@@ -84,11 +84,11 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
                 objectFit="cover"
                 alt="podobroLogo"
               />
-              <p className="absolute text-[30px] top-1/2 left-28 max-w-[450px] text-center font-josefin-italic leading-[30px]">
+              <p className="absolute text-[30px] top-[40%] left-28 max-w-[480px] text-center font-spartan-bold leading-[35px]">
                 Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
               </p>
-              <p className="absolute text-[30px] top-1/2 right-28 max-w-[450px] text-center font-josefin-italic leading-[30px]">
-              Ale zawsze możesz  kontrolować, to, co dzieje się w środku.
+              <p className="absolute text-[30px] top-[40%] right-28 max-w-[450px] text-center font-spartan-bold leading-[35px]">
+              Ale zawsze możesz kontrolować to, co dzieje się w środku.
               </p>
             </div>
           )}
@@ -99,7 +99,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
               Świat potrzebuje takich ludzi jak Ty.<br></br>A Ty potrzebujesz
               takich ludzi jak ja.
             </p>
-            <p className="text-base md:text-[30px] text-center leading-[26px] font-spartan-light md:font-josefin-italic">
+            <p className="text-base md:text-[30px] text-center leading-[26px] font-spartan-light md:leading-10">
               Wierzę, że każdy z nas ma potencjał do tworzenia zmian, które
               chcemy widzieć w świecie. Ale zbyt często utknęliśmy, czując, że
               nie możemy. Chcę to zmienić.<br></br>

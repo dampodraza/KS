@@ -18,7 +18,7 @@ const Opinions = ({ isMobile }) => {
           <div className="flex flex-col justify-center item-center">
             <div className="flex justify-center item-center">
               {" "}
-              <img src="/icons/quote.svg" alt="quote" />
+              <img src="/icons/quote.svg" alt="quote" width={!isMobile && '100px'}/>
             </div>
 
             <div className="pb-10">

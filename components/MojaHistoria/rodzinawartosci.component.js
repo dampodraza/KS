@@ -1,4 +1,5 @@
 import Image from "next/image";
+import {isMobile} from 'react-device-detect';
 
 const RodzinaWatosci = () => {
   return (
@@ -12,11 +13,11 @@ const RodzinaWatosci = () => {
           layout="responsive"
         />
       </div>
-      <p className="font-spartan-bold text-lg text-left mt-4 pl-2">Posłuchaj</p>
+     {isMobile && (<><p className="font-spartan-bold text-lg text-left mt-4 pl-2">Posłuchaj</p>
       <audio className="w-[300px] pt-2" controls preload="none" style={{margin: '0 auto'}}>
         <source src="audio/my_song.mp3" type="audio/mpeg" />
-      </audio>
-      <p className="font-spartan-light leading-[23px] mt-8 mb-4">
+      </audio></>)}
+      <p className="font-spartan-light leading-[23px] mt-8 mb-4 md:text-xl">
         Urodziłam się w roku przełomowym - 1989 i przełomem były moje narodziny.
         Byłam zdrową siostrą siedmioletniego autysty z porażeniem mózgowym i
         niezwykłych rodziców, których miłość rozwiązywała wszystkie problemy
@@ -38,7 +39,7 @@ const RodzinaWatosci = () => {
         height={237}
         layout="responsive"
       />
-      <p className="font-spartan-light leading-[23px] mt-4">
+      <p className="font-spartan-light leading-[23px] mt-4 text-xl">
         Jednakże po burzy wychodzi słońce i nie ma niczego z czego nie mógłbyś
         się podnieść. Mam na to dowody w postaci życia na takim rollecasterze
         przez 40 lat. Nie wiem czy mogłam wymarzyć sobie lepsze dzieciństwo,

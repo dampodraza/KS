@@ -17,15 +17,16 @@ const MojaHistoria = () => {
           <Image
             src={"/images/kasia-img.png"}
             alt={`kasia-img`}
-            width={655}
-            height={554}
+            width={589}
+            height={498}
+            className="md:rounded-[35px]"
           />
         </div>
         <div className="flex flex-col md:max-w-[45%]">
           <p className="text-4xl font-spartan-bold mb-6 text-center hidden md:block md:text-6xl">
             Moja historia
           </p>
-          <p className="font-spartan-light mx-4 mt-4 mb-4 md:px-8 md:text-xl ">
+          <p className="font-spartan-light mx-4 mt-4 mb-4 md:px-8 md:text-base ">
             Pełna przygód i licznych zwrotów akcji historia o tym, jak ważne
             jest cieszyć się każdą chwilą swojego życia. Opowieść o dziewczynie
             tak normalnej, że aż podobnej do Ciebie. Z tą różnicą, że żyje za
