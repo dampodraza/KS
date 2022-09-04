@@ -61,7 +61,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
       <Layout>
         <section>
           {isMobile ? (
-            <div className="relative w-screen h-screen mt-[-239px]">
+            <div className="relative w-screen h-screen mt-[-225px]">
               <Image
                 src={landingImg}
                 priority
