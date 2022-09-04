@@ -10,7 +10,7 @@ const Navigation = ({ isMobile }) => {
     <nav
       className={`bg-transparent ${
         !isMobile ? "fixed" : "relative"
-      } top-0 z-50 sm:relative`}
+      } top-0 z-50`}
     >
       <div className="lg:px-20 px-8 py-8 mx-auto md:fixed top-0 left-0 w-full">
         <div className="flex items-center justify-between">
@@ -18,7 +18,7 @@ const Navigation = ({ isMobile }) => {
             <Link href="/" passHref>
               {isMobile ? (
                 <Image
-                  src="/images/logo-mobile.svg"
+                  src="/images/logo-mobile.png"
                   alt="logo"
                   width={"91"}
                   height={"60"}
