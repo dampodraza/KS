@@ -1,6 +1,6 @@
 import Carousel from "../Carousel/carousel";
 import seeTheGood from "../../public/images/see-the-good.jpg";
-import Image from "next/image";
+import Image from "next/legacy/image";
 const Opinions = ({ isMobile }) => {
   return (
     <section className="h-screen lg:pt-16">

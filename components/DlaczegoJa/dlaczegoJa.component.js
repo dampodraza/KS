@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import kasiaDrawing from "../../public/images/kasia-drawing.png";
 import DlaczegoJaIcons from "./dlaczegoJaIcons.component";
 import Opinions from "./opinions.component";

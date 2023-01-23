@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Button from "../../ui/button";
 import { isMobile } from "react-device-detect";
 import Link from "next/link";

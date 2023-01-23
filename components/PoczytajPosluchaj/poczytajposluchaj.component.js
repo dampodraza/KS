@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import parse from "html-react-parser";
 import Link from "next/link";
 import imgSrc from "../../public/images/podcast-img.png";

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import AccordionBlock from "../ui/accordionBlock";
 import RodzinaWartosci from "./rodzinawartosci.component";
 import KarieraPasja from "./karierapasja.component";

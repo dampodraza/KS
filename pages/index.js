@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import CzegoPotrzebujesz from "../components/CzegoPotrzebujesz/czegopotrzebujesz.component";
 import Coaching from "../components/Coaching/coaching.component";
 import Wsparcie from "../components/Wsparcie/wsparcie.component";
