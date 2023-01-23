@@ -3,7 +3,7 @@ import seeTheGood from "../../public/images/see-the-good.jpg";
 import Image from "next/image";
 const Opinions = ({ isMobile }) => {
   return (
-    <section className="bg-[#F8F3F0] h-screen md:px-28">
+    <section className="h-screen lg:pt-16">
       <div className="flex flex-row items-center justify-center md:justify-between ">
         {!isMobile && (
           <Image
@@ -18,7 +18,7 @@ const Opinions = ({ isMobile }) => {
           <div className="flex flex-col justify-center item-center">
             <div className="flex justify-center item-center">
               {" "}
-              <img src="/icons/quote.svg" alt="quote" width={!isMobile && '100px'}/>
+              <img src="/icons/quote.svg" alt="quote" width={!isMobile && '50px'}/>
             </div>
 
             <div className="pb-10">

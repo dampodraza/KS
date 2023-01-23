@@ -9,7 +9,7 @@ import PakietyCoaching from "../components/Pakiety/pakietyCoaching.component";
 import PakietyWsparcie from "../components/Pakiety/pakietyWsparcie.component";
 import PakietyJoga from "../components/Pakiety/pakietyJoga.component";
 import MojaHistoria from "../components/MojaHistoria/mojahistoria.component";
-import {isMobile} from 'react-device-detect';
+import { isMobile } from "react-device-detect";
 const PoczytajPosluchaj = dynamic(() =>
   import("../components/PoczytajPosluchaj/poczytajposluchaj.component")
 );
@@ -23,8 +23,7 @@ import landingImgDesktop from "../public/images/landing-desktop5.jpg";
 import DlaJasnosciWsparcie from "../components/DlaJasnosci/Wsparcie/wsparcie.component";
 import DlaJasnosciJoga from "../components/DlaJasnosci/Joga/joga.component";
 import useOnScreen from "../hooks/useOnScreen.ts";
-import Layout from './layout'
-
+import Layout from "./layout";
 
 export default function Home({ postDesc, postImage, postTitle, postLink }) {
   const DlaJasnosciCoachingRef = useRef();
@@ -37,8 +36,8 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
   const [open, setModalOpen] = useState(false);
 
   const handleOpen = () => {
-    setModalOpen(true)
-  }
+    setModalOpen(true);
+  };
 
   useEffect(() => {
     if (isDlaJasnosciCoachingRef) {
@@ -58,48 +57,49 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
     }
   }, [footerRefValue]);
   return (
-      <Layout>
-        <section>
-          {isMobile ? (
-            <div className="relative w-screen h-screen mt-[-225px]">
-              <Image
-                src={landingImg}
-                priority
-                layout="fill"
-                objectFit="cover"
-                objectPosition={"right"}
-                alt="podobroLogo"
-              />
-              <p className="absolute text-[20px] top-[215px] left-4 max-w-[230px] text-center font-spartan-bold leading-[22px]">
-                Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
-                Ale zawsze możesz  kontrolować, to, co dzieje się w środku.
-              </p>
-            </div>
-          ) : (
-            <div className="relative w-screen h-screen ">
-              <Image
-                src={landingImgDesktop}
-                priority
-                layout="fill"
-                objectFit="cover"
-                alt="podobroLogo"
-              />
-              <p className="absolute text-[30px] top-[40%] left-28 max-w-[480px] text-center font-spartan-bold leading-[35px]">
-                Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
-              </p>
-              <p className="absolute text-[30px] top-[40%] right-28 max-w-[450px] text-center font-spartan-bold leading-[35px]">
-              Ale zawsze możesz kontrolować to, co dzieje się w środku.
-              </p>
-            </div>
-          )}
-        </section>
-        <section className="flex bg-[#F8F3F0] justify-center items-center pt-20 md:h-screen">
-          <div className="px-10 md:px-40 flex flex-col	items-center ">
-            <p className="text-3xl md:text-6xl  md:leading-[60px] text-center font-spartan-bold pb-8 md:pb-20">
+    <Layout>
+      <section>
+        {isMobile ? (
+          <div className="relative w-screen h-screen mt-[-225px]">
+            <Image
+              src={landingImg}
+              priority
+              layout="fill"
+              objectFit="cover"
+              objectPosition={"right"}
+              alt="podobroLogo"
+            />
+            <p className="absolute text-[20px] top-[215px] left-4 max-w-[230px] text-center font-spartan-bold leading-[22px]">
+              Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
+              Ale zawsze możesz  kontrolować, to, co dzieje się w środku.
+            </p>
+          </div>
+        ) : (
+          <div className="relative w-screen h-screen ">
+            <Image
+              src={landingImgDesktop}
+              priority
+              layout="fill"
+              objectFit="cover"
+              alt="podobroLogo"
+            />
+            <p className="absolute text-[30px] top-[40%] left-28 max-w-[480px] text-center font-spartan-bold leading-[35px]">
+              Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
+            </p>
+            <p className="absolute text-[30px] top-[40%] right-28 max-w-[450px] text-center font-spartan-bold leading-[35px]">
+              Ale zawsze możesz konasdtrolować to, co dzieje się w środku.
+            </p>
+          </div>
+        )}
+      </section>
+      <div className='lg:px-32 bg-[#F8F3F0]'>
+        <section className="flex bg-[#F8F3F0] justify-center items-center pt-20 md:h-screen ">
+          <div className="px-10 md:px-20 grid 	items-center md:grid-cols-2 gap-4 ">
+            <p className="text-3xl md:text-4xl  md:leading-[60px] text-center font-spartan-bold pb-8 md:pb-20">
               Świat potrzebuje takich ludzi jak Ty.<br></br>A Ty potrzebujesz
               takich ludzi jak ja.
             </p>
-            <p className="text-base md:text-[30px] text-center leading-[26px] font-spartan-light md:leading-10">
+            <p className="text-base md:text-xl text-center leading-[26px] font-spartan-light md:leading-10">
               Wierzę, że każdy z nas ma potencjał do tworzenia zmian, które
               chcemy widzieć w świecie. Ale zbyt często utknęliśmy, czując, że
               nie możemy. Chcę to zmienić.<br></br>
@@ -112,11 +112,10 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
               także wesprze Cię w tworzeniu życia, które kochasz.
             </p>
           </div>
-
         </section>
         <DlaczegoJa />
         <CzegoPotrzebujesz />
-        <Coaching />
+        {isMobile && (<><Coaching />
         <div ref={DlaJasnosciCoachingRef}>
           {isDlaJasnosciCoachingRef && <DlaJasnosciCoaching />}
         </div>
@@ -127,19 +126,21 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
         <Joga />
         <DlaJasnosciJoga />
         <PakietyJoga />
+        </>)}
         <MojaHistoria />
-        <div ref={footerRef}>
-          {isFooterRef && (
+        {/* <div ref={footerRef}>
+          {isFooterRef && ( */}
             <PoczytajPosluchaj
               postImage={postImage}
               postDesc={postDesc}
               postTitle={postTitle}
               postLink={postLink}
             />
-          )}
-        </div>
-        <Quote isMobile={isMobile}/>
-        </Layout>
+          {/* )} */}
+        {/* </div> */}
+        <Quote isMobile={isMobile} />
+      </div>
+    </Layout>
   );
 }
 
@@ -149,12 +150,14 @@ export async function getServerSideProps({ req, res }) {
     "public, s-maxage=10, stale-while-revalidate=59"
   );
   let post;
+  let mediaUrl;
   try {
     post = await fetch(
       "https://blog.podobro.pl/wp-json/wp/v2/posts?per_page=1"
     ).then((res) => {
       return res.json();
-    });
+    })
+    .then()
   } catch (err) {
     console.log("err", err);
   }
@@ -162,7 +165,7 @@ export async function getServerSideProps({ req, res }) {
   return {
     props: {
       postDesc: post[0].excerpt.rendered,
-      postImage: post[0].jetpack_featured_media_url || "",
+      postImage: post[0].yoast_head_json.og_image[0].url || "",
       postTitle: post[0].title.rendered,
       postLink: post[0].link,
     },

@@ -17,7 +17,7 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
       <hr className="flex w-4/5 m-auto pb-8"></hr>
 
       <p className="text-4xl font-spartan-bold mb-4 text-center">Poczytaj</p>
-      <p className="mb-5 text-sm">
+      <p className="mb-5 text-sm sm:mb-10">
         Witaj w mojej przestrzeni. Możesz przeczytać i posłuchać tego, co mi w
         duszy gra.
       </p>
@@ -26,7 +26,7 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
           {postImage && (
             <div
               className={
-                "rounded-2xl relative overflow-hidden w-[140px] h-[191px]"
+                "rounded-2xl relative overflow-hidden w-[140px] h-[191px] sm:w-auto sm:h-auto"
               }
             >
               <img
@@ -38,30 +38,36 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
           )}
         </div>
         <div className="flex flex-col justify-center align-center">
-          <p className="uppercase text-sm font-bold">{parse(postTitle)}</p>
-          <div className="text-xs font-josefin">
+          <p className="uppercase text-sm font-bold sm:pt-2 sm:text-base">{parse(postTitle)}</p>
+          <div className="text-xs font-josefin sm:pt-4 sm:text-sm sm:px-10">
             {parse(postDesc.substring(0, 350))}
           </div>
           {postLink && (
-              <Button withLink text="czytaj więcej..." color="bg-white" link={postLink}/>
+            <Button
+              withLink
+              text="czytaj więcej..."
+              color="bg-white"
+              link={postLink}
+            />
           )}
         </div>
       </div>
       <hr className="flex w-4/5 m-auto"></hr>
-      <p className="text-4xl font-spartan-bold mb-6 text-center mt-8">
-        Posłuchaj
-      </p>
-      <div className="flex flex-col">
-        <iframe
-          style={{ borderRadius: "12px", marginBottom: "20px" }}
-          src="https://open.spotify.com/embed/episode/0Qxe0OD0KkihZ4vxLLWToO?utm_source=generator"
-          width="100%"
-          height="152"
-          frameBorder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        ></iframe>
-    
+      <div className="grid m-10 ">
+        <p className="text-4xl font-spartan-bold mb-6 text-center mt-8">
+          Posłuchaj
+        </p>
+        <div className="flex flex-col">
+          <iframe
+            style={{ borderRadius: "12px", marginBottom: "20px" }}
+            src="https://open.spotify.com/embed/episode/0Qxe0OD0KkihZ4vxLLWToO?utm_source=generator"
+            width="100%"
+            height="152"
+            frameBorder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          ></iframe>
+        </div>
       </div>
     </section>
   );

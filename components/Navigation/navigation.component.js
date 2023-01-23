@@ -27,8 +27,8 @@ const Navigation = ({ isMobile }) => {
                 <Image
                   src="/images/logo-desktop.svg"
                   alt="logo"
-                  width={"187"}
-                  height={"137"}
+                  width={"150"}
+                  height={"110"}
                 />
               )}
             </Link>
@@ -86,8 +86,8 @@ const Navigation = ({ isMobile }) => {
               ) : (
                 <>
                   <svg
-                    width="70"
-                    height="50"
+                    width="56"
+                    height="40"
                     viewBox="0 0 70 50"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ const Navigation = ({ isMobile }) => {
           </div>
           <div className={isNavOpen ? styles.showMenuNav : styles.hideMenuNav}>
             <div
-              className="absolute top-0 right-0 lg:px-20 lg:py-20 px-7 py-16 cursor-pointer	"
+              className="absolute top-0 right-0 lg:px-20 lg:py-[70px] px-7 py-16 cursor-pointer	"
               onClick={() => setIsNavOpen(false)}
             >
               {isMobile ? (
@@ -148,8 +148,8 @@ const Navigation = ({ isMobile }) => {
                 </svg>
               ) : (
                 <svg
-                  className="h-12 w-12 text-black"
-                  viewBox="0 0 24 24"
+                  className="h-10 w-10 text-black"
+                  viewBox="0 0 26 26"
                   fill="none"
                   stroke="currentColor"
                   strokeWidth="4"
@@ -164,28 +164,28 @@ const Navigation = ({ isMobile }) => {
             <ul className="flex flex-col items-center justify-between min-h-[250px] text-2xl">
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer">
                 <Link href="/" passHref>
-                  <span className="font-spartan-bold md:text-6xl hover:opacity-60">
+                  <span className="font-spartan-bold md:text-5xl hover:opacity-60">
                     Home
                   </span>
                 </Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer	">
                 <Link href="https://blog.podobro.pl" passHref>
-                  <span className="font-spartan-bold md:text-6xl hover:opacity-60">
+                  <span className="font-spartan-bold md:text-5xl hover:opacity-60">
                     Blog
                   </span>
                 </Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer">
                 <Link href="/rezerwacja" passHref>
-                  <span className="font-spartan-bold md:text-6xl hover:opacity-60">
+                  <span className="font-spartan-bold md:text-5xl hover:opacity-60">
                     Umów się na sesję
                   </span>
                 </Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase cursor-pointer">
                 <Link href="/kontakt" passHref>
-                  <span className="font-spartan-bold md:text-6xl hover:opacity-60">
+                  <span className="font-spartan-bold md:text-5xl hover:opacity-60">
                     Kontakt
                   </span>
                 </Link>
