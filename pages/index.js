@@ -92,7 +92,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
           </div>
         )}
       </section>
-      <div className='lg:px-32 bg-[#F8F3F0]'>
+      <div className="lg:px-32 bg-[#F8F3F0]">
         <section className="flex bg-[#F8F3F0] justify-center items-center pt-20 md:h-screen ">
           <div className="px-10 md:px-20 grid 	items-center md:grid-cols-2 gap-4 ">
             <p className="text-3xl md:text-4xl  md:leading-[60px] text-center font-spartan-bold pb-8 md:pb-20">
@@ -115,35 +115,38 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
         </section>
         <DlaczegoJa />
         <CzegoPotrzebujesz />
-        {isMobile && (<><Coaching />
-        <div ref={DlaJasnosciCoachingRef}>
-          {isDlaJasnosciCoachingRef && <DlaJasnosciCoaching />}
-        </div>
-        <PakietyCoaching />
-        <Wsparcie />
-        <DlaJasnosciWsparcie />
-        <PakietyWsparcie />
-        <Joga />
-        <DlaJasnosciJoga />
-        <PakietyJoga />
-        </>)}
+        {isMobile && (
+          <>
+            <Coaching />
+            <div ref={DlaJasnosciCoachingRef}>
+              {isDlaJasnosciCoachingRef && <DlaJasnosciCoaching />}
+            </div>
+            <PakietyCoaching />
+            <Wsparcie />
+            <DlaJasnosciWsparcie />
+            <PakietyWsparcie />
+            <Joga />
+            <DlaJasnosciJoga />
+            <PakietyJoga />
+          </>
+        )}
         <MojaHistoria />
         {/* <div ref={footerRef}>
           {isFooterRef && ( */}
-            <PoczytajPosluchaj
-              postImage={postImage}
-              postDesc={postDesc}
-              postTitle={postTitle}
-              postLink={postLink}
-            />
-          {/* )} */}
+        <PoczytajPosluchaj
+          postImage={postImage}
+          postDesc={postDesc}
+          postTitle={postTitle}
+          postLink={postLink}
+        />
+        {/* )} */}
         {/* </div> */}
         <Quote isMobile={isMobile} />
       </div>
     </Layout>
   );
 }
-
+// TODO: add next seo on each page
 export async function getServerSideProps({ req, res }) {
   res.setHeader(
     "Cache-Control",
@@ -152,12 +155,11 @@ export async function getServerSideProps({ req, res }) {
   let post;
   let mediaUrl;
   try {
-    post = await fetch(
-      "https://blog.podobro.pl/wp-json/wp/v2/posts?per_page=1"
-    ).then((res) => {
-      return res.json();
-    })
-    .then()
+    post = await fetch("https://blog.podobro.pl/wp-json/wp/v2/posts?per_page=1")
+      .then((res) => {
+        return res.json();
+      })
+      .then();
   } catch (err) {
     console.log("err", err);
   }
