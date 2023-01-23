@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Button = ({ color, text, withIcon = false, withLink = false, link }) => {
   return (
-    <div className="relative w-[146px] h-[41px] text-center my-0 mx-auto mt-6 mb-4 md:w-[240px] md:h-[60px]">
+    <div className="relative w-[146px] h-[41px] text-center my-0 mx-auto mt-6 mb-4 md:w-[240px] md:h-[60px] z-10">
       <div
         className={`rounded-md absolute bg-black w-[146px] h-[41px] top-[8px] left-[5px] md:w-[240px] md:h-[50px]`}
       ></div>
