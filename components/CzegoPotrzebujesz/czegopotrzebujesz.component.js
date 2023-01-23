@@ -22,37 +22,36 @@ const CzegoPotrzebujesz = ({ isMobile }) => {
           </p>
         </>
       )}
-        <div className="md:grid md:grid-cols-3 md:gap-6">
-          
-          <ExpandContentCTA
-            title="Coaching"
-            name="coaching"
-            buttonText="Sprawdź jak to działa"
-            textColor="text-yellow-100"
-            bgColor="bg-yellow-100"
-            contentList={coachingList}
-            isMobile={isMobile}
-          />
+      <div className="md:grid md:grid-cols-3 md:gap-6">
+        <ExpandContentCTA
+          title="Coaching"
+          name="coaching"
+          buttonText="Sprawdź jak to działa"
+          textColor="text-yellow-100"
+          bgColor="bg-yellow-100"
+          contentList={coachingList}
+          isMobile={isMobile}
+        />
 
-          <ExpandContentCTA
-            title="Wsparcie"
-            name="wsparcie"
-            buttonText="Porozmawiajmy"
-            textColor="text-blue-100"
-            bgColor="bg-blue-100"
-            contentList={wsparcieList}
-            isMobile={isMobile}
-          />
-          <ExpandContentCTA
-            title="Joga"
-            name="joga"
-            buttonText="Dowiedz się więcej"
-            textColor="text-green-103"
-            bgColor="bg-green-103"
-            contentList={jogaList}
-            isMobile={isMobile}
-          />
-        </div>
+        <ExpandContentCTA
+          title="Wsparcie"
+          name="wsparcie"
+          buttonText="Porozmawiajmy"
+          textColor="text-blue-100"
+          bgColor="bg-blue-100"
+          contentList={wsparcieList}
+          isMobile={isMobile}
+        />
+        <ExpandContentCTA
+          title="Joga"
+          name="joga"
+          buttonText="Dowiedz się więcej"
+          textColor="text-green-103"
+          bgColor="bg-green-103"
+          contentList={jogaList}
+          isMobile={isMobile}
+        />
+      </div>
     </section>
   );
 };

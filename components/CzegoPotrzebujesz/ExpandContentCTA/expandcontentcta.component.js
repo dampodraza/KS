@@ -50,7 +50,12 @@ const ExpandContentCTA = ({
           </ul>
         )}
         <div className="z-10">
-            <Button color={bgColor} text={buttonText} withLink={!isMobile} link={`/${name}`}/>
+          <Button
+            color={bgColor}
+            text={buttonText}
+            withLink={!isMobile}
+            link={`/${name}`}
+          />
         </div>
       </div>
     </div>
