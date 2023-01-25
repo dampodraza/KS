@@ -55,6 +55,7 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
         </p>
         <div className="flex flex-col">
           <iframe
+            title="spotifyPodcast"
             style={{ borderRadius: "12px", marginBottom: "20px" }}
             src="https://open.spotify.com/embed/episode/0Qxe0OD0KkihZ4vxLLWToO?utm_source=generator"
             width="100%"

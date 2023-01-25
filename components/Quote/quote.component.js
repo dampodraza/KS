@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/legacy/image";
 
 const Quote = ({ isMobile }) => {
   const text = isMobile ? (

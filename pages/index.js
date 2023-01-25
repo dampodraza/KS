@@ -1,11 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import CzegoPotrzebujesz from "../components/CzegoPotrzebujesz/czegopotrzebujesz.component";
-import Coaching from "../components/Coaching/coaching.component";
 import Wsparcie from "../components/Wsparcie/wsparcie.component";
 import Joga from "../components/Joga/joga.component";
 import dynamic from "next/dynamic";
-import PakietyCoaching from "../components/Pakiety/pakietyCoaching.component";
 import PakietyWsparcie from "../components/Pakiety/pakietyWsparcie.component";
 import PakietyJoga from "../components/Pakiety/pakietyJoga.component";
 import MojaHistoria from "../components/MojaHistoria/mojahistoria.component";
@@ -15,9 +13,6 @@ const PoczytajPosluchaj = dynamic(() =>
 );
 import Quote from "../components/Quote/quote.component";
 import DlaczegoJa from "../components/DlaczegoJa/dlaczegoJa.component";
-const DlaJasnosciCoaching = dynamic(() =>
-  import("../components/DlaJasnosci/Coaching/coaching.component")
-);
 import landingImg from "../public/images/landing-mobile.jpg";
 import landingImgDesktop from "../public/images/landing-desktop5.jpg";
 import DlaJasnosciWsparcie from "../components/DlaJasnosci/Wsparcie/wsparcie.component";
@@ -59,8 +54,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
   return (
     <Layout noPadding={true}>
       <section>
-        {isMobile ? (
-          <div className="relative w-screen h-screen mt-[-225px]">
+          <div className="relative w-screen h-screen mt-[-225px] md:hidden">
             <Image
               src={landingImg}
               priority
@@ -71,12 +65,10 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
               Ale zawsze możesz  kontrolować, to, co dzieje się w środku.
             </p>
           </div>
-        ) : (
-          <div className="relative w-screen h-screen px-1">
+          <div className="relative w-screen h-screen px-1 hidden md:block">
             <Image
               src={landingImgDesktop}
               priority
-              
               alt="podobroLogo"
             />
             <p className="absolute text-[30px] top-[40%] left-28 max-w-[480px] text-center font-spartan-bold leading-[35px]">
@@ -86,7 +78,6 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
               Ale zawsze możesz konasdtrolować to, co dzieje się w środku.
             </p>
           </div>
-        )}
       </section>
       <div className="md:px-32">
         <section className="flex bg-[#F8F3F0] justify-center items-center pt-20 md:h-screen ">
@@ -113,11 +104,6 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
         <CzegoPotrzebujesz />
         {isMobile && (
           <>
-            {/* <Coaching />
-            <div ref={DlaJasnosciCoachingRef}>
-              {isDlaJasnosciCoachingRef && <DlaJasnosciCoaching />}
-            </div>
-            <PakietyCoaching /> */}
             <Wsparcie />
             <DlaJasnosciWsparcie />
             <PakietyWsparcie />
@@ -127,16 +113,12 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
           </>
         )}
         <MojaHistoria />
-        {/* <div ref={footerRef}>
-          {isFooterRef && ( */}
         <PoczytajPosluchaj
           postImage={postImage}
           postDesc={postDesc}
           postTitle={postTitle}
           postLink={postLink}
         />
-        {/* )} */}
-        {/* </div> */}
         <Quote isMobile={isMobile} />
       </div>
     </Layout>
