@@ -64,7 +64,6 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
             <Image
               src={landingImg}
               priority
-              
               alt="podobroLogo"
             />
             <p className="absolute text-[20px] top-[215px] left-4 max-w-[230px] text-center font-spartan-bold leading-[22px]">
