@@ -1,14 +1,6 @@
-import React, { useEffect } from "react";
-import Image from "next/legacy/image";
+import React from "react";
+import Image from "next/image";
 import parse from "html-react-parser";
-import Link from "next/link";
-import imgSrc from "../../public/images/podcast-img.png";
-import CardMedia from "@mui/material/CardMedia";
-import Card from "@mui/material/Card";
-import Stack from "@mui/material/Stack";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Button from "../ui/button";
 
 const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
@@ -29,16 +21,20 @@ const PoczytajPosluchaj = ({ postImage, postDesc, postTitle, postLink }) => {
                 "rounded-2xl relative overflow-hidden w-[140px] h-[191px] sm:w-auto sm:h-auto"
               }
             >
-              <img
+              <Image
                 src={postImage}
                 alt="image"
+                height={191}
+                width={150}
                 className="object-cover h-[191px]"
               />
             </div>
           )}
         </div>
         <div className="flex flex-col justify-center align-center">
-          <p className="uppercase text-sm font-bold sm:pt-2 sm:text-base">{parse(postTitle)}</p>
+          <p className="uppercase text-sm font-bold sm:pt-2 sm:text-base">
+            {parse(postTitle)}
+          </p>
           <div className="text-xs font-josefin sm:pt-4 sm:text-sm sm:px-10">
             {parse(postDesc.substring(0, 350))}
           </div>
