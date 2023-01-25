@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import CzegoPotrzebujesz from "../components/CzegoPotrzebujesz/czegopotrzebujesz.component";
 import Coaching from "../components/Coaching/coaching.component";
 import Wsparcie from "../components/Wsparcie/wsparcie.component";
@@ -64,9 +64,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
             <Image
               src={landingImg}
               priority
-              layout="fill"
-              objectFit="cover"
-              objectPosition={"right"}
+              
               alt="podobroLogo"
             />
             <p className="absolute text-[20px] top-[215px] left-4 max-w-[230px] text-center font-spartan-bold leading-[22px]">
@@ -79,8 +77,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
             <Image
               src={landingImgDesktop}
               priority
-              layout="fill"
-              objectFit="cover"
+              
               alt="podobroLogo"
             />
             <p className="absolute text-[30px] top-[40%] left-28 max-w-[480px] text-center font-spartan-bold leading-[35px]">
