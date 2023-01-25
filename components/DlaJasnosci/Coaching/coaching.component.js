@@ -11,7 +11,7 @@ import JakUmowic from './jaksieumowic.component';
 
 const DlaJasnosciCoaching = () => {
   return (
-    <section className="flex bg-[#F8F3F0] text-center justify-center items-center pt-10 pb-10">
+    <section className="flex bg-[#F8F3F0] text-center justify-center items-center  pb-10 md:pt-0 md:pb-0 md:z-[1] md:mx-8">
       <div className=" flex flex-col ">
         <p className="text-3xl font-spartan-bold mb-2 ">Dla jasności</p>
 

@@ -1,15 +1,16 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
+import gdzieSesjaImg from '../../../public/images/dlajasnosci/coaching/gdziesesje.jpg'
 
-const ileTrwaSesja = () => {
+const gdzieSesja = () => {
   return (
     <>
       <Image
-        src={"/images/dlajasnosci/coaching/gdziesesje.jpg"}
+        src={gdzieSesjaImg}
         alt={`coaching-gdzie-sesje`}
         width={390}
         height={272}
-        layout="responsive"
+        className="md:hidden"
       />
       <p className="font-spartan-light leading-[23px] mt-4 mb-4">
         Sesje coachingowe odbywają się online lub w dogodnym dla Ciebie miejscu
@@ -22,4 +23,4 @@ const ileTrwaSesja = () => {
   );
 };
 
-export default ileTrwaSesja;
+export default gdzieSesja;

@@ -57,7 +57,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
     }
   }, [footerRefValue]);
   return (
-    <Layout>
+    <Layout noPadding={true}>
       <section>
         {isMobile ? (
           <div className="relative w-screen h-screen mt-[-225px]">
@@ -75,7 +75,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
             </p>
           </div>
         ) : (
-          <div className="relative w-screen h-screen ">
+          <div className="relative w-screen h-screen px-1">
             <Image
               src={landingImgDesktop}
               priority
@@ -92,9 +92,9 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
           </div>
         )}
       </section>
-      <div className="lg:px-32 bg-[#F8F3F0]">
+      <div className="md:px-32">
         <section className="flex bg-[#F8F3F0] justify-center items-center pt-20 md:h-screen ">
-          <div className="px-10 md:px-20 grid 	items-center md:grid-cols-2 gap-4 ">
+          <div className="px-10 md:px-20 grid 	items-center md:grid-cols-1 gap-4 ">
             <p className="text-3xl md:text-4xl  md:leading-[60px] text-center font-spartan-bold pb-8 md:pb-20">
               Świat potrzebuje takich ludzi jak Ty.<br></br>A Ty potrzebujesz
               takich ludzi jak ja.
@@ -117,11 +117,11 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
         <CzegoPotrzebujesz />
         {isMobile && (
           <>
-            <Coaching />
+            {/* <Coaching />
             <div ref={DlaJasnosciCoachingRef}>
               {isDlaJasnosciCoachingRef && <DlaJasnosciCoaching />}
             </div>
-            <PakietyCoaching />
+            <PakietyCoaching /> */}
             <Wsparcie />
             <DlaJasnosciWsparcie />
             <PakietyWsparcie />

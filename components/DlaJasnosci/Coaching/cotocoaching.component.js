@@ -1,15 +1,16 @@
 import React from 'react';
-import Image from "next/legacy/image";
+import Image from "next/image";
+import coToCoachingImg from '../../../public/images/dlajasnosci/coaching/cotocoaching.jpg'
 
 const coToCoaching = () => {
   return (
     <>
     <Image
-      src={"/images/dlajasnosci/coaching/cotocoaching.jpg"}
+      src={coToCoachingImg}
       alt={`co-to-coaching`}
       width={390}
       height={272}
-      layout="responsive"
+      className="md:hidden"
     />
     <p className="font-spartan-light leading-[23px] mt-4 mb-4">
       Coaching to metoda rozwoju osobistego, która pomaga osiągnąć

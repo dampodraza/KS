@@ -53,7 +53,7 @@ const ExpandContentCTA = ({
           <Button
             color={bgColor}
             text={buttonText}
-            withLink={!isMobile}
+            withLink
             link={`/${name}`}
           />
         </div>
