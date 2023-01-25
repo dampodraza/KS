@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Layout from "../layout";
-import { redirectNonMobile } from "../../utils/redirectNonMobile";
 import Coaching from "../../components/Coaching/coaching.component";
 import DlaJasnosciCoaching from "../../components/DlaJasnosci/Coaching/coaching.component";
 import PakietyCoaching from "../../components/Pakiety/pakietyCoaching.component";
@@ -18,8 +17,3 @@ const CoachingPage = () => {
 };
 
 export default CoachingPage;
-
-// prevent desktop to see this page
-// CoachingPage.getInitialProps = async (ctx) => {
-//   return redirectNonMobile(ctx);
-// };

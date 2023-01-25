@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const JakWygladaSesja = () => {
   return (
@@ -9,7 +9,7 @@ const JakWygladaSesja = () => {
         alt={`joga-jak-wyglada-sesja`}
         width={390}
         height={260}
-        layout="responsive"
+        className="md:hidden"
       />
       <p className="font-spartan-light leading-[23px] mt-4 mb-4">
         Rozpoczyna się rozmową, podczas której poznasz mój styl pracy.

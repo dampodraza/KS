@@ -7,7 +7,7 @@ const Coaching = () => {
       <p className="text-4xl font-spartan-bold mb-4 text-center md:mb-16 md:text-6xl">
         COACHING
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-2  md:items-center">
         <div className="block">
           <Image
             src={"/images/coaching-img.png"}
@@ -19,7 +19,7 @@ const Coaching = () => {
           />
         </div>
         <div>
-          <p className="text-xl font-spartan-bold mt-6 mb-6 md:text-3xl md:mt-14">
+          <p className="text-xl font-spartan-bold mt-6 mb-6 md:text-3xl">
             Nie tylko robić, ale osiągać.<br></br> Co chcesz osiągnąć?
           </p>
           <p className="font-spartan-light mx-5 leading-[26px] md:px-8">

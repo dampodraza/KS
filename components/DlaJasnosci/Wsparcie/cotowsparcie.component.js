@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const CoToWsparcie = () => {
   return (
@@ -9,7 +9,7 @@ const CoToWsparcie = () => {
         alt={`wsparcie-co-to`}
         width={390}
         height={257}
-        layout="responsive"
+        className="md:hidden"
       />
       <p className="font-spartan-light leading-[23px] mt-4 mb-4">
         Pracując jako coach zauważyłam, że życie ludzkie nie dzieje się w

@@ -9,14 +9,11 @@ import GdzieSesja from "./gdziesesja.component";
 import CoZyskam from "./cozyskam.component";
 import CzymRozniOdCoaching from "./czymrozniodcoachingu.component";
 
-
 const DlaJasnosciWsparcie = () => {
-
   return (
-    <section className="flex bg-[#F8F3F0] text-center justify-center items-center pt-10 pb-10">
-      <div className="flex flex-col w-full">
-        <p className="text-3xl font-spartan-bold mb-2 ">Dla jasności</p>
-        
+    <section className="flex bg-[#F8F3F0] text-center justify-center items-center  pb-10 md:pt-0 md:pb-0 md:z-[1] md:mx-8">
+      <div className="flex flex-col ">
+        <p className="text-3xl font-spartan-bold mb-2">Dla jasności</p>
         <AccordionBlock
           header="Co to jest wsparcie?"
           expanded={(value) => coToWsparcieChange(value)}
@@ -31,7 +28,7 @@ const DlaJasnosciWsparcie = () => {
           expanded={(value) => ileTrwaChange(value)}
           extra={
             <>
-          <IleTrwa />
+              <IleTrwa />
             </>
           }
         />
@@ -40,7 +37,7 @@ const DlaJasnosciWsparcie = () => {
           expanded={(value) => jakWygladaChange(value)}
           extra={
             <>
-          <JakWyglada />
+              <JakWyglada />
             </>
           }
         />
@@ -49,7 +46,7 @@ const DlaJasnosciWsparcie = () => {
           expanded={(value) => ileKosztujeChange(value)}
           extra={
             <>
-           <IleKosztuje />
+              <IleKosztuje />
             </>
           }
         />
@@ -58,7 +55,7 @@ const DlaJasnosciWsparcie = () => {
           expanded={(value) => gdzieSesjaChange(value)}
           extra={
             <>
-            <GdzieSesja />
+              <GdzieSesja />
             </>
           }
         />
@@ -67,7 +64,7 @@ const DlaJasnosciWsparcie = () => {
           expanded={(value) => coZyskamChange(value)}
           extra={
             <>
-            <CoZyskam />
+              <CoZyskam />
             </>
           }
         />
@@ -76,7 +73,7 @@ const DlaJasnosciWsparcie = () => {
           expanded={(value) => czymRozniChange(value)}
           extra={
             <>
-            <CzymRozniOdCoaching />
+              <CzymRozniOdCoaching />
             </>
           }
         />

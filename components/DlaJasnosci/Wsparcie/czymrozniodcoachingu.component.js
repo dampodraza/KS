@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const CzymRozniOdCoaching = () => {
   return (
@@ -9,7 +9,7 @@ const CzymRozniOdCoaching = () => {
         alt={`wsparcie-czym-roznic-od-coaching`}
         width={390}
         height={227}
-        layout="responsive"
+        className="md:hidden"
       />
       <p className="font-spartan-light leading-[23px] mt-4 mb-4">
         Zarówno wsparcie jak i coaching nie są psychoterapią. Nie mają na celu
