@@ -104,13 +104,12 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
   );
 }
 // TODO: add next seo on each page
-export async function getServerSideProps({ req, res }) {
-  res.setHeader(
-    "Cache-Control",
-    "public, s-maxage=10, stale-while-revalidate=59"
-  );
+export async function getStaticProps() {
+  // res.setHeader(
+  //   "Cache-Control",
+  //   "public, s-maxage=10, stale-while-revalidate=59"
+  // );
   let post;
-  let mediaUrl;
   try {
     post = await fetch("https://blog.podobro.pl/wp-json/wp/v2/posts?per_page=1")
       .then((res) => {
