@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import QuoteIcon from "../../public/icons/quote.svg";
 
 const Quote = ({ isMobile }) => {
   const text = isMobile ? (
@@ -13,7 +15,7 @@ const Quote = ({ isMobile }) => {
       <div className="text-centermb-6">
         {" "}
         <div className="flex justify-center mb-4 md:mb-8 ">
-          <img src="/icons/quote.svg" alt="quote" width={!isMobile && "50px"} />
+          <Image src={QuoteIcon} alt="quote" width={50} />
         </div>
       </div>
       <p className="text-2xl mb-6 text-center font-spartan-bold md:font-josefin-italic md:text-3xl">
