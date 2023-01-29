@@ -1,6 +1,7 @@
 import React from "react";
-import Image from "next/legacy/image";
-import CalendarButton from "../ui/calendarButton";
+import Image from "next/image";
+import CoachingImg from '../../public/images/coaching-img.png'
+
 const Coaching = () => {
   return (
     <section className="bg-[#F8F3F0] text-center  pt-32 md:pt-0">
@@ -10,11 +11,10 @@ const Coaching = () => {
       <div className="grid grid-cols-1 md:grid-cols-2  md:items-center">
         <div className="block">
           <Image
-            src={"/images/coaching-img.png"}
+            src={CoachingImg}
             alt={`coaching-img`}
-            width={390}
-            height={278}
-            layout="responsive"
+            width={642}
+            height={408}
             className="md:rounded-[35px]"
           />
         </div>

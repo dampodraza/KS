@@ -1,15 +1,16 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
+import CoWyrozniaJogaImg from '../../../public/images/dlajasnosci/joga/cowyroznia.jpg'
 
 const CoWyroznia = () => {
   return (
     <>
       <Image
-        src={"/images/dlajasnosci/joga/cowyroznia.jpg"}
-        alt={`joga-gdzie-sesja`}
+        src={CoWyrozniaJogaImg}
+        alt={`joga-co-wyroznia`}
         width={390}
         height={248}
-        layout="responsive"
+        className="md:hidden"
       />
       <p className="font-spartan-light leading-[23px] mt-4 mb-4">
         Niezwykle ważnym czynnikiem dla mnie jest zdrowie. Moje zajęcia jogi nie

@@ -1,15 +1,16 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
+import IleSesjiJogaImg from '../../../public/images/dlajasnosci/joga/ilezajec.jpg'
 
 const IleSesji = () => {
   return (
     <>
       <Image
-        src={"/images/dlajasnosci/joga/ilezajec.jpg"}
+        src={IleSesjiJogaImg}
         alt={`joga-ile-zajec`}
         width={390}
         height={257}
-        layout="responsive"
+        className="md:hidden"
       />
       <p className="font-spartan-light leading-[23px] mt-4 mb-4">
         Sesje jogi odbywają się online lub w dogodnym dla Ciebie miejscu w

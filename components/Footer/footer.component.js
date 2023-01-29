@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import mailIcon from '../../public/icons/mail.svg'
 import instaIcon from '../../public/icons/insta.svg'

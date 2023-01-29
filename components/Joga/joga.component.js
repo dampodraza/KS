@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "next/legacy/image";
-import CalendarButton from "../ui/calendarButton";
+import Image from "next/image";
+import JogaPageImg from '../../public/images/joga-img.png'
 
 const Joga = () => {
   return (
@@ -11,11 +11,10 @@ const Joga = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 md:items-center">
         <div className="block">
           <Image
-            src={"/images/joga-img.png"}
+            src={JogaPageImg}
             alt={`joga-img`}
-            width={390}
-            height={278}
-            layout="responsive"
+            width={642}
+            height={408}
             className="md:rounded-[35px]"
           />
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
+import WsparcieImg from '../../public/images/wsparcie-img.jpeg'
 
 const Wsparcie = () => {
   return (
@@ -10,11 +11,10 @@ const Wsparcie = () => {
       <div className="grid grid-cols-1 md:grid-cols-2  md:items-center">
         <div className="block">
           <Image
-            src={"/images/wsparcie-img.jpeg"}
+            src={WsparcieImg}
             alt={`wsparcie-img`}
-            width={390}
-            height={278}
-            layout="responsive"
+            width={642}
+            height={408}
             className="md:rounded-[35px]"
           />
         </div>
