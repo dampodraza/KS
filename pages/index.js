@@ -46,7 +46,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
     <Layout noPadding={true}>
       <section>
         <div className="relative w-screen h-screen mt-[-225px] md:hidden">
-          <Image src={landingImg} priority alt="podobroLogo" />
+          <Image src={landingImg} alt="podobroLogo" />
           <p className="absolute text-[20px] top-[215px] left-4 max-w-[230px] text-center font-spartan-bold leading-[22px]">
             Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
             Ale zawsze możesz  kontrolować, to, co dzieje się w środku.
