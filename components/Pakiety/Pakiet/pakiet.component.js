@@ -15,7 +15,7 @@ const Pakiet = ({ description, price, imgSrc, bgColor, rounded }) => {
             <div className={`${
                 rounded === "full" ? "rounded-[100px]" : "rounded-2xl"
               } relative overflow-hidden w-[117px] h-[173px]`}>
-              <Image src={imgSrc} alt="image" layout="fill" objectFit="cover" />
+              <Image src={imgSrc} alt="image" width={117} height={173} />
             </div>
           </div>
         </div>

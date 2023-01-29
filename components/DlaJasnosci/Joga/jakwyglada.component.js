@@ -1,15 +1,16 @@
 import React from "react";
 import Image from "next/image";
+import JakWygladaSesjaJogaImg from '../../../public/images/dlajasnosci/joga/jakwyglada.png'
 
 const JakWygladaSesja = () => {
   return (
     <>
       <Image
-        src={"/images/dlajasnosci/joga/jakwyglada.png"}
+        src={JakWygladaSesjaJogaImg}
         alt={`joga-jak-wyglada-sesja`}
         width={390}
         height={237}
-        layout="responsive"
+        className="md:hidden"
       />
       <p className="font-spartan-light leading-[23px] mt-4 mb-4">
         Zanim przejdziemy do zajęć spotkamy się aby porozmawiać o Tobie, Twoim

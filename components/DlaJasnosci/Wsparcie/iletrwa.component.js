@@ -9,7 +9,7 @@ const IleTrwa = () => {
         alt={`wsparcie-ile-trwa`}
         width={390}
         height={251}
-        layout="responsive"
+        className="md:hidden"
       />
       <p className="font-spartan-light leading-[23px] mt-4 mb-4">
         Sesja trwa między 60 a 90 minut, w zależności od tego jaka jest potrzeba

@@ -9,7 +9,7 @@ export default function Document() {
           strategy="lazyOnload"
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
-   <Script id="google-analytics" strategy="lazyOnload">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -19,7 +19,7 @@ export default function Document() {
             });
                 `}
         </Script>
-        
+
         <link
           href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap"
           rel="stylesheet"
@@ -27,9 +27,8 @@ export default function Document() {
       </Head>
       <body>
         <Main />
-        
-        <NextScript />
 
+        <NextScript />
       </body>
     </Html>
   );

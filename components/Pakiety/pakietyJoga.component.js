@@ -3,7 +3,10 @@ import Pakiet from "./Pakiet/pakiet.component";
 const PakietyJoga = () => {
   return (
     <section className="flex bg-[#F8F3F0] flex-col  text-center ">
-        <p className="text-3xl font-spartan-bold mb-6 text-center mb-10">Pakiety JOGA</p>
+      <p className="text-3xl font-spartan-bold mb-6 text-center mb-16">
+        Pakiety JOGA
+      </p>
+      <div className="grid grid-cols-1 text-center md:grid-cols-3">
       <Pakiet
         bgColor="bg-green-101"
         description={
@@ -28,6 +31,7 @@ const PakietyJoga = () => {
         price="500"
         imgSrc="/images/pakiety/joga/joga-3miesiace.jpg"
       />
+      </div>
     </section>
   );
 };

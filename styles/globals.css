@@ -55,14 +55,48 @@ a {
     position: relative;
     background-color: #F8F3F0;
     padding: 20px;
-    max-width: 750px !important;
+    max-width: 500px !important;
     margin-left: auto;
     margin-right: auto;
   }
 
   .embla-slide-text {
     font-family: 'Josefin-italic';
-    font-size: 20px !important;
+    font-size: 12px !important;
+    text-align: center;
+  }
+ }
+
+ @media (min-width: 1000px) {
+  .embla {
+    position: relative;
+    background-color: #F8F3F0;
+    padding: 20px;
+    max-width: 600px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .embla-slide-text {
+    font-family: 'Josefin-italic';
+    font-size: 14px !important;
+    text-align: center;
+  }
+ }
+
+ @media (min-width: 1400px) {
+  .embla {
+    position: relative;
+    background-color: #F8F3F0;
+    padding: 20px;
+    max-width: 600px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .embla-slide-text {
+    font-family: 'Josefin-italic';
+    font-size: 16px !important;
     text-align: center;
   }
  }
