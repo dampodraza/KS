@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../layout";
+import Layout from "../../components/ui/layout";
 import RodzinaWartosci from "../../components/MojaHistoria/rodzinawartosci.component";
 import KarieraPasja from "../../components/MojaHistoria/karierapasja.component";
 import ZmianyZawody from "../../components/MojaHistoria/zmianyzawody.component";
