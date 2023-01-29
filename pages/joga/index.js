@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../layout";
+import Layout from "../../components/ui/layout";
 import Joga from '../../components/Joga/joga.component'
 import PakietyJoga from '../../components/Pakiety/pakietyJoga.component';
 import DlaJasnosciJoga from '../../components/DlaJasnosci/Joga/joga.component'

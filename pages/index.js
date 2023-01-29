@@ -1,18 +1,15 @@
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import CzegoPotrzebujesz from "../components/CzegoPotrzebujesz/czegopotrzebujesz.component";
-import dynamic from "next/dynamic";
 import MojaHistoria from "../components/MojaHistoria/mojahistoria.component";
 import { isMobile } from "react-device-detect";
-const PoczytajPosluchaj = dynamic(() =>
-  import("../components/PoczytajPosluchaj/poczytajposluchaj.component")
-);
+import PoczytajPosluchaj from "../components/PoczytajPosluchaj/poczytajposluchaj.component";
 import Quote from "../components/Quote/quote.component";
 import DlaczegoJa from "../components/DlaczegoJa/dlaczegoJa.component";
 import landingImg from "../public/images/landing-mobile.jpg";
 import landingImgDesktop from "../public/images/landing-desktop5.jpg";
 import useOnScreen from "../hooks/useOnScreen.ts";
-import Layout from "./layout";
+import Layout from "../components/ui/layout";
 
 export default function Home({ postDesc, postImage, postTitle, postLink }) {
   const DlaJasnosciCoachingRef = useRef();

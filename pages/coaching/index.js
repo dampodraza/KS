@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import Layout from "../layout";
+import React from "react";
+import Layout from "../../components/ui/layout";
 import Coaching from "../../components/Coaching/coaching.component";
 import DlaJasnosciCoaching from "../../components/DlaJasnosci/Coaching/coaching.component";
 import PakietyCoaching from "../../components/Pakiety/pakietyCoaching.component";

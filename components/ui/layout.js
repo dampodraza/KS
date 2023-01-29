@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import Navigation from "../components/Navigation/navigation.component";
-import Footer from "../components/Footer/footer.component";
+import Navigation from "../Navigation/navigation.component";
+import Footer from "../Footer/footer.component";
 import PageWrapper from './pageWrapper'
 
 const Layout = ({ children, noPadding = false }) => {
