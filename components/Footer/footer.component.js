@@ -4,12 +4,12 @@ import Link from 'next/link';
 import mailIcon from '../../public/icons/mail.svg';
 import instaIcon from '../../public/icons/insta.svg';
 import fbIcon from '../../public/icons/fb.svg';
-import tiktokIcon from '../../public/icons/tiktok.svg';
+import tiktokIcon from '../../public/icons/tiktok-white.svg';
 
 const Footer = () => {
   return (
     <footer className='flex items-center h-[257px] bg-black text-white	'>
-      <div className='flex justify-between flex-col pt-4 px-7 w-full md:flex-row md:px-48 md:items-center'>
+      <div className='flex justify-between flex-col pt-4 px-6 py-6 w-full md:flex-row md:px-48 md:items-center'>
         <p className='text-lg font-spartan-bold text-center mb-4 md:hidden'>
           Kontakt
         </p>
@@ -68,8 +68,8 @@ const Footer = () => {
                 className='cursor-pointer'
                 src={tiktokIcon}
                 alt='tiktok'
-                width={45}
-                height={47}
+                width={41}
+                height={41}
               />
             </Link>
           </div>
