@@ -2,9 +2,9 @@ import React from 'react';
 
 const Posluchaj = () => {
   return (
-    <div className='grid'>
+    <div className='grid px-5'>
       {/* <p className="text-4xl font-spartan-bold mb-6 text-center mt-8"> */}
-      <p className='mb-6 text-center font-spartan-bold text-4xl '>Posłuchaj</p>
+      <p className='mb-6 text-center font-spartan-bold text-4xl'>Posłuchaj</p>
       <div className='flex flex-col'>
         <iframe
           title='spotifyPodcast'

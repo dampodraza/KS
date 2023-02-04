@@ -18,8 +18,8 @@ const ExpandContentCTA = ({
   };
 
   return (
-    <div className='md:px-16 md:py-12 md:bg-[#fff] md:rounded-2xl'>
-      <div className='lg:grid lg:grid-cols-1 text-center'>
+    <div className='md:rounded-2xl md:bg-[#fff] md:px-16 md:py-12'>
+      <div className='text-center lg:grid lg:grid-cols-1'>
         <p className={`text-5xl ${textColor} mb-4`}>{title}</p>
         <div className='md:hidden'>
           <Image
@@ -35,14 +35,14 @@ const ExpandContentCTA = ({
         </div>
 
         {contentExpanded && (
-          <ul className='font-spartan mt-3'>
+          <ul className='mt-3 font-spartan'>
             {contentList.map((item) => (
               <li key={item + name}>{item}</li>
             ))}
           </ul>
         )}
         {!isMobile && (
-          <ul className='font-spartan mt-3'>
+          <ul className='mt-3 font-spartan'>
             {contentList.map((item) => (
               <li key={item + name}>{item}</li>
             ))}

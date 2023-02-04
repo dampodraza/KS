@@ -3,7 +3,7 @@ import Pakiet from './Pakiet/pakiet.component';
 const PakietyWsparcie = () => {
   return (
     <section className='flex bg-[#F8F3F0] flex-col  text-center '>
-      <p className='text-3xl font-spartan-bold mb-6 text-center mb-16'>
+      <p className='text-3xl font-spartan-bold mb-6 text-center md:mb-16'>
         Pakiety WSPARCIE
       </p>
       <div className='grid grid-cols-1 text-center md:grid-cols-3'>

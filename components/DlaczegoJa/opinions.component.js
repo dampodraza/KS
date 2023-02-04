@@ -15,14 +15,14 @@ const Opinions = () => {
           height={519}
           className='hidden rounded-[35px] md:block'
         />
-        <div className='flex flex-row justify-center pt-10	'>
+        <div className='flex flex-row justify-center'>
           <div className='item-center flex flex-col justify-center'>
             <div className='item-center flex justify-center'>
               {' '}
               <Image src={quoteIcon} alt='quote' width={50} />
             </div>
 
-            <div className='pb-10'>
+            <div >
               <Carousel />
             </div>
           </div>

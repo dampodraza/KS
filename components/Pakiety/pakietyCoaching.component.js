@@ -3,7 +3,7 @@ import Pakiet from './Pakiet/pakiet.component';
 const PakietyCoaching = () => {
   return (
     <section className='bg-[#F8F3F0]'>
-      <p className='text-3xl font-spartan-bold text-center mb-16'>
+      <p className='mb-16 text-center font-spartan-bold text-3xl'>
         Pakiety COACHING
       </p>
       <div className='grid grid-cols-1 text-center md:grid-cols-3'>

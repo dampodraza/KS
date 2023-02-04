@@ -6,7 +6,7 @@ import Button from '../ui/button';
 const Poczytaj = ({ postImage, postDesc, postTitle, postLink }) => {
   return (
     // <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-8 px-5">
-    <section className='flex flex-col bg-[#F8F3F0]  text-center '>
+    <section className='flex flex-col bg-[#F8F3F0]  text-center px-5'>
       {/* <hr className="flex w-4/5 m-auto"></hr> */}
 
       <p className='mb-4 text-center font-spartan-bold text-4xl'>Poczytaj</p>
