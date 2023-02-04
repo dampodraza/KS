@@ -1,25 +1,25 @@
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 
 const CeleMarzenia = () => {
   return (
     <>
       <Image
-        src={"/images/mojahistoria/celemarzenia1.jpg"}
+        src={'/images/mojahistoria/celemarzenia1.jpg'}
         alt={`kasia-img`}
         width={390}
         height={251}
-        layout="responsive"
+        layout='responsive'
       />
-      <p className="font-spartan-bold text-lg text-left mt-4 pl-2">Posłuchaj</p>
+      <p className='font-spartan-bold text-lg text-left mt-4 pl-2'>Posłuchaj</p>
       <audio
-        className="w-[300px] pt-2"
+        className='w-[300px] pt-2'
         controls
-        preload="none"
-        style={{ margin: "0 auto" }}
+        preload='none'
+        style={{ margin: '0 auto' }}
       >
-        <source src="audio/my_song.mp3" type="audio/mpeg" />
+        <source src='audio/my_song.mp3' type='audio/mpeg' />
       </audio>
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Zawsze miałam długie listy tego czego chciałam od życia. Długie listy
         celów. I robiłam plany co za rok, dwa, pięć, dziesięć lat. Ale w ciagu
         kilku lat to trochę zmieniło formę. Robię tablice marzeń, nawet video
@@ -33,13 +33,13 @@ const CeleMarzenia = () => {
         trochę miłości. Jeśli pomogę jednej osobie to podążam za celem.
       </p>
       <Image
-        src={"/images/mojahistoria/celemarzenia2.jpg"}
+        src={'/images/mojahistoria/celemarzenia2.jpg'}
         alt={`kasia-img`}
         width={390}
         height={281}
-        layout="responsive"
+        layout='responsive'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Wspólnie z mężem prowadzimy też firmę www.unow.pl i pragnę, aby
         przybliżanie ludzi do spełniania marzeń było naszym głównym zajęciem.
         Wierzę, że musimy ciągle marzyć. Zawsze jest coś nowego do odkrycia.

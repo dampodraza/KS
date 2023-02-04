@@ -1,28 +1,28 @@
-import React from "react";
-import Image from "next/image";
-import JogaPageImg from '../../public/images/joga-img.png'
+import React from 'react';
+import Image from 'next/image';
+import JogaPageImg from '../../public/images/joga-img.png';
 
 const Joga = () => {
   return (
-    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-10">
-      <p className="text-4xl font-spartan-bold mb-2 text-center md:mb-16 md:text-6xl">
+    <section className='flex bg-[#F8F3F0] flex-col  text-center  pt-10'>
+      <p className='text-4xl font-spartan-bold mb-2 text-center md:mb-16 md:text-6xl'>
         JOGA
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:items-center">
-        <div className="block">
+      <div className='grid grid-cols-1 md:grid-cols-2 md:items-center'>
+        <div className='block'>
           <Image
             src={JogaPageImg}
             alt={`joga-img`}
             width={642}
             height={408}
-            className="md:rounded-[35px]"
+            className='md:rounded-[35px]'
           />
         </div>
         <div>
-          <p className="text-xl font-spartan-bold mt-6 mb-6">
+          <p className='text-xl font-spartan-bold mt-6 mb-6'>
             Joga nie zabiera czasu lecz go daje.
           </p>
-          <p className="font-spartan-light mx-4">
+          <p className='font-spartan-light mx-4'>
             Kiedy uświadomisz sobie że życie jest darem, zdecyduj się na życie
             pełne sensu, życie z celem. By tylko ty masz ten talent, tą
             kreatywność, to serce i tylko ty możesz nadać temu znaczenie.

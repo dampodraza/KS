@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "next/image";
-import ileTrwaSesjaImg from '../../../public/images/dlajasnosci/coaching/jakwygladasesja.jpg'
+import React from 'react';
+import Image from 'next/image';
+import ileTrwaSesjaImg from '../../../public/images/dlajasnosci/coaching/jakwygladasesja.jpg';
 
 const ileTrwaSesja = () => {
   return (
@@ -10,9 +10,9 @@ const ileTrwaSesja = () => {
         alt={`coaching-jak-wglada-sesja`}
         width={390}
         height={264}
-        className="md:hidden"
+        className='md:hidden'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Rozpoczyna się rozmową coachingową, podczas której doświadczysz, czym
         jest coaching i poznasz mój styl pracy. Porozmawiamy
         o Twoich potrzebach, trudnościach i celach oraz czy coaching jest tym

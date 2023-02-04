@@ -1,15 +1,15 @@
-import { Html, Head, Main, NextScript } from "next/document";
-import Script from "next/script";
+import { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 export default function Document() {
   return (
-    <Html lang="pl">
+    <Html lang='pl'>
       <Head>
         <Script
-          strategy="lazyOnload"
+          strategy='afterInteractive'
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
-        <Script id="google-analytics" strategy="lazyOnload">
+        <Script id='google-analytics' strategy='afterInteractive'>
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -21,8 +21,8 @@ export default function Document() {
         </Script>
 
         <link
-          href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap"
-          rel="stylesheet"
+          href='https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&display=swap'
+          rel='stylesheet'
         ></link>
       </Head>
       <body>

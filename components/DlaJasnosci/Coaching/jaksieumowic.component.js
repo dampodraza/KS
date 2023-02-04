@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "next/image";
-import jakSieUmowicImg from '../../../public/images/dlajasnosci/coaching/jaksieumowic.jpg'
+import React from 'react';
+import Image from 'next/image';
+import jakSieUmowicImg from '../../../public/images/dlajasnosci/coaching/jaksieumowic.jpg';
 
 const jakSieUmowic = () => {
   return (
@@ -10,9 +10,9 @@ const jakSieUmowic = () => {
         alt={`coaching-jak-sie-umowic`}
         width={390}
         height={254}
-        className="md:hidden"
+        className='md:hidden'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Po kliknięciu w kalendarz i zakupie sesji bądź pakietu lub programu
         sesji skontaktuję się z Tobą w ciągu 48 godzin. Wspólnie ustalimy
         dogodne dla nas terminy oraz formę spotkania – na żywo albo zdalnie

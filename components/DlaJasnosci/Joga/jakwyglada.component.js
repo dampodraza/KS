@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "next/image";
-import JakWygladaSesjaJogaImg from '../../../public/images/dlajasnosci/joga/jakwyglada.png'
+import React from 'react';
+import Image from 'next/image';
+import JakWygladaSesjaJogaImg from '../../../public/images/dlajasnosci/joga/jakwyglada.png';
 
 const JakWygladaSesja = () => {
   return (
@@ -10,9 +10,9 @@ const JakWygladaSesja = () => {
         alt={`joga-jak-wyglada-sesja`}
         width={390}
         height={237}
-        className="md:hidden"
+        className='md:hidden'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Zanim przejdziemy do zajęć spotkamy się aby porozmawiać o Tobie, Twoim
         stanie zdrowia, tym czego potrzebujesz i jak chcesz się czuć. To pozwoli
         mi stworzyć indywidualny projekt ćwiczeń, technik oddechowych i
@@ -23,7 +23,8 @@ const JakWygladaSesja = () => {
         do asan czyli pozycji jogowych dopasowanych do Twoich potrzeb i
         możliwości. Kolejnym elementem jest joga nidra czyli głęboka relaksacja,
         a następnie wspierająca Cię medytacja. Na koniec podsumujemy Twoje
-        samopoczucie, nastawienie, postępy i kondycje Twojego ciała i umysłu. <br></br>
+        samopoczucie, nastawienie, postępy i kondycje Twojego ciała i umysłu.{' '}
+        <br></br>
         To, co istotne to, że praktyka jogi nie kończy się wraz z zakończeniem
         sesji na macie, ale jej efekty i korzyści odczuwalne są głównie pomiędzy
         zajęciami.

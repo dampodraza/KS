@@ -1,17 +1,17 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
 const JakWygladaSesja = () => {
   return (
     <>
       <Image
-        src={"/images/dlajasnosci/wsparcie/jakwyglada.jpg"}
+        src={'/images/dlajasnosci/wsparcie/jakwyglada.jpg'}
         alt={`joga-jak-wyglada-sesja`}
         width={390}
         height={260}
-        className="md:hidden"
+        className='md:hidden'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Rozpoczyna się rozmową, podczas której poznasz mój styl pracy.
         Porozmawiamy o Twoich potrzebach i trudnościach oraz czy wsparcie jest
         tą formą pomocy, która aktualnie będzie najlepiej Ci służyć. Oboje

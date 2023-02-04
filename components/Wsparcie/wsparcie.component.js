@@ -1,28 +1,28 @@
-import React from "react";
-import Image from "next/image";
-import WsparcieImg from '../../public/images/wsparcie-img.jpeg'
+import React from 'react';
+import Image from 'next/image';
+import WsparcieImg from '../../public/images/wsparcie-img.jpeg';
 
 const Wsparcie = () => {
   return (
-    <section className="flex bg-[#F8F3F0] flex-col  text-center  pt-10">
-      <p className="text-4xl font-spartan-bold mb-2 text-center md:mb-16 md:text-6xl">
+    <section className='flex bg-[#F8F3F0] flex-col  text-center  pt-10'>
+      <p className='text-4xl font-spartan-bold mb-2 text-center md:mb-16 md:text-6xl'>
         WSPARCIE
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2  md:items-center">
-        <div className="block">
+      <div className='grid grid-cols-1 md:grid-cols-2  md:items-center'>
+        <div className='block'>
           <Image
             src={WsparcieImg}
             alt={`wsparcie-img`}
             width={642}
             height={408}
-            className="md:rounded-[35px]"
+            className='md:rounded-[35px]'
           />
         </div>
         <div>
-          <p className="text-xl font-spartan-bold mt-6 mb-6 md:text-3xl md:mt-14">
+          <p className='text-xl font-spartan-bold mt-6 mb-6 md:text-3xl md:mt-14'>
             Każdy kryzys to ukryta szansa.
           </p>
-          <p className="text-sm font-spartan-light mx-5 mb-2 leading-[25px] md:px-8">
+          <p className='text-sm font-spartan-light mx-5 mb-2 leading-[25px] md:px-8'>
             Wierzę, że nie ma niczego z czego nie mógłbyś się podnieść. Perła
             nie powstaje podczas leżenia w uzdrowisku. Perła powstaje z wyzwań
             jakie stawia przed nami życie. To one ukształtowały osobę którą

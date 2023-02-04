@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "next/image";
-import ilePotrzebujeImg from '../../../public/images/dlajasnosci/coaching/ilesesjipotrzebuje.jpg'
+import React from 'react';
+import Image from 'next/image';
+import ilePotrzebujeImg from '../../../public/images/dlajasnosci/coaching/ilesesjipotrzebuje.jpg';
 
 const ilePotrzebuje = () => {
   return (
@@ -10,9 +10,9 @@ const ilePotrzebuje = () => {
         alt={`coaching-ile-sesji-potrzebuje`}
         width={390}
         height={269}
-        className="md:hidden"
+        className='md:hidden'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Ilość sesji to kwestia bardzo indywidualna uzależniona od Twoich
         potrzeb, celów i zaangażowania. Są sytuacje, w których proces trwa 6
         sesji, czasami potrzeba jest 10 sesji, a niekiedy nawet więcej. Z mojego

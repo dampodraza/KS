@@ -1,23 +1,34 @@
-import Image from "next/legacy/image";
-import {isMobile} from 'react-device-detect';
+import Image from 'next/legacy/image';
+import { isMobile } from 'react-device-detect';
 
 const RodzinaWatosci = () => {
   return (
     <>
-      <div className="block">
+      <div className='block'>
         <Image
-          src={"/images/mojahistoria/rodzinawartosci1.jpg"}
+          src={'/images/mojahistoria/rodzinawartosci1.jpg'}
           alt={`kasia-img`}
           width={397}
           height={234}
-          layout="responsive"
+          layout='responsive'
         />
       </div>
-     {isMobile && (<><p className="font-spartan-bold text-lg text-left mt-4 pl-2">Posłuchaj</p>
-      <audio className="w-[300px] pt-2" controls preload="none" style={{margin: '0 auto'}}>
-        <source src="audio/my_song.mp3" type="audio/mpeg" />
-      </audio></>)}
-      <p className="font-spartan-light leading-[23px] mt-8 mb-4 md:text-xl">
+      {isMobile && (
+        <>
+          <p className='font-spartan-bold text-lg text-left mt-4 pl-2'>
+            Posłuchaj
+          </p>
+          <audio
+            className='w-[300px] pt-2'
+            controls
+            preload='none'
+            style={{ margin: '0 auto' }}
+          >
+            <source src='audio/my_song.mp3' type='audio/mpeg' />
+          </audio>
+        </>
+      )}
+      <p className='font-spartan-light leading-[23px] mt-8 mb-4 md:text-xl'>
         Urodziłam się w roku przełomowym - 1989 i przełomem były moje narodziny.
         Byłam zdrową siostrą siedmioletniego autysty z porażeniem mózgowym i
         niezwykłych rodziców, których miłość rozwiązywała wszystkie problemy
@@ -30,16 +41,16 @@ const RodzinaWatosci = () => {
         problemy. Problemy ze snem, z agresją, z emocjami, z wypróżnianiem, z
         jedzeniem i ze wszystkim na co mały człowiek nie ma wpływu. Dobrze
         natomiast było dla nas tym, co dla świata jest normalne, monotonne,
-        stabilne i nudne.{" "}
+        stabilne i nudne.{' '}
       </p>
       <Image
-        src={"/images/mojahistoria/rodzinawartosci2.jpg"}
+        src={'/images/mojahistoria/rodzinawartosci2.jpg'}
         alt={`kasia-img`}
         width={390}
         height={237}
-        layout="responsive"
+        layout='responsive'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 text-xl">
+      <p className='font-spartan-light leading-[23px] mt-4 text-xl'>
         Jednakże po burzy wychodzi słońce i nie ma niczego z czego nie mógłbyś
         się podnieść. Mam na to dowody w postaci życia na takim rollecasterze
         przez 40 lat. Nie wiem czy mogłam wymarzyć sobie lepsze dzieciństwo,

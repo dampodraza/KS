@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 const CoZyskam = () => {
   return (
     <>
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Dostaniesz szeroką perspektywę spojrzenia na Twój problem, Twoją trudną
         sytuacje lub kryzys. Polecę Ci różne tematyczne materiały, które będą
         miały na celu naprowadzenie Cię na rozwiązania. Pokażę Ci narzędzia,

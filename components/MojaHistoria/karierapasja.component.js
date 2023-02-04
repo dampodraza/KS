@@ -1,27 +1,27 @@
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 
 const KarieraPasja = () => {
   return (
     <>
-      <div className="block">
+      <div className='block'>
         <Image
-          src={"/images/mojahistoria/kariera1.jpg"}
+          src={'/images/mojahistoria/kariera1.jpg'}
           alt={`kasia-img`}
           width={390}
           height={237}
-          layout="responsive"
+          layout='responsive'
         />
       </div>
-      <p className="font-spartan-bold text-lg text-left mt-4 pl-2">Posłuchaj</p>
+      <p className='font-spartan-bold text-lg text-left mt-4 pl-2'>Posłuchaj</p>
       <audio
-        className="w-[300px] pt-2"
+        className='w-[300px] pt-2'
         controls
-        preload="none"
-        style={{ margin: "0 auto" }}
+        preload='none'
+        style={{ margin: '0 auto' }}
       >
-        <source src="audio/my_song.mp3" type="audio/mpeg" />
+        <source src='audio/my_song.mp3' type='audio/mpeg' />
       </audio>
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Wychowałam się w czasach, w których jedna praca równa się jedno życie.
         To zawsze wprawiało mnie w zakłopotanie, ponieważ jako mała dziewczynka
         próbowałam wielu rzeczy, które często porzucałam, a to nazywane było
@@ -33,16 +33,16 @@ const KarieraPasja = () => {
         pomysł na życie. Zaczynałam od aktorstwa, bo miałam potrzebę
         udowodnienia sobie, rodzicom i światu, że zarówno ja jak i mój brat
         jesteśmy ważni. To wiem dzisiaj, wtedy wydawało mi się, że jestem
-        stworzona do odgrywania ról i słuchania braw.{" "}
+        stworzona do odgrywania ról i słuchania braw.{' '}
       </p>
       <Image
-        src={"/images/mojahistoria/kariera2.jpg"}
+        src={'/images/mojahistoria/kariera2.jpg'}
         alt={`kasia-img`}
         width={390}
         height={241}
-        layout="responsive"
+        layout='responsive'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Ukończyłam nawet szkołę aktorską, obroniłam dyplom, wyjechała do
         Warszawy osiągnąć karierę i.. spotkałam się z brutalną rzeczywistością.
         Musząc zarobić na czynsz zaczęłam pracować w jednej z sieci
@@ -60,13 +60,13 @@ const KarieraPasja = () => {
         następnie filmy i seriale.
       </p>
       <Image
-        src={"/images/mojahistoria/kariera3.jpg"}
+        src={'/images/mojahistoria/kariera3.jpg'}
         alt={`kasia-img`}
         width={390}
         height={241}
-        layout="responsive"
+        layout='responsive'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Cała moja kariera odbywała się książkowo, zarabiałam świetne pieniądze,
         zajmowałam wysokie stanowiska, mogło być tylko lepiej. Ale nie było. Bo
         czułam się w branży filmowej jak ryba na powierzchni, brakowało mi wody.
@@ -80,16 +80,16 @@ const KarieraPasja = () => {
         żadnego ruchu to nic się nie zmieni. I zrozumiałam, że jedyne czego
         naprawdę trzeba się bać to niesłuchanie siebie, niezrobienie tego co
         uważasz za słuszne. Wtedy postanowiłam pierwszy raz od wielu lat się
-        zatrzymać.{" "}
+        zatrzymać.{' '}
       </p>
       <Image
-        src={"/images/mojahistoria/kariera4.jpg"}
+        src={'/images/mojahistoria/kariera4.jpg'}
         alt={`kasia-img`}
         width={390}
         height={241}
-        layout="responsive"
+        layout='responsive'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Zdałam sobie sprawę próbowałam wielu dróg i nie byłam
         usatysfakcjonowana. Ale zawsze był mały płomień i co jakiś czas do niego
         wracałam, pielęgnowałam ten żar płynący w sercu. To źródło wewnątrz

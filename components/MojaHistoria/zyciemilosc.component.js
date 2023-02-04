@@ -1,25 +1,25 @@
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 
 const ZycieMilosc = () => {
   return (
     <>
       <Image
-        src={"/images/mojahistoria/zyciemilosc1.jpg"}
+        src={'/images/mojahistoria/zyciemilosc1.jpg'}
         alt={`kasia-img`}
         width={390}
         height={273}
-        layout="responsive"
+        layout='responsive'
       />
-      <p className="font-spartan-bold text-lg text-left mt-4 pl-2">Posłuchaj</p>
+      <p className='font-spartan-bold text-lg text-left mt-4 pl-2'>Posłuchaj</p>
       <audio
-        className="w-[300px] pt-2"
+        className='w-[300px] pt-2'
         controls
-        preload="none"
-        style={{ margin: "0 auto" }}
+        preload='none'
+        style={{ margin: '0 auto' }}
       >
-        <source src="audio/my_song.mp3" type="audio/mpeg" />
+        <source src='audio/my_song.mp3' type='audio/mpeg' />
       </audio>
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Jako mała dziewczynka nagrywałam audycje radiowe, bo ciekawiły mnie
         historie innych ludzi. Od 7 roku życia pisałam pamiętniki, a od 13 roku
         życia piszę bloga. W życiu wielką radość daje mi rodzina, przyjaciele,
@@ -47,11 +47,11 @@ const ZycieMilosc = () => {
         zupełnie za darmo dają koncert powitalny, bo jestem. Wszyscy oni są
         moimi guru.
         <Image
-          src={"/images/mojahistoria/zyciemilosc2.jpg"}
+          src={'/images/mojahistoria/zyciemilosc2.jpg'}
           alt={`kasia-img`}
           width={390}
           height={216}
-          layout="responsive"
+          layout='responsive'
         />
       </p>
     </>

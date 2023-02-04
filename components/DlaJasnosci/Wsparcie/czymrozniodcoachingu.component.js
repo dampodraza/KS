@@ -1,17 +1,17 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
 const CzymRozniOdCoaching = () => {
   return (
     <>
       <Image
-        src={"/images/dlajasnosci/wsparcie/wsparcieacoaching.jpg"}
+        src={'/images/dlajasnosci/wsparcie/wsparcieacoaching.jpg'}
         alt={`wsparcie-czym-roznic-od-coaching`}
         width={390}
         height={227}
-        className="md:hidden"
+        className='md:hidden'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Zarówno wsparcie jak i coaching nie są psychoterapią. Nie mają na celu
         sięgania do przeszłości, leczenia traum, diagnozowania zaburzeń i
         doszukiwania się przyczyn obecnego działania. Nie zakładają również

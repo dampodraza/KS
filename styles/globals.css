@@ -18,33 +18,32 @@ a {
 }
 
 @font-face {
-  font-family: "Spartan";
-  src: url("../public//fonts/SpartanMB-Regular.otf");
+  font-family: 'Spartan';
+  src: url('../public//fonts/SpartanMB-Regular.otf');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Spartan-bold";
-  src: url("../public//fonts/SpartanMB-Bold.otf");
+  font-family: 'Spartan-bold';
+  src: url('../public//fonts/SpartanMB-Bold.otf');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Spartan-light";
-  src: url("../public//fonts/SpartanMB-Light.otf");
+  font-family: 'Spartan-light';
+  src: url('../public//fonts/SpartanMB-Light.otf');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
-
 @font-face {
-  font-family: "Josefin-italic";
-  src: url("../public//fonts/JosefinSans-Italic-VariableFont_wght.ttf");
+  font-family: 'Josefin-italic';
+  src: url('../public//fonts/JosefinSans-Italic-VariableFont_wght.ttf');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -53,7 +52,7 @@ a {
 @media (min-width: 600px) {
   .embla {
     position: relative;
-    background-color: #F8F3F0;
+    background-color: #f8f3f0;
     padding: 20px;
     max-width: 500px !important;
     margin-left: auto;
@@ -65,12 +64,12 @@ a {
     font-size: 12px !important;
     text-align: center;
   }
- }
+}
 
- @media (min-width: 1000px) {
+@media (min-width: 1000px) {
   .embla {
     position: relative;
-    background-color: #F8F3F0;
+    background-color: #f8f3f0;
     padding: 20px;
     max-width: 600px !important;
     margin-left: auto;
@@ -82,12 +81,12 @@ a {
     font-size: 14px !important;
     text-align: center;
   }
- }
+}
 
- @media (min-width: 1400px) {
+@media (min-width: 1400px) {
   .embla {
     position: relative;
-    background-color: #F8F3F0;
+    background-color: #f8f3f0;
     padding: 20px;
     max-width: 600px !important;
     margin-left: auto;
@@ -99,12 +98,11 @@ a {
     font-size: 16px !important;
     text-align: center;
   }
- }
-
+}
 
 .embla {
   position: relative;
-  background-color: #F8F3F0;
+  background-color: #f8f3f0;
   padding: 20px;
   max-width: 360px;
   margin-left: auto;
@@ -194,7 +192,6 @@ a {
 .embla__button--next {
   right: 20px;
   fill: black;
-
 }
 
 .embla__dots {
@@ -224,11 +221,11 @@ a {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  content: "";
+  content: '';
 }
 
 .embla__dot.is-selected:after {
-  background-color: #F7C604;
+  background-color: #f7c604;
   opacity: 1;
 }
 

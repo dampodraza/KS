@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "next/image";
-import ileToKosztujeImg from '../../../public/images/dlajasnosci/coaching/iletokosztuje.jpg'
+import React from 'react';
+import Image from 'next/image';
+import ileToKosztujeImg from '../../../public/images/dlajasnosci/coaching/iletokosztuje.jpg';
 
 const ileToKosztuje = () => {
   return (
@@ -10,9 +10,9 @@ const ileToKosztuje = () => {
         alt={`coaching-ile-to-kosztuje`}
         width={390}
         height={296}
-        className="md:hidden"
+        className='md:hidden'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Oferuje różne pakiety coachingowe w zależności od tego na jakim jesteś
         etapie życia i czego potrzebujesz. Jedna sesja to koszt 200 zł. W trzy
         miesięczny pakiet inwestujesz 1200 zł. Natomiast sześcio miesięczny

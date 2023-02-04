@@ -1,17 +1,17 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
 const CoToWsparcie = () => {
   return (
     <>
       <Image
-        src={"/images/dlajasnosci/wsparcie/cotowsparcie.jpg"}
+        src={'/images/dlajasnosci/wsparcie/cotowsparcie.jpg'}
         alt={`wsparcie-co-to`}
         width={390}
         height={257}
-        className="md:hidden"
+        className='md:hidden'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Pracując jako coach zauważyłam, że życie ludzkie nie dzieje się w
         pudełku. Bywa tak, że nie sprawdzają się żadne zasady, schematy,
         techniki. Bywają sytuacje, w których trzeba wyjść poza pudełko.

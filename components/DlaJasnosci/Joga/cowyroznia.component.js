@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "next/image";
-import CoWyrozniaJogaImg from '../../../public/images/dlajasnosci/joga/cowyroznia.jpg'
+import React from 'react';
+import Image from 'next/image';
+import CoWyrozniaJogaImg from '../../../public/images/dlajasnosci/joga/cowyroznia.jpg';
 
 const CoWyroznia = () => {
   return (
@@ -10,9 +10,9 @@ const CoWyroznia = () => {
         alt={`joga-co-wyroznia`}
         width={390}
         height={248}
-        className="md:hidden"
+        className='md:hidden'
       />
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Niezwykle ważnym czynnikiem dla mnie jest zdrowie. Moje zajęcia jogi nie
         postrzegają ciała jako konia wyścigowego, przekraczając granice i
         zmuszając do rywalizacji z innymi ciałami w kategorii rozciągliwości,

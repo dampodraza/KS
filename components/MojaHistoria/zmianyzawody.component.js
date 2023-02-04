@@ -1,25 +1,25 @@
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 
 const ZmianyZawody = () => {
   return (
     <>
       <Image
-        src={"/images/mojahistoria/zmiany.jpg"}
+        src={'/images/mojahistoria/zmiany.jpg'}
         alt={`kasia-img`}
         width={390}
         height={269}
-        layout="responsive"
+        layout='responsive'
       />
-      <p className="font-spartan-bold text-lg text-left mt-4 pl-2">Posłuchaj</p>
+      <p className='font-spartan-bold text-lg text-left mt-4 pl-2'>Posłuchaj</p>
       <audio
-        className="w-[300px] pt-2"
+        className='w-[300px] pt-2'
         controls
-        preload="none"
-        style={{ margin: "0 auto" }}
+        preload='none'
+        style={{ margin: '0 auto' }}
       >
-        <source src="audio/my_song.mp3" type="audio/mpeg" />
+        <source src='audio/my_song.mp3' type='audio/mpeg' />
       </audio>
-      <p className="font-spartan-light leading-[23px] mt-4 mb-4">
+      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Zmiana towarzyszy mi przez całe życie. Nauczyłam się codziennie z nią
         obcować i wiem, że nie ma nic bardziej pewnego niż zmiana. To nie jest
         tak, że mnie to nie kosztuje, ale mam świadomość tego, że zmiana niesie
