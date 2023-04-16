@@ -39,15 +39,15 @@ const Poczytaj = ({ postImage, postDesc, postTitle, postLink }) => {
             </div>
           )}
         </div>
-        <div className='align-center flex flex-col justify-center'>
-          <p className='pt-2 text-sm font-bold sm:text-base md:font-spartan-bold md:text-4xl'>
+        <div className='align-center flex flex-col items-center justify-center'>
+          <p className='mt-6 w-[84px] rounded-2xl bg-yellow-100 pt-1 text-base font-bold md:font-spartan-bold md:text-base'>
             Blog
           </p>
-          <hr className='m-auto flex w-4/5 '></hr>
-          <p className='pt-2 text-sm font-bold sm:text-base md:font-spartan-bold md:text-4xl'>
+          {/* <hr className='m-auto flex w-4/5 '></hr> */}
+          <p className='pt-2 mb-2 text-xl font-bold sm:text-base md:font-spartan-bold md:text-4xl'>
             {parse(postTitle)}
           </p>
-          <div className='font-josefin text-xs sm:px-10 sm:pt-4 sm:text-sm md:font-spartan-light md:text-base'>
+          <div className=' font-josefin text-xs sm:px-10 sm:pt-4 sm:text-sm md:font-spartan-light md:text-base'>
             {parse(postDesc.substring(0, 600).concat('...'))}
           </div>
           <div className=''>
