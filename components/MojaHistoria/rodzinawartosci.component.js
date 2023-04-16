@@ -28,7 +28,7 @@ const RodzinaWatosci = () => {
           </audio>
         </>
       )}
-      <p className='font-spartan-light leading-[23px] mt-8 mb-4 md:text-xl'>
+      <p className='font-spartan-light leading-[23px] mt-8 mb-4 md:text-base'>
         Urodziłam się w roku przełomowym - 1989 i przełomem były moje narodziny.
         Byłam zdrową siostrą siedmioletniego autysty z porażeniem mózgowym i
         niezwykłych rodziców, których miłość rozwiązywała wszystkie problemy
@@ -50,7 +50,7 @@ const RodzinaWatosci = () => {
         height={237}
         layout='responsive'
       />
-      <p className='font-spartan-light leading-[23px] mt-4 text-xl'>
+      <p className='font-spartan-light leading-[23px] mt-4 md:text-base'>
         Jednakże po burzy wychodzi słońce i nie ma niczego z czego nie mógłbyś
         się podnieść. Mam na to dowody w postaci życia na takim rollecasterze
         przez 40 lat. Nie wiem czy mogłam wymarzyć sobie lepsze dzieciństwo,

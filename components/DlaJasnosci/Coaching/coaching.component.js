@@ -11,9 +11,9 @@ import JakUmowic from './jaksieumowic.component';
 
 const DlaJasnosciCoaching = () => {
   return (
-    <section className='flex bg-[#F8F3F0] text-center justify-center items-center  pb-10 md:pt-0 md:pb-0 md:z-[1] md:mx-8'>
+    <section className='flex items-center justify-center bg-[#F8F3F0] pb-10  text-center md:z-[1] md:mx-8 md:pb-0 md:pt-0'>
       <div className=' flex flex-col '>
-        <p className='text-3xl font-spartan-bold mb-2 '>Dla jasności</p>
+        <p className='mb-2 font-spartan-bold text-3xl '>Dla jasności</p>
 
         <AccordionBlock
           header='Co to jest coaching?'

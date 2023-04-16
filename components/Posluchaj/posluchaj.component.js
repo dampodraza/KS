@@ -3,7 +3,7 @@ import React from 'react';
 const Posluchaj = () => {
   return (
     <div className='grid px-5'>
-      <p className='mb-6 text-center font-spartan-bold text-4xl'>Posłuchaj</p>
+      <p className='mb-6 text-center font-spartan-bold text-4xl md:mb-12'>Posłuchaj</p>
       <div className='grid grid-cols-1 md:grid-cols-2 md:gap-8'>
         <div className='md:hidden'>
           <iframe

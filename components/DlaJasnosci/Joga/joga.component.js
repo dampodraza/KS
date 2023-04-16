@@ -13,9 +13,9 @@ import CoWyroznia from './cowyroznia.component';
 
 const DlaJasnosciJoga = () => {
   return (
-    <section className='flex bg-[#F8F3F0] text-center justify-center items-center pt-10 pb-10'>
-      <div className='flex flex-col w-full'>
-        <p className='text-3xl font-spartan-bold mb-2 '>Dla jasności</p>
+    <section className='flex items-center justify-center bg-[#F8F3F0] pb-10 pt-10 text-center md:z-[1]'>
+      <div className='flex w-full flex-col'>
+        <p className='mb-2 font-spartan-bold text-3xl '>Dla jasności</p>
 
         <AccordionBlock
           header='Ile trwają zajęcia jogi?'

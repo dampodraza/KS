@@ -14,7 +14,7 @@ const Poczytaj = ({ postImage, postDesc, postTitle, postLink }) => {
         Witaj w mojej przestrzeni. Możesz przeczytać i posłuchać tego, co mi w
         duszy gra.
       </p> */}
-      <div className='mb-4 flex flex-col gap-x-4 md:flex-row-reverse'>
+      <div className='mb-4 flex flex-col gap-x-4 md:flex-row-reverse md:items-center'>
         <div className='flex flex-col'>
           {postImage && (
             <div
