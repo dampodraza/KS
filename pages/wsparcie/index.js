@@ -3,6 +3,7 @@ import Layout from '../../components/ui/layout';
 import Wsparcie from '../../components/Wsparcie/wsparcie.component';
 import DlaJasnosciWsparcie from '../../components/DlaJasnosci/Wsparcie/wsparcie.component';
 import PakietyWsparcie from '../../components/Pakiety/pakietyWsparcie.component';
+import Button from '../../components/ui/button'
 
 const WsparciePage = () => {
   return (

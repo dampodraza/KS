@@ -91,7 +91,6 @@ const DlaJasnosciJoga = () => {
             </>
           }
         />
-        <Button withIcon color='bg-green-103' text='Umów się na sesje' />
       </div>
     </section>
   );

@@ -1,6 +1,6 @@
 {
   "name": "kate-website",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,27 +10,27 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "@mui/icons-material": "^5.8.4",
-    "@mui/material": "^5.9.2",
-    "@next/bundle-analyzer": "^13.1.6",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.0",
+    "@next/bundle-analyzer": "^13.3.0",
     "embla-carousel-react": "^7.0.0-rc04",
-    "html-react-parser": "^3.0.1",
-    "next": "^13.0.6",
-    "next-sitemap": "^3.1.47",
+    "html-react-parser": "^3.0.15",
+    "next": "^13.3.0",
+    "next-sitemap": "^4.0.7",
     "react": "^18.2.0",
-    "react-device-detect": "^2.2.2",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
-    "sharp": "^0.30.7"
+    "sharp": "^0.32.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "eslint": "8.32.0",
-    "eslint-config-next": "12.2.2",
-    "postcss": "^8.4.14",
-    "prettier": "^2.8.3",
-    "prettier-plugin-tailwindcss": "^0.2.2",
-    "tailwindcss": "^3.2.4"
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.38.0",
+    "eslint-config-next": "^13.3.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.2.7",
+    "tailwindcss": "^3.3.1"
   }
 }

@@ -4,7 +4,7 @@ import JogaPageImg from '../../public/images/joga-img.png';
 
 const Joga = () => {
   return (
-    <section className='flex bg-[#F8F3F0] flex-col  text-center  pt-10'>
+    <section className='flex bg-[#F8F3F0] flex-col  text-center '>
       <p className='text-4xl font-spartan-bold mb-2 text-center md:mb-16 md:text-6xl'>
         JOGA
       </p>

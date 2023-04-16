@@ -5,13 +5,13 @@ import { coachingList, wsparcieList, jogaList } from '../../content/cta';
 const CzegoPotrzebujesz = ({ isMobile }) => {
   return (
     // <section className="flex bg-[#F8F3F0] flex-col  items-center pt-2">
-    <section className='flex bg-[#F8F3F0] flex-col  items-center'>
+    <section className='flex flex-col items-center  bg-[#F8F3F0]'>
       {isMobile && (
         <>
-          <p className='text-3xl font-spartan-bold mb-4 text-center'>
+          <p className='mb-4 text-center font-spartan-bold text-3xl'>
             W czym mogę służyć?
           </p>
-          <p className='px-4 mb-10 font-spartan-light text-center leading-[26px]'>
+          <p className='mb-10 px-4 text-center font-spartan-light leading-[26px]'>
             Jeśli przechodzisz przez trudny okres w swoim życiu, wiedz, że nigdy
             nie jest on bezwartościowy. Wyzwania z którymi się mierzysz uczą
             dostrzegać możliwości, których być może nigdy byś nie zgłębił w
@@ -23,7 +23,7 @@ const CzegoPotrzebujesz = ({ isMobile }) => {
           </p>
         </>
       )}
-      <div className='md:grid md:grid-cols-3 md:gap-6'>
+      <div className='grid gap-8 grid-cols-1 md:grid-cols-3'>
         <ExpandContentCTA
           title='Coaching'
           name='coaching'

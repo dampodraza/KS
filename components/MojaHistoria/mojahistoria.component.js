@@ -7,11 +7,12 @@ import ZycieMilosc from './zyciemilosc.component';
 import CeleMarzenia from './celemarzenia.component';
 import ZmianyZawody from './zmianyzawody.component';
 import Button from '../ui/button';
+
 const MojaHistoria = () => {
   return (
     // <section className="flex bg-[#F8F3F0] flex-col  text-center md:flex-row md:justify-center md:pt-32 md:pb-32">
-    <section className='flex bg-[#F8F3F0] flex-col  text-center md:flex-row md:justify-center '>
-      <p className='text-4xl font-spartan-bold mb-6 text-center md:hidden'>
+    <section className='flex flex-col bg-[#F8F3F0]  text-center md:flex-row md:justify-center '>
+      <p className='mb-6 text-center font-spartan-bold text-4xl md:hidden'>
         Moja historia
       </p>
       <div className='block'>
@@ -23,11 +24,11 @@ const MojaHistoria = () => {
           className='md:rounded-[35px]'
         />
       </div>
-      <div className='flex flex-col md:max-w-[45%]'>
-        <p className='text-4xl font-spartan-bolzd mb-6 text-center hidden md:block md:text-5xl'>
+      <div className='flex flex-col md:ml-8 md:max-w-[45%]'>
+        <p className='mb-6 hidden text-center font-spartan-bold text-2xl md:mb-4 md:block md:pt-8 md:text-4xl'>
           Moja historia
         </p>
-        <p className='font-spartan-light mx-4 mt-4 mb-4 md:px-8 md:text-base '>
+        <p className='mx-4 mb-4  font-spartan-light md:mb-0 md:px-8 md:text-justify md:text-base'>
           Pełna przygód i licznych zwrotów akcji historia o tym, jak ważne jest
           cieszyć się każdą chwilą swojego życia. Opowieść o dziewczynie tak
           normalnej, że aż podobnej do Ciebie. Z tą różnicą, że żyje za dwóch.

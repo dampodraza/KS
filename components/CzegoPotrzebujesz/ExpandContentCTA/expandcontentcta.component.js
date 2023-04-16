@@ -21,7 +21,7 @@ const ExpandContentCTA = ({
     <div className='md:rounded-2xl md:bg-[#fff] md:px-16 md:py-12'>
       <div className='text-center lg:grid lg:grid-cols-1'>
         <p className={`text-5xl ${textColor} mb-4`}>{title}</p>
-        <div className='md:hidden'>
+        <div className='flex justify-center md:hidden'>
           <Image
             src={
               contentExpanded ? '/icons/arrow-up.svg' : '/icons/arrow-down.svg'

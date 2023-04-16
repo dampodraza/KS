@@ -80,7 +80,6 @@ const DlaJasnosciCoaching = () => {
             </>
           }
         />
-        <Button withIcon text='Umów się na sesje' color='bg-yellow-100' />
       </div>
     </section>
   );

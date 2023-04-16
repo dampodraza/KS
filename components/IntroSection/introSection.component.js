@@ -9,7 +9,7 @@ const IntroSection = () => {
           Świat potrzebuje takich ludzi jak Ty.<br></br>A Ty potrzebujesz takich
           ludzi jak ja.
         </p>
-        <div className='grid grid-cols-1 gap-4 text-center font-spartan-light text-base leading-[26px] md:text-xl md:leading-10'>
+        <div className='grid grid-cols-1 gap-4 text-center font-spartan-light text-base leading-[26px] md:text-xl md:leading-10 md:gap-0'>
           <p>
             Wierzę, że każdy z nas ma potencjał do tworzenia zmian, które chcemy
             widzieć w świecie. Ale zbyt często utknęliśmy, czując, że nie

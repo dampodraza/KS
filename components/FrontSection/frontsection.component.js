@@ -19,7 +19,7 @@ const FrontSection = () => {
           Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
         </p>
         <p className='absolute top-[40%] right-28 max-w-[450px] text-center font-spartan-bold text-[30px] leading-[35px]'>
-          Ale zawsze możesz konasdtrolować to, co dzieje się w środku.
+          Ale zawsze możesz kontrolować to, co dzieje się w środku.
         </p>
       </div>
     </section>

@@ -8,7 +8,7 @@ import tiktokIcon from '../../public/icons/tiktok-white.svg';
 
 const Footer = () => {
   return (
-    <footer className='flex items-center h-[257px] bg-black text-white	'>
+    <footer className='flex items-center h-[257px] bg-black text-white	' id="footer">
       <div className='flex justify-between flex-col pt-4 px-6 py-6 w-full md:flex-row md:px-48 md:items-center'>
         <p className='text-lg font-spartan-bold text-center mb-4 md:hidden'>
           Kontakt

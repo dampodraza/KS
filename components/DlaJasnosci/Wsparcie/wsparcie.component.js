@@ -77,7 +77,7 @@ const DlaJasnosciWsparcie = () => {
             </>
           }
         />
-        <Button withIcon color='bg-blue-100' text='Umów się na sesje' />
+        {/* <Button withIcon color='bg-blue-100' text='Umów się na sesje' /> */}
       </div>
     </section>
   );

@@ -67,7 +67,8 @@ const EmblaCarousel = ({ slides }) => {
                 <div className='embla-slide-text'>
                   {slajd.text}
                   <br></br>
-                  <span className='font-bold'>{slajd.name}</span>
+                  <br></br>
+                  <span className='font-bold'><b>{slajd.name}</b></span>
                 </div>
               </div>
             ))}
