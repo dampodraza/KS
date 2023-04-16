@@ -14,19 +14,19 @@ const Poczytaj = ({ postImage, postDesc, postTitle, postLink }) => {
         Witaj w mojej przestrzeni. Możesz przeczytać i posłuchać tego, co mi w
         duszy gra.
       </p> */}
-      <div className='mb-4 flex flex-row gap-x-4 md:flex-row-reverse'>
-        <div className='flex  flex-col'>
+      <div className='mb-4 flex flex-col gap-x-4 md:flex-row-reverse'>
+        <div className='flex flex-col'>
           {postImage && (
             <div
               className={
-                'relative h-auto w-[150px] overflow-hidden rounded-2xl  md:w-auto'
+                'relative h-auto overflow-hidden rounded-2xl md:w-auto'
               }
             >
               <Image
                 src={postImage}
                 alt='blog-post-image'
                 height={191}
-                width={150}
+                width={350}
                 className='h-[191px] object-cover md:hidden'
               />
               <Image
@@ -40,11 +40,11 @@ const Poczytaj = ({ postImage, postDesc, postTitle, postLink }) => {
           )}
         </div>
         <div className='align-center flex flex-col justify-center'>
-          <p className='text-sm font-bold sm:pt-2 sm:text-base md:font-spartan-bold md:text-4xl'>
+          <p className='pt-2 text-sm font-bold sm:text-base md:font-spartan-bold md:text-4xl'>
             Blog
           </p>
           <hr className='m-auto flex w-4/5 '></hr>
-          <p className='text-sm font-bold sm:pt-2 sm:text-base md:font-spartan-bold md:text-4xl'>
+          <p className='pt-2 text-sm font-bold sm:text-base md:font-spartan-bold md:text-4xl'>
             {parse(postTitle)}
           </p>
           <div className='font-josefin text-xs sm:px-10 sm:pt-4 sm:text-sm md:font-spartan-light md:text-base'>
