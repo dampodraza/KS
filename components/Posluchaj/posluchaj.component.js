@@ -32,11 +32,11 @@ const Posluchaj = () => {
             Podcast
           </p>
           <div className='text-center text-base md:font-spartan-light md:text-base'>
-            W "Szczerze z Serca" nie ma miejsca na fałszywe twarze czy udawanie,
+            W &quot;Szczerze z Serca&quot; nie ma miejsca na fałszywe twarze czy udawanie,
             że wszystko jest idealne. Chcę, żeby ten podcast był prawdziwy i
             autentyczny, bez zbędnych ozdobników.
             <br></br>
-            <br></br>Podcast "Szczerze z Serca" jest także miejscem, gdzie będę
+            <br></br>Podcast &quot;Szczerze z Serca&quot; jest także miejscem, gdzie będę
             zgłębiać różnorodne tematy związane z rozwojem osobistym,
             psychologią, relacjami interpersonalnymi, zdrowiem psychicznym i
             wieloma innymi. Dzielę się swoimi przemyśleniami i spostrzeżeniami
