@@ -23,8 +23,7 @@ const JakWygladaSesja = () => {
         do asan czyli pozycji jogowych dopasowanych do Twoich potrzeb i
         możliwości. Kolejnym elementem jest joga nidra czyli głęboka relaksacja,
         a następnie wspierająca Cię medytacja. Na koniec podsumujemy Twoje
-        samopoczucie, nastawienie, postępy i kondycje Twojego ciała i umysłu.{' '}
-        <br></br>
+        samopoczucie, nastawienie, postępy i kondycje Twojego ciała i umysłu.
         To, co istotne to, że praktyka jogi nie kończy się wraz z zakończeniem
         sesji na macie, ale jej efekty i korzyści odczuwalne są głównie pomiędzy
         zajęciami.

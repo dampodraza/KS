@@ -22,7 +22,7 @@ const Joga = () => {
           <p className='text-xl font-spartan-bold mt-6 mb-6 font-spartan-bold text-xl md:mt-14 md:text-3xl'>
             Joga nie zabiera czasu lecz go daje.
           </p>
-          <p className='font-spartan-light mx-4'>
+          <p className='mx-5 mb-2 font-spartan-light text-sm leading-[25px] md:px-8'>
           Joga nie sprowadza się do trudnych niemalże akrobatycznych pozycji, 
           których nawet nie podejmujemy przez strach przed porażką. Joga nie jest 
           powiązana z religią, nie wzywa do wielbienia bóstw i nie ma na celu 
