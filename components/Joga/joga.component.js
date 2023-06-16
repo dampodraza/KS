@@ -27,20 +27,14 @@ const Joga = () => {
           których nawet nie podejmujemy przez strach przed porażką. Joga nie jest 
           powiązana z religią, nie wzywa do wielbienia bóstw i nie ma na celu 
           oddania się duchowej ścieżce. Joga nie jest dyscypliną sportową, w której 
-          należy rywalizować o to, kto lepiej, szybciej czy bardziej. Nie żyjemy by 
-          ćwiczyć jogę ćwiczymy jogę, ale abyśmy mogli żyć - w zdrowiu, z łatwością, 
-          radością i wdzięcznością. Joga nigdy nie zapomina że zdrowie musi 
-          zacząć się od ciała. Możesz wziąć z jogi wszystko, to czego obecnie 
-          potrzebujesz i na co jesteś gotowy. Jeśli potrzebujesz ukojenia w bólu
-          – joga przyjdzie z pomocą. Jeśli chcesz odzyskać spokój – joga ci posłuży. 
-          Jeśli jesteś gotowy do samoleczenie – joga ci pomoże. Jeśli potrzebujesz ruchu 
+          należy rywalizować o to, kto lepiej, szybciej czy bardziej. Możesz wziąć z jogi 
+          wszystko, to czego obecnie potrzebujesz i na co jesteś gotowy. Jeśli potrzebujesz 
+          ukojenia w bólu – joga przyjdzie z pomocą. Jeśli chcesz odzyskać spokój – joga ci posłuży. 
+          Jeśli jesteś gotowy do samoleczenia – joga ci pomoże. Jeśli potrzebujesz ruchu 
           – joga jest idealna. Jeśli chcesz poprawić trawienie – joga to ma. 
-          Jeśli marzysz o zrzuceniu kilogramów – joga na to pozwoli. Jeśli chcesz 
-          wieść wspaniałe życie seksualne – joga pokaże wskazówki. Jeśli 
-          potrzebujesz poukładać myśli – joga to rozwiązanie. Jeśli chcesz 
+          Jeśli marzysz o zrzuceniu kilogramów – joga na to pozwoli. Jeśli chcesz 
           zrozumieć siebie – joga da możliwości. Jeśli zależy ci aby twoje narządy 
-          prawidłowo pracowały – joga wie jak. Jeśli potrzebujesz znaleźć sens 
-          – joga ci pomoże. Jeśli pragniesz czuć się dobrze – joga się sprawdzi. 
+          prawidłowo pracowały – joga wie jak. Jeśli pragniesz czuć się dobrze – joga się sprawdzi. 
           Jeśli szukasz szczęścia – joga wskaże drogę.
 
          

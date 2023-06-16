@@ -25,7 +25,6 @@ export const jogaList = [
   'Nauczyć się medytować',
   'Zrozumieć oddychanie',
   'Poprawić funkcjonowanie narządów',
-  'Być tu i teraz',
   'Schudnąć i rozciągnąć ciało',
   'Poprawić nastrój',
   'Lepiej spać',
