@@ -16,17 +16,24 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
       <FrontSection />
       <div className='grid grid-cols-1 gap-16 pt-10 pb-10 md:mt-16 md:px-32 md:pb-16'>
         <IntroSection />
+        <hr></hr>
         <DlaczegoJa />
+        <hr></hr>
         <Opinions />
+        <hr></hr>
         <CzegoPotrzebujesz />
+        <hr></hr>
         <MojaHistoria />
+        <hr></hr>
         <Poczytaj
           postImage={postImage}
           postDesc={postDesc}
           postTitle={postTitle}
           postLink={postLink}
         />
+        <hr></hr>
         <Posluchaj />
+        <hr></hr>
         <Quote />
       </div>
     </Layout>
