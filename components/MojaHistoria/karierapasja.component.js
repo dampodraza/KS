@@ -26,12 +26,12 @@ const KarieraPasja = () => {
         To zawsze wprawiało mnie w zakłopotanie, ponieważ jako mała dziewczynka
         próbowałam wielu rzeczy, które często porzucałam, a to nazywane było
         słomianym zapałem. Jak możecie się domyślić nienawidzę tego określenia i
-        kibicuje wszystkim ludziom mającym rzekomy „słomiany zapał” bo uważam,
+        kibicuje wszystkim ludziom mającym rzekomy „słomiany zapał”, bo uważam,
         że nie ma innej drogi, aby odkryć to, co się kocha robić w życiu. Miałam
         jednak to szczęście, że w moim życiu obecni byli ludzie, którzy dawali
         mi dowolność w podejmowaniu jakichkolwiek decyzji i wspierali każdy mój
         pomysł na życie. Zaczynałam od aktorstwa, bo miałam potrzebę
-        udowodnienia sobie, rodzicom i światu, że zarówno ja jak i mój brat
+        udowodnienia sobie, rodzicom i światu, że zarówno ja, jak i mój brat
         jesteśmy ważni. To wiem dzisiaj, wtedy wydawało mi się, że jestem
         stworzona do odgrywania ról i słuchania braw.{' '}
       </p>
@@ -54,7 +54,7 @@ const KarieraPasja = () => {
         skończyłam, bo bliżej mi do mówienia, niż do uczenia się o mówieniu. 5
         lat później ukończyłam studia w Łódzkiej Szkole Filmowej jako
         organizator produkcji filmowych i telewizyjnych. Postawiłabym wtedy cały
-        swój majątek na to, że będzie to mój zawód do końca życia., W trakcie
+        swój majątek na to, że będzie to mój zawód do końca życia, W trakcie
         studiów pracowałam już na różnych stanowiskach, produkowałam programy
         telewizyjne, nawet w Japonii, Korei Południowej czy Indonezji, a
         następnie filmy i seriale.
@@ -75,10 +75,10 @@ const KarieraPasja = () => {
         się, że robię karierę, która nie była dla mnie ważna. Był to mój sposób
         na zarabianie pieniędzy, to wszystko. Zdałam sobie sprawę, że nie jest
         to miejsce dla mnie. I ziarno zostało zasiane w moim sercu. Pozostawić
-        stabilną karierę by wskoczyć w coś, co nie jest stabilne ani trochę
+        stabilną karierę, by zająć się czymś, co nie jest stabilne ani trochę
         byłam przerażona totalnie się bałam. Ale wiedziałam, że jak nie wykonam
         żadnego ruchu to nic się nie zmieni. I zrozumiałam, że jedyne czego
-        naprawdę trzeba się bać to niesłuchanie siebie, niezrobienie tego co
+        naprawdę trzeba się bać to niesłuchanie siebie, niezrobienie tego, co
         uważasz za słuszne. Wtedy postanowiłam pierwszy raz od wielu lat się
         zatrzymać.{' '}
       </p>
@@ -93,7 +93,7 @@ const KarieraPasja = () => {
         Zdałam sobie sprawę próbowałam wielu dróg i nie byłam
         usatysfakcjonowana. Ale zawsze był mały płomień i co jakiś czas do niego
         wracałam, pielęgnowałam ten żar płynący w sercu. To źródło wewnątrz
-        ciebie które mówi że jest coś więcej niż twoje okoliczności. Tym źródłem
+        ciebie które mówi, że jest coś więcej niż twoje okoliczności. Tym źródłem
         jest bycie blisko kogoś kto utracił nadzieje a następnie zaprowadzenie
         go do miejsca w którym zobaczy trochę światła. Skończyłam więc dwa
         przepiękne kursy: PWC Coaching and Bussines Diploma oraz kurs

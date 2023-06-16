@@ -24,10 +24,10 @@ const ZmianyZawody = () => {
         obcować i wiem, że nie ma nic bardziej pewnego niż zmiana. To nie jest
         tak, że mnie to nie kosztuje, ale mam świadomość tego, że zmiana niesie
         nowe i z mojego doświadczenia zawsze to nowe jest dobre. Może nie
-        dzisiaj, nie jutro ale za jakiś czas zrozumiem, że wszystko jest po coś.
-        I z tą perspektywą idę przez życie. Przez życie do którego nauczyłam się
+        dzisiaj, nie jutro, ale za jakiś czas zrozumiem, że wszystko jest po coś.
+        I z tą perspektywą idę przez życie. Przez życie, do którego nauczyłam się
         mieć zaufanie. Mieć całkowitą pewność, że życie chce dobrze, bo nie ma
-        żadnych przyczyn aby chcieć dla nas źle. Zdrada i odebranie mi mojej
+        żadnych przyczyn, aby chcieć dla nas źle. Zdrada i odebranie mi mojej
         pewności siebie były trudną lekcją, którą dostałam nie rozumiejąc za
         dlaczego. Długi czas zajęło mi stawanie na nogi i zrozumienie po co.  
         <br></br>
@@ -35,7 +35,7 @@ const ZmianyZawody = () => {
         było wstępem do lekcji pt. „Odpuszczanie”. Lekcji trudnej jak diabli i
         ciągle się powtarzającej. Istnieje także wiele lekcji w naturze. Powrót
         do natury, po latach życia w miejskiej dżungli był dla mnie przełomem na
-        skale życiową. Kiedy przeprowadziliśmy się na wieś mój system nerwowy po
+        skalę życiową. Kiedy przeprowadziliśmy się na wieś mój system nerwowy po
         raz pierwszy się uspokoił, mogłam swobodnie oddychać. Czuje się tutaj
         bezpiecznie, spokojnie. I wreszcie fakt, że nie na wszystko jest
         wyjaśnienie, że dzieją się cuda, że nauka wielu rzeczy nie potrafi

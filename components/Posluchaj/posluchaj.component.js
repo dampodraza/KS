@@ -31,7 +31,7 @@ const Posluchaj = () => {
             Podcast
           </p>
           <p className='pt-2 mb-2 text-xl font-bold sm:text-base md:font-spartan-bold md:text-4xl md:mb-0'>
-            ala ma kota
+            Wszystko jest ok
           </p>
           <div className=' font-josefin text-xs sm:px-10 sm:pt-4 sm:text-sm md:font-spartan-light md:text-base md:pt-0 md:text-justify'>
             <p className="md:text-center md:text-sm md:p-2">Czas słuchania: 10 minut</p>
