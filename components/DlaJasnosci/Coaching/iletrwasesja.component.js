@@ -14,9 +14,9 @@ const ileTrwaSesja = () => {
       />
       <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Sesja trwa między 60 a 90 minut, w zależności od tego jaka jest potrzeba
-        w danym momencie. Polecam jednak rezerwować sobie 90 minut
+        w danym momencie. Polecam jednak rezerwować 90 minut
         na sesje dając sobie spokojny czas dla siebie. Spotkania
-        odbywają się zazwyczaj co 2 czy 3 tygodnie.
+        odbywają się zazwyczaj co 2 tygodnie.
       </p>
     </>
   );

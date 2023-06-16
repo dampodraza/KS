@@ -29,7 +29,7 @@ const PakietyWsparcie = () => {
         rounded='full'
         bgColor='bg-grey-102'
         description={
-          'To jest ofert jednej sesji wsparcia dla osób będących w trudnej sytuacji życiowej, a chcących się z tą sytuacją zmierzyć, jak również z niej wydostać.'
+          'To jest oferta jednej sesji wsparcia dla osób będących w trudnej sytuacji życiowej, a chcących się z tą sytuacją zmierzyć, jak również z niej wydostać.'
         }
         price='0'
         imgSrc='/images/pakiety/wsparcie/wsparcie-trudna-sytuacja.png'

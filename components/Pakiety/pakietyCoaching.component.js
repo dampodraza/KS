@@ -55,7 +55,7 @@ const PakietyCoaching = () => {
         rounded='full'
         bgColor='bg-orange-100'
         description={
-          'To jest ofert jednej sesji coachingowej dla osób będących w trudnej sytuacji życiowej, a chcących się z tą sytuacją zmierzyć, jak również z niej wydostać.'
+          'To jest oferta jednej sesji coachingowej dla osób będących w trudnej sytuacji życiowej, a chcących się z tą sytuacją zmierzyć, jak również z niej wydostać.'
         }
         price='0'
         imgSrc='/images/pakiety/coaching/coaching-trudna-sytuacja.png'

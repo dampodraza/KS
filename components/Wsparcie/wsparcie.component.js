@@ -23,16 +23,16 @@ const Wsparcie = () => {
             Każdy kryzys to ukryta szansa.
           </p>
           <p className='mx-5 mb-2 font-spartan-light text-sm leading-[25px] md:px-8'>
-            Wierzę, że nie ma niczego z czego nie mógłbyś się podnieść. Perła
-            nie powstaje podczas leżenia w uzdrowisku. Perła powstaje z wyzwań
-            jakie stawia przed nami życie. To one ukształtowały osobę którą
-            jesteś dzisiaj. Bo tak naprawdę najsilniejszy jesteś kiedy się
-            rozpadasz. Potrzeba naprawdę silnej osoby żeby się rozsypać.
+            Wierzę, że nie ma niczego, z czego nie mógłbyś się podnieść. Perła
+            nie powstaje podczas leżenia w uzdrowisku. Perła powstaje z wyzwań,
+            jakie stawia przed nami życie. To one ukształtowały osobę, którą
+            jesteś dzisiaj. Bo tak naprawdę najsilniejszy jesteś, kiedy się
+            rozpadasz. Potrzeba naprawdę silnej osoby, żeby się rozsypać.
             Najsilniejsi ludzie pozwalają sobie płakać jak małe dzieci. Nie boją
             się też prosić o pomoc, bo wiedzą, że w życiu nie można być
             niezależnym. Nikt nie jest niezależny. Każdy potrzebuje kogoś lub
             czegoś w jakimkolwiek momencie życia. Możemy czuć się zdruzgotani
-            okolicznościami w jakich się znajdujemy. Ale wewnątrz nas jest coś
+            okolicznościami, w jakich się znajdujemy. Ale wewnątrz nas jest coś,
             co sprawia, że na nowo powstajemy. Doświadczenia bólu, cierpienia i
             niepowodzenia przypominają nam, że istnieje w nas część, która jest
             silna. Trzeba ją tylko na nowo powołać do życia.
