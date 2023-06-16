@@ -35,7 +35,8 @@ const DlaczegoJa = () => {
             z drugim człowiekiem jako całością w wymiarze fizycznym,
             psychicznym, emocjonalnym i duchowym. Poza stosowaniem wiedzy z
             różnych nurtów psychologii, neurobiologii, filozofii, coachingu,
-            rozwoju, wykorzystuję również intuicję i słucham głosu swego serca.
+            totalnej biologii i psychologii ajurwedyjskiej, wykorzystuję również 
+            intuicję i słucham głosu swego serca.
           </p>
           <DlaczegoJaIcons />
         </div>

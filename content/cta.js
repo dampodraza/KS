@@ -10,23 +10,23 @@ export const coachingList = [
 ];
 
 export const wsparcieList = [
-  'Zrozumieć i zmniejszyć stres',
-  'Udoskonalić pomysły',
-  'Zwiększyć wydajność',
-  'Dokonać zmiany',
-  'Wzmocnić relacje',
-  'Zwolnić w życiu',
-  'Znaleźć sens',
-  'Pobudzić energię',
+  'Spojrzeć z dystansu',
+  'Znaleźć rozwiązania',
+  'Zrozumieć emocje',
+  'Poszerzyć świadomość',
+  'Poczuć obecność',
+  'Zmienić myślenie',
+  'Osiągnąć ukojenie',
+  'Uzyskać zrozumienie',
 ];
 
 export const jogaList = [
-  'Zrozumieć i zmniejszyć stres',
-  'Udoskonalić pomysły',
-  'Zwiększyć wydajność',
-  'Dokonać zmiany',
-  'Wzmocnić relacje',
-  'Zwolnić w życiu',
-  'Znaleźć sens',
-  'Pobudzić energię',
+  'Znaleźć równowagę',
+  'Nauczyć się medytować',
+  'Zrozumieć oddychanie',
+  'Poprawić funkcjonowanie narządów',
+  'Być tu i teraz',
+  'Schudnąć i rozciągnąć ciało',
+  'Poprawić nastrój',
+  'Lepiej spać',
 ];
