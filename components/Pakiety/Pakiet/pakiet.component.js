@@ -22,7 +22,7 @@ const Pakiet = ({ description, price, imgSrc, bgColor, rounded }) => {
           </div>
         </div>
 
-        <div className='flex flex-col w-1/2'>
+        <div className='flex flex-col w-1/2 '>
           <p className='font-josefin-italic mb-4 text-left leading-[18px]'>
             {description}
           </p>
