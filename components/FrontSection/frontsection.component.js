@@ -2,6 +2,7 @@ import React from 'react';
 import landingImg from '../../public/images/landing-mobile.jpg';
 import landingImgDesktop from '../../public/images/landing-desktop5.jpg';
 import Image from 'next/image';
+import Button from '../ui/button';
 
 const FrontSection = () => {
   return (
@@ -14,13 +15,17 @@ const FrontSection = () => {
         </p>
       </div>
       <div className='relative hidden h-screen w-screen px-1 md:block'>
-        <Image src={landingImgDesktop} priority alt='podobroLogo' />
-        <p className='absolute top-[40%] left-28 max-w-[480px] text-center font-spartan-bold text-[30px] leading-[35px]'>
-          Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
-        </p>
-        <p className='absolute top-[40%] right-28 max-w-[450px] text-center font-spartan-bold text-[30px] leading-[35px]'>
-          Ale zawsze możesz kontrolować to, co dzieje się w środku.
-        </p>
+      <Image src={landingImgDesktop} priority alt='podobroLogo' />
+        <div className='absolute top-[40%] left-[35%] transform -translate-x-1/2 -translate-y-1/2 max-w-[30%] text-center font-spartan-bold text-base lg:text-xl xl:text-2xl '>
+          Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. <br></br>
+          Ale zawsze możesz kontrolować to, co dzieje się w środku.
+          <Button
+            withLink
+            text='Umów się na konsultacje'
+            color='bg-white'
+            link={'postLink'}
+          />
+        </div>
       </div>
     </section>
   );
