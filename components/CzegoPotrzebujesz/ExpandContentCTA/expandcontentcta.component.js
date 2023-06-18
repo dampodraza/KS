@@ -18,9 +18,11 @@ const ExpandContentCTA = ({
   };
 
   return (
-    <div className='md:rounded-2xl md:bg-[#fff] md:px-16 md:py-12'>
+    <div className='md:rounded-2xl md:bg-[#fff] px-8 py-6 xl:px-16 xl:py-12 '>
       <div className='text-center lg:grid lg:grid-cols-1'>
-        <p className={`text-5xl ${textColor} mb-4`}>{title}</p>
+        <p className={`text-5xl md:text-4xl lg:text-4xl xl:text-5xl ${textColor} mb-4`}>
+          {title}
+        </p>
         <div className='flex justify-center md:hidden'>
           <Image
             src={

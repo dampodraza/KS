@@ -12,7 +12,7 @@ const MojaHistoria = () => {
   return (
     // <section className="flex bg-[#F8F3F0] flex-col  text-center md:flex-row md:justify-center md:pt-32 md:pb-32">
     <section className='flex flex-col bg-[#F8F3F0]  text-center md:flex-row md:justify-center '>
-      <p className='mb-6 text-center font-spartan-bold text-4xl md:hidden'>
+      <p className='mb-6 text-center font-spartan-bold text-3xl xl:text-4xl md:hidden'>
         Moja historia
       </p>
       <div className='block'>

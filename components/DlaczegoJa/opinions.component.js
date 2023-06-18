@@ -7,13 +7,13 @@ const Opinions = () => {
   return (
     // <section className="lg:pt-16 mb-8 md:mb-16">
     <section className=''>
-      <div className='flex flex-row items-center justify-center md:justify-between '>
+      <div className='flex flex-row items-center justify-center xl:justify-between '>
         <Image
           src={seeTheGood}
           alt='see-the-good'
           width={511}
           height={519}
-          className='hidden rounded-[35px] md:block'
+          className='hidden rounded-[35px] xl:block'
         />
         <div className='flex flex-row justify-center'>
           <div className='item-center flex flex-col justify-center'>

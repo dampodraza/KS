@@ -14,7 +14,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
   return (
     <Layout noPadding={true}>
       <FrontSection />
-      <div className='grid grid-cols-1 gap-16 pt-10 pb-10 md:mt-16 md:px-32 md:pb-16'>
+      <div className='grid grid-cols-1 gap-16 pt-10 pb-10 px-8  lg:px-16 xl:mt-16 xl:px-32 xl:pb-16'>
         <IntroSection />
         <hr></hr>
         <DlaczegoJa />
