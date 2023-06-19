@@ -1,5 +1,4 @@
 import Image from 'next/legacy/image';
-import { isMobile } from 'react-device-detect';
 import PodcastPlayer from '../ui/podcastPlayer';
 
 const RodzinaWatosci = () => {
@@ -14,12 +13,12 @@ const RodzinaWatosci = () => {
           layout='responsive'
         />
       </div>
-      {isMobile && (
-        <>
-           <PodcastPlayer src={'audio/my_song.mp3'}/>
-        </>
-      )}
-      <p className='font-spartan-light leading-[23px] mt-8 mb-4 md:text-base'>
+
+      <>
+        <PodcastPlayer src={'audio/my_song.mp3'} />
+      </>
+
+      <p className='mb-4 mt-8 font-spartan-light leading-[23px] md:text-base'>
         Urodziłam się w roku przełomowym - 1989 i przełomem były moje narodziny.
         Byłam zdrową siostrą siedmioletniego autysty z porażeniem mózgowym i
         niezwykłych rodziców, których miłość rozwiązywała wszystkie problemy
@@ -41,22 +40,22 @@ const RodzinaWatosci = () => {
         height={237}
         layout='responsive'
       />
-      <p className='font-spartan-light leading-[23px] mt-4 md:text-base'>
+      <p className='mt-4 font-spartan-light leading-[23px] md:text-base'>
         Jednakże po burzy wychodzi słońce i nie ma niczego, z czego nie mógłbyś
         się podnieść. Mam na to dowody w postaci życia na takim rollecasterze
         przez 40 lat. Nie wiem, czy mogłam wymarzyć sobie lepsze dzieciństwo,
-        dostałam bowiem tak dużo lekcji, że kiedy poszłam do szkoły, niewiele już
-        miało znaczenie. Wiedziałam bowiem, że największą rzeczą, która nadaje
-        sens mojemu życiu, jest bycie wartością dla kogoś innego. Jako mały
-        człowiek wiedziałam też, że zdrowie jest kluczowe i miałam poczucie, że
-        dostałam je w podwójnej dawce, za mojego brata. Podwójnie również
-        zostałam obdarowana umiejętnością mówienia, pisania i uczenia się — te
-        rzeczy przychodzą mi z niezwykłą łatwością. Mam poczucie, że w moim
-        życiu obecny jest mój wyjątkowy brat, którego cechy niejako przejęłam,
-        czasami z podwójną mocą. Patrzę na świat z podziwem każdego dnia, a
-        mantra, według której żyje to wdzięczność. Jestem wdzięcznym za to kim
-        jestem. Wdzięczna za to, co mam wokół siebie. Czuje ogromną wdzięczność
-        za to, że mogę żyć moim marzeniem.
+        dostałam bowiem tak dużo lekcji, że kiedy poszłam do szkoły, niewiele
+        już miało znaczenie. Wiedziałam bowiem, że największą rzeczą, która
+        nadaje sens mojemu życiu, jest bycie wartością dla kogoś innego. Jako
+        mały człowiek wiedziałam też, że zdrowie jest kluczowe i miałam
+        poczucie, że dostałam je w podwójnej dawce, za mojego brata. Podwójnie
+        również zostałam obdarowana umiejętnością mówienia, pisania i uczenia
+        się — te rzeczy przychodzą mi z niezwykłą łatwością. Mam poczucie, że w
+        moim życiu obecny jest mój wyjątkowy brat, którego cechy niejako
+        przejęłam, czasami z podwójną mocą. Patrzę na świat z podziwem każdego
+        dnia, a mantra, według której żyje to wdzięczność. Jestem wdzięcznym za
+        to kim jestem. Wdzięczna za to, co mam wokół siebie. Czuje ogromną
+        wdzięczność za to, że mogę żyć moim marzeniem.
       </p>
     </>
   );
