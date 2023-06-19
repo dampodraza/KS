@@ -1,5 +1,6 @@
 import Image from 'next/legacy/image';
 import { isMobile } from 'react-device-detect';
+import PodcastPlayer from '../ui/podcastPlayer';
 
 const RodzinaWatosci = () => {
   return (
@@ -15,17 +16,7 @@ const RodzinaWatosci = () => {
       </div>
       {isMobile && (
         <>
-          <p className='font-spartan-bold text-lg text-left mt-4 pl-2'>
-            Posłuchaj
-          </p>
-          <audio
-            className='w-[300px] pt-2'
-            controls
-            preload='none'
-            style={{ margin: '0 auto' }}
-          >
-            <source src='audio/my_song.mp3' type='audio/mpeg' />
-          </audio>
+           <PodcastPlayer src={'audio/my_song.mp3'}/>
         </>
       )}
       <p className='font-spartan-light leading-[23px] mt-8 mb-4 md:text-base'>

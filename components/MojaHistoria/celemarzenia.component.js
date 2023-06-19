@@ -1,5 +1,5 @@
 import Image from 'next/legacy/image';
-
+import PodcastPlayer from '../ui/podcastPlayer'
 const CeleMarzenia = () => {
   return (
     <>
@@ -10,16 +10,9 @@ const CeleMarzenia = () => {
         height={251}
         layout='responsive'
       />
-      <p className='font-spartan-bold text-lg text-left mt-4 pl-2'>Posłuchaj</p>
-      <audio
-        className='w-[300px] pt-2'
-        controls
-        preload='none'
-        style={{ margin: '0 auto' }}
-      >
-        <source src='audio/my_song.mp3' type='audio/mpeg' />
-      </audio>
-      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
+      <PodcastPlayer src={'audio/my_song.mp3'}/>
+
+      <p className='mb-4 mt-4 font-spartan-light leading-[23px]'>
         Zawsze miałam długie listy tego czego chciałam od życia. Długie listy
         celów. I robiłam plany co za rok, dwa, pięć, dziesięć lat. Ale w ciągu
         kilku lat to trochę zmieniło formę. Robię tablice marzeń, nawet video
@@ -39,7 +32,7 @@ const CeleMarzenia = () => {
         height={281}
         layout='responsive'
       />
-      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
+      <p className='mb-4 mt-4 font-spartan-light leading-[23px]'>
         Wspólnie z mężem prowadzimy też firmę www.unow.pl i pragnę, aby
         przybliżanie ludzi do spełniania marzeń było naszym głównym zajęciem.
         Wierzę, że musimy ciągle marzyć. Zawsze jest coś nowego do odkrycia.

@@ -6,6 +6,9 @@ const Rezerwacja = () => {
     useEffect(() => {
         (async function () {
           const Cal = await getCalApi();
+          Cal("preload", {
+            calLink: 'damian-podraza-f6c5dg'
+          });
           Cal("on", {
             action: "__windowLoadComplete",
             callback: (e) => {
@@ -18,7 +21,7 @@ const Rezerwacja = () => {
   return (
     <Layout>
       <div className='pt-32 pb-16'>
-        <Cal calLink='damian-podraza-f6c5dg'></Cal>
+    <Cal calLink='damian-podraza-f6c5dg'></Cal>
       </div>
     </Layout>
   );

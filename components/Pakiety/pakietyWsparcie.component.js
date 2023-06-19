@@ -7,7 +7,7 @@ const PakietyWsparcie = () => {
   return (
     <PakietyWrapper
       title={'Pakiety WSPARCIE'}
-      button={<Button withIcon color='bg-blue-100' text='Umów się na sesje' />}
+      button={<Button withIcon color='bg-blue-100' text='Umów się na sesje' withLink link='/rezerwacja'/>}
     >
       <Pakiet
         bgColor='bg-white'

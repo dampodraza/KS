@@ -1,4 +1,5 @@
 import Image from 'next/legacy/image';
+import PodcastPlayer from '../ui/podcastPlayer';
 
 const ZycieMilosc = () => {
   return (
@@ -10,15 +11,7 @@ const ZycieMilosc = () => {
         height={273}
         layout='responsive'
       />
-      <p className='font-spartan-bold text-lg text-left mt-4 pl-2'>Posłuchaj</p>
-      <audio
-        className='w-[300px] pt-2'
-        controls
-        preload='none'
-        style={{ margin: '0 auto' }}
-      >
-        <source src='audio/my_song.mp3' type='audio/mpeg' />
-      </audio>
+       <PodcastPlayer src={'audio/my_song.mp3'}/>
       <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Jako mała dziewczynka nagrywałam audycje radiowe, bo ciekawiły mnie
         historie innych ludzi. Od 7 roku życia pisałam pamiętniki, a od 13 roku

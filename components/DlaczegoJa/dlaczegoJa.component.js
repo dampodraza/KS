@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import kasiaDrawing from '../../public/images/kasia-drawing.png';
+import kasiaDrawing from '../../public/images/kasia-drawing2.png';
 import DlaczegoJaIcons from './dlaczegoJaIcons.component';
 
 const DlaczegoJa = () => {

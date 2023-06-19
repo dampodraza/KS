@@ -7,7 +7,7 @@ const PakietyCoaching = () => {
     <PakietyWrapper
       title={' Pakiety COACHING'}
       button={
-        <Button withIcon text='Umów się na sesje' color='bg-yellow-100' />
+        <Button withIcon text='Umów się na sesje' color='bg-yellow-100'  withLink link='/rezerwacja'/>
       }
     >
       <Pakiet

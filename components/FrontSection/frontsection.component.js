@@ -23,7 +23,7 @@ const FrontSection = () => {
             withLink
             text='Umów się na konsultacje'
             color='bg-white'
-            link={'postLink'}
+            link={'/rezerwacja'}
           />
         </div>
       </div>
