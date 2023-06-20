@@ -3,16 +3,16 @@ import Link from 'next/link';
 
 const Button = ({ color, text, withIcon = false, withLink = false, link }) => {
   return (
-    <div className='relative w-[146px] h-[41px] text-center my-0 mx-auto mt-6 mb-4 lg:w-[190px] lg:h-[50px] xl:w-[283px] xl:h-[60px] z-10'>
+    <div className='relative w-[166px] h-[41px] text-center my-0 mx-auto mt-6 mb-4 lg:w-[190px] lg:h-[50px] xl:w-[283px] xl:h-[60px] z-10'>
       <div
-        className={`rounded-md absolute bg-black w-[146px] h-[41px] top-[8px] left-[5px] lg:w-[190px] lg:h-[50px] xl:w-[283px] xl:h-[50px]`}
+        className={`rounded-md absolute bg-black w-[166px] h-[41px] top-[8px] left-[5px] lg:w-[190px] lg:h-[50px] xl:w-[283px] xl:h-[50px]`}
       ></div>
       {withLink ? (
         <Link href={link} passHref={true}>
           <div
             className={`items-center inline-flex justify-center align-center 
-        rounded-md ${color} relative  w-[146px] h-[41px] border
-         border-black hover:bg-[#F8F3F0] cursor-pointer lg:w-[190px] lg:h-[50px]	xl:w-[283px] xl:h-[50px]`}
+        rounded-md ${color} relative  w-[166px] h-[41px] border
+         border-black hover:bg-[#F8F3F0] cursor-pointer lg:w-[166px] lg:h-[50px]	xl:w-[283px] xl:h-[50px]`}
           >
             {withIcon && (
               <svg
@@ -43,7 +43,7 @@ const Button = ({ color, text, withIcon = false, withLink = false, link }) => {
       ) : (
         <div
           className={`items-center inline-flex justify-center align-center 
-        rounded-md ${color} relative  w-[146px] h-[41px] border border-black hover:bg-[#F8F3F0] cursor-pointer 
+        rounded-md ${color} relative  w-[166px] h-[41px] border border-black hover:bg-[#F8F3F0] cursor-pointer 
         lg:w-[190px] lg:h-[50px]	xl:w-[283px] xl:h-[50px]`}
         >
           {withIcon && (

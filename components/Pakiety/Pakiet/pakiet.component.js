@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Pakiet = ({ description, price, imgSrc, bgColor, rounded }) => {
   return (
     <div>
-      <div className='flex md:flex-col lg:flex-row items-center mb-10 mr-5'>
+      <div className='flex md:flex-col lg:flex-row items-center mb-10'>
         <div className='flex w-1/2 justify-center'>
           <div className='relative'>
             <div
