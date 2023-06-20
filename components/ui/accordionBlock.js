@@ -7,7 +7,7 @@ const AccordionBlock = ({ header, content, extra, expanded }) => {
   return (
     <>
       <Accordion
-        sx={{ bgcolor: '#F8F3F0', boxShadow: 'none' }}
+        sx={{ bgcolor: '#F8F3F0', boxShadow: 'none', textAlign: 'left' }}
         onChange={(e, exp) => {
           try {
             expanded(exp);

@@ -17,7 +17,7 @@ const DlaczegoJa = () => {
             className='hidden lg:block'
           />
         </div>
-        <div className='flex flex-col items-center px-10  md:items-baseline md:px-4 md:text-left lg:w-8/12'>
+        <div className='flex flex-col items-center px-4  md:items-baseline md:px-4 md:text-left lg:w-8/12'>
           <p className='mb-2 font-spartan-bold text-2xl lg:text-3xl xl:text-4xl'>
             Dlaczego właśnie ja?
           </p>

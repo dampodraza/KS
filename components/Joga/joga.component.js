@@ -4,7 +4,7 @@ import JogaPageImg from '../../public/images/joga-img.png';
 
 const Joga = () => {
   return (
-    <section className='flex bg-[#F8F3F0] flex-col  text-center '>
+    <section className='flex bg-[#F8F3F0] flex-col  text-center pt-32 md:pt-0'>
       <p className='text-4xl font-spartan-bold mb-2 text-center md:mb-16 md:text-6xl'>
         JOGA
       </p>
@@ -19,7 +19,7 @@ const Joga = () => {
           />
         </div>
         <div>
-          <p className='text-xl font-spartan-bold mt-6 mb-6 font-spartan-bold text-xl md:mt-14 md:text-3xl'>
+          <p className='text-xl mt-6 mb-6 font-spartan-bold md:mt-14 md:text-3xl'>
             Joga nie zabiera czasu lecz go daje.
           </p>
           <p className='mx-5 mb-2 font-spartan-light text-sm leading-[25px] md:px-8'>

@@ -4,7 +4,7 @@ import WsparcieImg from '../../public/images/wsparcie-img.jpeg';
 
 const Wsparcie = () => {
   return (
-    <section className='flex flex-col bg-[#F8F3F0]  text-center '>
+    <section className='flex flex-col bg-[#F8F3F0]  text-center pt-32 md:pt-0'>
       <p className='mb-2 text-center font-spartan-bold text-4xl md:mb-16 md:text-6xl'>
         WSPARCIE
       </p>
