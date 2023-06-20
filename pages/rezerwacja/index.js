@@ -3,25 +3,25 @@ import Layout from '../../components/ui/layout';
 import Cal, { getCalApi } from '@calcom/embed-react';
 
 const Rezerwacja = () => {
-    useEffect(() => {
-        (async function () {
-          const Cal = await getCalApi();
-          Cal("preload", {
-            calLink: 'damian-podraza-f6c5dg'
-          });
-          Cal("on", {
-            action: "__windowLoadComplete",
-            callback: (e) => {
-              console.log('load complete');
-            }
-          });
-        })();
-      }, []);
+  useEffect(() => {
+    (async function () {
+      const Cal = await getCalApi();
+      Cal('preload', {
+        calLink: 'damian-podraza-f6c5dg',
+      });
+      Cal('on', {
+        action: '__windowLoadComplete',
+        callback: (e) => {
+          console.log('load complete');
+        },
+      });
+    })();
+  }, []);
 
   return (
-    <Layout>
-      <div className='pt-32 pb-16'>
-    <Cal calLink='damian-podraza-f6c5dg'></Cal>
+    <Layout noPadding>
+      <div className='pt-20 md:pb-16 md:pt-32 md:px-8'>
+        <Cal calLink='damian-podraza-f6c5dg'></Cal>
       </div>
     </Layout>
   );

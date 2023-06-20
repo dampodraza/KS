@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://podobro.pl',
+  siteUrl: 'https://kasiapodraza.pl',
   generateRobotsTxt: true,
 };
