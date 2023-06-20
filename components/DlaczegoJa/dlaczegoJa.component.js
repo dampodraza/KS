@@ -8,7 +8,7 @@ const DlaczegoJa = () => {
     <>
       {/* <section className="flex justify-center items-center pt-20 pb-6 md:h-screen md:pt-28 md:pb-16"> */}
       <section className='flex items-center justify-center'>
-        <div className='flex w-full flex-col items-center justify-center lg:w-4/12'>
+        <div className='hidden md:flex w-full flex-col items-center justify-center lg:w-4/12'>
           <Image
             src={kasiaDrawing}
             alt='kasia-drawing'
@@ -21,7 +21,7 @@ const DlaczegoJa = () => {
           <p className='mb-2 font-spartan-bold text-2xl lg:text-3xl xl:text-4xl'>
             Dlaczego właśnie ja?
           </p>
-          <div className='w-full lg:hidden'>
+          <div className='w-full flex justify-center lg:hidden'>
             <Image
               src={kasiaDrawing}
               alt='kasia-drawing'
