@@ -23,7 +23,7 @@ const CzegoPotrzebujesz = ({ isMobile }) => {
           </p>
         </>
       )}
-      <div className='grid gap-8 grid-cols-1 md:grid-cols-3'>
+      <div className='grid gap-4 grid-cols-1 md:grid-cols-3'>
         <ExpandContentCTA
           title='Coaching'
           name='coaching'
