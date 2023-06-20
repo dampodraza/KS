@@ -7,7 +7,7 @@ import Button from '../ui/button2';
 const FrontSection = () => {
   return (
     <section>
-      <div className='relative mt-[-225px] h-screen w-screen md:hidden'>
+      <div className='relative mt-[-225px]  w-screen md:hidden'>
         <Image src={landingImg} alt='podobroLogo' />
         <p className='absolute left-4 top-[215px] max-w-[230px] text-center font-spartan-bold text-[20px] leading-[22px]'>
           Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
