@@ -20,7 +20,7 @@ const Rezerwacja = () => {
 
   return (
     <Layout noPadding>
-      <div className='pt-20 md:pb-16 md:pt-32 md:px-8'>
+      <div className='pt-40 md:pb-16 md:pt-32 md:px-8 mt-[-125px] md:mt-0'>
         <Cal calLink='damian-podraza-f6c5dg'></Cal>
       </div>
     </Layout>

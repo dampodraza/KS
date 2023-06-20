@@ -4,7 +4,7 @@ import Layout from '../../components/ui/layout';
 const Podcasty = () => {
   return (
     <Layout>
-      <div className='pt-48'>
+      <div className='pt-48 mt-[-125px] md:mt-0'>
         <p className='pb-8 text-center font-spartan-bold text-2xl md:pb-4 md:leading-[45px] lg:text-3xl xl:text-4xl'>
           Świat potrzebuje takich ludzi jak Ty.<br></br>A Ty potrzebujesz takich
           ludzi jak ja.
