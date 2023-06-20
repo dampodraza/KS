@@ -8,22 +8,22 @@ const Navigation = () => {
 
   return (
     <nav className={`bg-transparent top-0 z-[1] relative md:fixed `}>
-      <div className='lg:px-20 px-8 py-8 mx-auto md:fixed top-0 left-0 w-full'>
+      <div className='lg:px-20 px-8 py-8 mx-auto md:fixed top-0 left-0 w-full mt-4 md:mt-0'>
         <div className='flex items-center justify-between'>
           <div className='cursor-pointer'>
             <Link href='/' passHref>
               <Image
-                src='/images/logo-mobile.png'
+                src='/images/logo3.png'
                 alt='logo'
-                width={'91'}
-                height={'60'}
+                width={'180'}
+                height={'140'}
                 className='block sm:hidden'
               />
               <Image
-                src='/images/logo-desktop.svg'
+                src='/images/logo3.png'
                 alt='logo'
-                width={'150'}
-                height={'110'}
+                width={'180'}
+                height={'140'}
                 className='hidden sm:block'
               />
             </Link>

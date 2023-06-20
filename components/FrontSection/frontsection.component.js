@@ -9,17 +9,18 @@ const FrontSection = () => {
     <section>
       <div className='relative mt-[-225px]  w-screen md:hidden'>
         <Image src={landingImg} alt='podobroLogo' />
-        <p className='absolute left-4 top-[215px] max-w-[230px] text-center font-spartan-bold text-[20px] leading-[22px]'>
+        <p className='absolute left-0 right-0 mr-auto ml-auto top-[224px] max-w-[280px] text-center font-spartan-bold text-[17px] leading-[22px]'>
           Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
           Ale zawsze możesz  kontrolować, to, co dzieje się w środku.
+        </p>
+        <div className='absolute left-[87px] top-[310px] max-w-[280px] text-center font-spartan-bold text-[20px] leading-[22px]'>
           <Button
             withLink
             text='Umów się na konsultacje'
             color='bg-white'
             link={'/rezerwacja'}
           />
-        </p>
-        
+        </div>
       </div>
       <div className='relative hidden w-screen px-1 md:block'>
         <Image src={landingImgDesktop} priority alt='podobroLogo' />

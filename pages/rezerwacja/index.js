@@ -7,7 +7,7 @@ const Rezerwacja = () => {
     (async function () {
       const Cal = await getCalApi();
       Cal('preload', {
-        calLink: 'damian-podraza-f6c5dg',
+        calLink: 'kasiapodraza',
       });
       Cal('on', {
         action: '__windowLoadComplete',
@@ -20,8 +20,8 @@ const Rezerwacja = () => {
 
   return (
     <Layout noPadding>
-      <div className='pt-40 md:pb-16 md:pt-32 md:px-8 mt-[-125px] md:mt-0'>
-        <Cal calLink='damian-podraza-f6c5dg'></Cal>
+      <div className='pt-32 md:pb-16 md:pt-32 md:px-8 mt-[-125px] md:mt-0'>
+        <Cal calLink='kasiapodraza'></Cal>
       </div>
     </Layout>
   );
