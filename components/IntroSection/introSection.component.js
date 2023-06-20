@@ -4,7 +4,7 @@ const IntroSection = () => {
   return (
     <section className='flex items-center justify-center bg-[#F8F3F0]'>
       <div className='grid items-center gap-4 px-4 md:grid-cols-1 md:px-20'>
-        <p className='pb-8 text-center font-spartan-bold text-2xl md:pb-4 md:leading-[45px] lg:text-3xl xl:text-4xl'>
+        <p className='text-center font-spartan-bold text-2xl md:pb-4 md:leading-[45px] lg:text-3xl xl:text-4xl'>
           Świat potrzebuje takich ludzi jak Ty.<br></br>A Ty potrzebujesz takich
           ludzi jak ja.
         </p>

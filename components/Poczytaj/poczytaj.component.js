@@ -44,10 +44,10 @@ const Poczytaj = ({ postImage, postDesc, postTitle, postLink }) => {
             Blog
           </p>
           {/* <hr className='m-auto flex w-4/5 '></hr> */}
-          <p className='pt-2 mb-2 text-xl font-bold sm:text-base md:font-spartan-bold md:text-4xl md:mb-0'>
+          <p className='pt-2 mb-2 text-2xl font-bold sm:text-base md:font-spartan-bold md:text-4xl md:mb-0'>
             {parse(postTitle)}
           </p>
-          <div className=' font-josefin text-xs sm:px-10 sm:pt-4 sm:text-sm md:font-spartan-light md:text-base md:pt-0 '>
+          <div className=' font-spartan-light  sm:px-10 sm:pt-4 text-sm md:font-spartan-light md:text-base md:pt-0 '>
             {parse(postDesc.substring(0, 600).concat('...'))}
           </div>
           <div className=''>

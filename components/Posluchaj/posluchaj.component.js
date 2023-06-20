@@ -31,20 +31,21 @@ const Posluchaj = () => {
           <p className='mb-4 w-[94px] rounded-2xl bg-blue-100 pt-1 text-center text-base font-bold md:mb-2 md:font-spartan-bold md:text-base'>
             Podcast
           </p>
-          <p className='mb-2 pt-2 text-xl font-bold sm:text-base md:mb-0 md:font-spartan-bold md:text-4xl'>
+          <p className='mb-2 pt-2 text-2xl font-bold  md:mb-0 md:font-spartan-bold md:text-4xl'>
             Wszystko jest ok
           </p>
-          <div className=' font-josefin text-xs sm:px-10 sm:pt-4 sm:text-sm md:pt-0 md:text-justify md:font-spartan-light md:text-base'>
-            <p className='md:p-2 md:text-center md:text-sm'>
+          <div className='  sm:px-10 sm:pt-4 md:pt-0 md:text-justify text-sm md:text-base text-center'>
+            <p className='font-josefin mb-2 md:pt-4  md:text-center text-xs md:text-sm '>
               Czas słuchania: 10 minut
             </p>
-            Są takie rzeczy, sprawy, sytuacje czy uczucia, których nie da się
+            <p className=' font-spartan-light sm:px-10 sm:pt-4 md:pt-0 md:text-justify text-sm md:text-base text-center'>
+              Są takie rzeczy, sprawy, sytuacje czy uczucia, których nie da się
             opisać słowami. Widziałam w życiu różne cierpienia, słabości i
             upadki. Oglądałam wojny, uczestniczyłam w bitwach, krzyczałam i
             kłóciłam się nie raz i nie dwa . Doświadczałam wielu porażek i
             popełniałam błędy, które bolały nie tylko mnie. Kiedy ktoś niezwykle
             bliski zabił człowieka, czułam się współwinna, bo przecież coś
-            mogłam zrobić...
+            mogłam zrobić...</p>
           </div>
           <Button
                 withLink

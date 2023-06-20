@@ -237,6 +237,9 @@ a {
 }
 
 .rt-reading-time {
-  font-size: 14px;
-  padding-bottom: 5px;
+  font-size: 0.75rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  line-height: 1rem;
+  font-family: 'Josefin Sans'
 }
