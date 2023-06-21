@@ -163,7 +163,7 @@ const Navigation = () => {
                 </Link>
               </li>
               <li className='border-b border-gray-400 my-8 uppercase cursor-pointer	'>
-                <Link href='https://blog.podobro.pl' passHref>
+                <Link href='https://blog.kasiapodraza.pl' passHref>
                   <span className='font-spartan-bold md:text-5xl hover:opacity-60'>
                     Blog
                   </span>

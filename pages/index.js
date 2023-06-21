@@ -43,7 +43,7 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
 export async function getStaticProps() {
   let post;
   try {
-    post = await fetch('https://blog.podobro.pl/wp-json/wp/v2/posts?per_page=1')
+    post = await fetch('https://blog.kasiapodraza.pl/wp-json/wp/v2/posts?per_page=1')
       .then((res) => {
         return res.json();
       })
