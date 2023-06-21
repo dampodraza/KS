@@ -11,10 +11,9 @@ const EmblaCarousel = ({ slides }) => {
 
   const scrollPrev = useCallback(() => embla && embla.scrollPrev(), [embla]);
   const scrollNext = useCallback(() => embla && embla.scrollNext(), [embla]);
-  const scrollTo = useCallback(
-    (index) => embla && embla.scrollTo(index),
-    [embla]
-  );
+  const scrollTo = useCallback((index) => embla && embla.scrollTo(index), [
+    embla,
+  ]);
 
   const onSelect = useCallback(() => {
     if (!embla) return;
@@ -30,6 +29,41 @@ const EmblaCarousel = ({ slides }) => {
     embla.on('select', onSelect);
   }, [embla, setScrollSnaps, onSelect]);
 
+  useEffect(() => {
+    const handleScrollPrev = (event) => {
+      event.preventDefault();
+      scrollPrev();
+    };
+
+    const handleScrollNext = (event) => {
+      event.preventDefault();
+      scrollNext();
+    };
+
+    window.addEventListener('wheel', handleScrollNext, { passive: true });
+    window.addEventListener('touchstart', handleScrollNext, { passive: true });
+    window.addEventListener('touchend', handleScrollNext, { passive: true });
+    window.addEventListener('touchmove', handleScrollNext, { passive: true });
+    window.addEventListener('keydown', handleKeyDown, { passive: true });
+
+    return () => {
+      window.removeEventListener('wheel', handleScrollNext);
+      window.removeEventListener('touchstart', handleScrollNext);
+      window.removeEventListener('touchend', handleScrollNext);
+      window.removeEventListener('touchmove', handleScrollNext);
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [scrollNext]);
+
+  const handleKeyDown = (event) => {
+    if (event.key === 'ArrowUp') {
+      event.preventDefault();
+      scrollPrev();
+    } else if (event.key === 'ArrowDown') {
+      event.preventDefault();
+      scrollNext();
+    }
+  };
   const slidy = [
     {
       key: 1,
