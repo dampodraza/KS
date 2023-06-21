@@ -1,5 +1,11 @@
 import React from 'react';
 import Layout from '../../components/ui/layout';
+import { Metadata } from 'next';
+
+export const metadata = {
+  title: 'Podcasty',
+  description: 'Wierzę, że każdy z nas ma potencjał do tworzenia zmian, które chcemy widzieć w świecie.',
+  };
 
 const Podcasty = () => {
   return (
