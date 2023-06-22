@@ -1,5 +1,11 @@
 import React from 'react';
 import Layout from '../../components/ui/layout';
+import { Metadata } from 'next';
+
+export const metadata = {
+  title: 'Podcasty',
+  description: 'Wierzę, że każdy z nas ma potencjał do tworzenia zmian, które chcemy widzieć w świecie.',
+  };
 
 const Podcasty = () => {
   return (
@@ -25,7 +31,7 @@ const Podcasty = () => {
             width='100%'
             height='152'
             frameBorder='0'
-            allowfullscreen=''
+            allowFullScreen=''
             allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'
             loading='lazy'
           ></iframe>
@@ -35,7 +41,7 @@ const Podcasty = () => {
             width='100%'
             height='152'
             frameBorder='0'
-            allowfullscreen=''
+            allowFullScreen=''
             allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'
             loading='lazy'
           ></iframe>
