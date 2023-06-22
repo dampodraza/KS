@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Button from '../../ui/button';
-import { isMobile } from 'react-device-detect';
+import Device from '../../../components/Device/index'
 
 const ExpandContentCTA = ({
   title,
@@ -20,7 +20,9 @@ const ExpandContentCTA = ({
   return (
     <div className='rounded-2xl bg-[#fff] px-16 py-6 xl:px-16 xl:py-12 '>
       <div className='text-center lg:grid lg:grid-cols-1'>
-        <p className={`text-5xl md:text-4xl lg:text-4xl xl:text-5xl ${textColor} mb-4`}>
+        <p
+          className={`text-5xl md:text-4xl lg:text-4xl xl:text-5xl ${textColor} mb-4`}
+        >
           {title}
         </p>
         <div className='flex justify-center md:hidden'>
@@ -43,13 +45,25 @@ const ExpandContentCTA = ({
             ))}
           </ul>
         )}
-        {!isMobile && (
+        {/* {!isMobile && (
           <ul className='mt-3 font-spartan'>
             {contentList.map((item) => (
               <li key={item + name}>{item}</li>
             ))}
           </ul>
-        )}
+        )} */}
+        <Device>
+          {({ isMobile }) => {
+            if (isMobile) return null;
+            return (
+              <ul className='mt-3 font-spartan'>
+                {contentList.map((item) => (
+                  <li key={item + name}>{item}</li>
+                ))}
+              </ul>
+            );
+          }}
+        </Device>
         <div className='z-10'>
           <Button
             color={bgColor}

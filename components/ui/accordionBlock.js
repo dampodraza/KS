@@ -18,7 +18,7 @@ const AccordionBlock = ({ header, content, extra, expanded }) => {
       >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls='panel1a-content'
+          aria-controls={`${header}`}
           id={`${header}`}
         >
           <p className='text-lg font-spartan-bold'>{header}</p>

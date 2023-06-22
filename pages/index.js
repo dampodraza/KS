@@ -6,6 +6,7 @@ import Quote from '../components/Quote/quote.component';
 import DlaczegoJa from '../components/DlaczegoJa/dlaczegoJa.component';
 import Layout from '../components/ui/layout';
 import FrontSection from '../components/FrontSection/frontsection.component';
+import FrontSectionMobile from '../components/FrontSection/frontsectionmobile.component';
 import IntroSection from '../components/IntroSection/introSection.component';
 import Opinions from '../components/DlaczegoJa/opinions.component';
 import Posluchaj from '../components/Posluchaj/posluchaj.component';
@@ -13,8 +14,13 @@ import Posluchaj from '../components/Posluchaj/posluchaj.component';
 export default function Home({ postDesc, postImage, postTitle, postLink }) {
   return (
     <Layout noPadding={true}>
-      <FrontSection />
-      <div className='grid grid-cols-1 gap-16 pt-10 pb-10 px-8  lg:px-16 xl:mt-16 xl:px-32 xl:pb-16'>
+      <div className='hidden md:block'>
+        <FrontSection />
+      </div>
+      <div className='block md:hidden'>
+        <FrontSectionMobile />
+      </div>
+      <div className='grid grid-cols-1 gap-16 px-8 pb-10 pt-10  lg:px-16 xl:mt-16 xl:px-32 xl:pb-16'>
         <IntroSection />
         <hr></hr>
         <DlaczegoJa />
@@ -43,7 +49,9 @@ export default function Home({ postDesc, postImage, postTitle, postLink }) {
 export async function getStaticProps() {
   let post;
   try {
-    post = await fetch('https://blog.kasiapodraza.pl/wp-json/wp/v2/posts?per_page=1')
+    post = await fetch(
+      'https://blog.kasiapodraza.pl/wp-json/wp/v2/posts?per_page=1'
+    )
       .then((res) => {
         return res.json();
       })
