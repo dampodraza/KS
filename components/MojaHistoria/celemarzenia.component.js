@@ -10,7 +10,6 @@ const CeleMarzenia = () => {
         height={251}
         layout='responsive'
       />
-      <PodcastPlayer src={'audio/my_song.mp3'}/>
 
       <p className='mb-4 mt-4 font-spartan-light leading-[23px]'>
         Zawsze miałam długie listy tego czego chciałam od życia. Długie listy
@@ -33,7 +32,7 @@ const CeleMarzenia = () => {
         layout='responsive'
       />
       <p className='mb-4 mt-4 font-spartan-light leading-[23px]'>
-        Wspólnie z mężem prowadzimy też firmę www.unow.pl i pragnę, aby
+        Wspólnie z mężem prowadzimy też firmę <a href="https://unow.pl">www.unow.pl </a> i pragnę, aby
         przybliżanie ludzi do spełniania marzeń było naszym głównym zajęciem.
         Wierzę, że musimy ciągle marzyć. Zawsze jest coś nowego do odkrycia.
         Wiem jednocześnie, jestem tego pewna, mam głębokie przekonanie, że

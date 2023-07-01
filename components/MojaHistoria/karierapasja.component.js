@@ -14,7 +14,6 @@ const KarieraPasja = () => {
           layout='responsive'
         />
       </div>
-      <PodcastPlayer src={'audio/my_song.mp3'}/>
       <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Wychowałam się w czasach, w których jedna praca równa się jedno życie.
         To zawsze wprawiało mnie w zakłopotanie, ponieważ jako mała dziewczynka

@@ -14,10 +14,6 @@ const RodzinaWatosci = () => {
         />
       </div>
 
-      <>
-        <PodcastPlayer src={'audio/my_song.mp3'} />
-      </>
-
       <p className='mb-4 mt-8 font-spartan-light leading-[23px] md:text-base'>
         Urodziłam się w roku przełomowym - 1989 i przełomem były moje narodziny.
         Byłam zdrową siostrą siedmioletniego autysty z porażeniem mózgowym i

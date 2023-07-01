@@ -11,7 +11,6 @@ const ZycieMilosc = () => {
         height={273}
         layout='responsive'
       />
-       <PodcastPlayer src={'audio/my_song.mp3'}/>
       <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Jako mała dziewczynka nagrywałam audycje radiowe, bo ciekawiły mnie
         historie innych ludzi. Od 7 roku życia pisałam pamiętniki, a od 13 roku

@@ -11,7 +11,6 @@ const ZmianyZawody = () => {
         height={269}
         layout='responsive'
       />
-      <PodcastPlayer src={'audio/my_song.mp3'}/>
       <p className='font-spartan-light leading-[23px] mt-4 mb-4'>
         Zmiana towarzyszy mi przez całe życie. Nauczyłam się codziennie z nią
         obcować i wiem, że nie ma nic bardziej pewnego niż zmiana. To nie jest
