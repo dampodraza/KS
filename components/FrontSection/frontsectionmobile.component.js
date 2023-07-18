@@ -8,11 +8,7 @@ const FrontSectionMobile = () => {
     <section>
       <div className='relative mt-[-225px]  w-screen'>
           <Image src={landingImg} alt='kasiaPodrazaLogo' />
-          <p className='absolute left-0 right-0 mr-auto ml-auto top-[224px] max-w-[280px] text-center font-spartan-bold text-[17px] leading-[22px]'>
-            Nie zawsze możesz kontrolować to, co dzieje się na zewnątrz. 
-            Ale zawsze możesz  kontrolować, to, co dzieje się w środku.
-          </p>
-          <div className='absolute left-[87px] top-[310px] max-w-[280px] text-center font-spartan-bold text-[20px] leading-[22px]'>
+          <div className='absolute left-[14%] top-[200px] max-w-[280px] text-center font-spartan-bold text-[20px] leading-[22px]'>
             <Button
               withLink
               text='Umów się na konsultacje'
@@ -20,6 +16,11 @@ const FrontSectionMobile = () => {
               link={'/rezerwacja'}
             />
           </div>
+          <p className='absolute right-[37%] right-0 mr-auto ml-auto top-[212px] max-w-[280px] mt-20 text-center font-marseille-regular text-[17px] leading-[22px]'>
+            Nie zawsze możesz kontrolować <br></br>to, co dzieje się na zewnątrz. <br></br>
+            Ale zawsze możesz  kontrolować,<br></br> to, co dzieje się w środku.
+          </p>
+    
         </div>
     </section>
   );

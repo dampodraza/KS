@@ -49,6 +49,38 @@ a {
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Marseille-light';
+  src: url('../public//fonts/Marseille-Light.otf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Marseille-medium';
+  src: url('../public//fonts/Marseille-Medium.otf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Marseille-regular';
+  src: url('../public//fonts/Marseille-Regular.otf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Marseille-bold';
+  src: url('../public//fonts/Marseille-Bold.otf');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 @media (min-width: 600px) {
   .embla {
     position: relative;
