@@ -29,32 +29,6 @@ const EmblaCarousel = ({ slides }) => {
     embla.on('select', onSelect);
   }, [embla, setScrollSnaps, onSelect]);
 
-  useEffect(() => {
-    const handleScrollPrev = (event) => {
-      event.preventDefault();
-      scrollPrev();
-    };
-
-    const handleScrollNext = (event) => {
-      event.preventDefault();
-      scrollNext();
-    };
-
-    window.addEventListener('wheel', handleScrollNext, { passive: true });
-    window.addEventListener('touchstart', handleScrollNext, { passive: true });
-    window.addEventListener('touchend', handleScrollNext, { passive: true });
-    window.addEventListener('touchmove', handleScrollNext, { passive: true });
-    window.addEventListener('keydown', handleKeyDown, { passive: true });
-
-    return () => {
-      window.removeEventListener('wheel', handleScrollNext);
-      window.removeEventListener('touchstart', handleScrollNext);
-      window.removeEventListener('touchend', handleScrollNext);
-      window.removeEventListener('touchmove', handleScrollNext);
-      window.removeEventListener('keydown', handleKeyDown);
-    };
-  }, [scrollNext]);
-
   const handleKeyDown = (event) => {
     if (event.key === 'ArrowUp') {
       event.preventDefault();
