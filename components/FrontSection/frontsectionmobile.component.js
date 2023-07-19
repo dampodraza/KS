@@ -8,7 +8,7 @@ const FrontSectionMobile = () => {
     <section>
       <div className='relative mt-[-225px]  w-screen'>
           <Image src={landingImg} alt='kasiaPodrazaLogo' />
-          <div className='absolute left-[14%] top-[200px] max-w-[280px] text-center font-spartan-bold text-[20px] leading-[22px]'>
+          <div className='absolute left-[14%] top-[200px] max-w-[280px] text-center font-spartan-bold text-[20px] leading-[22px] z-0'>
             <Button
               withLink
               text='Umów się na konsultacje'
