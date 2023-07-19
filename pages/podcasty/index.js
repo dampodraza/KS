@@ -6,7 +6,7 @@ const Podcasty = () => {
     <Layout>
       <div className='pt-32 md:pt-48 mt-[-125px] md:mt-0'>
         <p className='pb-8 text-center font-spartan-bold text-2xl md:pb-4 md:leading-[45px] lg:text-3xl xl:text-4xl'>
-        Podcast "Dobre miejsce" to podróż<br></br>do odkrywania wewnętrznej równowagi, inspiracji i świadomego życia.
+        Podcast &quot;Dobre miejsce&quot; to podróż<br></br>do odkrywania wewnętrznej równowagi, inspiracji i świadomego życia.
         </p>
         <div className='md:px-18 grid grid-cols-1 gap-4 text-center font-spartan-light text-base leading-[18px] md:gap-0 md:leading-8 lg:text-base xl:text-xl'>
         Dobre miejsce to przestrzeń, w której możemy być sobą. Gdzie czujemy się zaopiekowani i utuleni. Dobre miejsce to takie, w którym możemy spojrzeć na wszystko z innej perspektywy. Dobre miejsce to nasza głowa, bo tam właśnie dokonują się największe odkrycia. Dobre miejsce to nasze ciało, które pozostając z nami na zawsze jest naszym sprzymierzeńcem. Dobre miejsce to nasze serce, które zna wszystkie odpowiedzi. W dobrym miejscu możemy popełniać błędy, szukać rozwiązań, tworzyć i dzielić się.  Dobre miejsce tworzy możliwości i daje czas. W dobrym miejscu można być szczerym i otwartym oraz zapraszać innych, aby poczuli się dobrze. 
