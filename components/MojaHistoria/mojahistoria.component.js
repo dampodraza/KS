@@ -7,6 +7,7 @@ import ZycieMilosc from './zyciemilosc.component';
 import CeleMarzenia from './celemarzenia.component';
 import ZmianyZawody from './zmianyzawody.component';
 import Button from '../ui/button';
+import IcoDalej from './icodalej.component';
 
 const MojaHistoria = () => {
   return (
@@ -97,6 +98,15 @@ const MojaHistoria = () => {
             </>
           }
         />
+         <AccordionBlock
+            header='I co dalej'
+            expanded={(value) => celeChange(value)}
+            extra={
+              <>
+                <IcoDalej />
+              </>
+            }
+          />
       </div>
     </section>
   );
