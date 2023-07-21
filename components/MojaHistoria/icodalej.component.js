@@ -8,8 +8,8 @@ const IcoDalej = () => {
      <Image
         src={'/images/IMG_5159.png'}
         alt={`ico-dalej-img`}
-        width={390}
-        height={251}
+        width={1200}
+        height={841}
         layout='responsive'
       />
      <p className='font-spartan-light leading-[23px] mt-4 mb-4'>

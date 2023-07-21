@@ -8,6 +8,7 @@ import CeleMarzenia from './celemarzenia.component';
 import ZmianyZawody from './zmianyzawody.component';
 import Button from '../ui/button';
 import IcoDalej from './icodalej.component';
+import KasiaMojaHistoriaImg from '../../public/images/kasia-moja-historia.jpg';
 
 const MojaHistoria = () => {
   return (
@@ -16,20 +17,20 @@ const MojaHistoria = () => {
       <p className='mb-6 text-center font-spartan-bold text-3xl xl:text-4xl md:hidden'>
         Moja historia
       </p>
-      <div className='block'>
+      <div className='block px-5 mb-4 md:mb-0'>
         <Image
-          src={'/images/kasia-img.png'}
+          src={KasiaMojaHistoriaImg}
           alt={`kasia-img`}
-          width={589}
-          height={498}
-          className='md:rounded-[35px]'
+          width={1890}
+          height={1417}
+          className='rounded-[35px]'
         />
       </div>
       <div className='flex flex-col md:ml-8 md:max-w-[45%]'>
         <p className='mb-6 hidden text-center font-spartan-bold text-2xl md:mb-4 md:block md:pt-8 md:text-4xl'>
           Moja historia
         </p>
-        <p className='mx-4 mb-4  font-spartan-light md:mb-0 md:px-8 md:text-justify md:text-base'>
+        <p className='mx-4 mb-4 font-spartan-light md:mb-0 md:px-8 md:text-justify md:text-base'>
           Pełna przygód i licznych zwrotów akcji historia o tym, jak ważne jest
           cieszyć się każdą chwilą swojego życia. Opowieść o dziewczynie tak
           normalnej, że aż podobnej do Ciebie. Z tą różnicą, że żyje za dwóch.

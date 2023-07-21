@@ -76,10 +76,10 @@ const KarieraPasja = () => {
         zatrzymać.{' '}
       </p>
       <Image
-        src={'/images/mojahistoria/kariera4.jpg'}
+        src={'/images/mojahistoria/kariera4_new2.jpg'}
         alt={`kasia-img`}
-        width={390}
-        height={241}
+        width={1600}
+        height={1067}
         layout='responsive'
       />
       <p className='font-spartan-light leading-[23px] mt-4 mb-4'>

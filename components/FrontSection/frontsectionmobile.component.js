@@ -1,5 +1,5 @@
 import React from 'react';
-import landingImg from '../../public/images/landing-mobile.jpg';
+import landingImg from '../../public/images/landing-mobile.png';
 import Button from '../ui/button2';
 import Image from 'next/image';
 

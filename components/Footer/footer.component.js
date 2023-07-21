@@ -30,7 +30,7 @@ const Footer = () => {
           <div className='flex flex-rowjustify-center'>
             <Image src={mailIcon} alt='mail' width={35} height={32} />
             <p className='text-sm ml-4 underline md:text-2xl'>
-              kasia.maria.podraza@gmail.com
+            <a href="mailto:kasia.maria.podraza@gmail.com">kasia.maria.podraza@gmail.com</a>
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Footer = () => {
               />
             </Link>
             <Link
-              href='https://www.facebook.com/katarzyna.stefanska1'
+              href='https://www.facebook.com/profile.php?id=100094520428005'
               passHref={true}
             >
               <Image
@@ -63,7 +63,7 @@ const Footer = () => {
                 height={40}
               />
             </Link>
-            <Link href='https://stackoverflow.com/' passHref={true}>
+            <Link href='https://www.tiktok.com/@kasia.podraza' passHref={true}>
               <Image
                 className='cursor-pointer'
                 src={tiktokIcon}

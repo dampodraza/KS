@@ -25,10 +25,10 @@ const CeleMarzenia = () => {
         trochę miłości. Jeśli pomogę jednej osobie to podążam za celem.
       </p>
       <Image
-        src={'/images/mojahistoria/celemarzenia2.jpg'}
+        src={'/images/mojahistoria/cele_marzenia.jpg'}
         alt={`kasia-img`}
-        width={390}
-        height={281}
+        width={1890}
+        height={1417}
         layout='responsive'
       />
       <p className='mb-4 mt-4 font-spartan-light leading-[23px]'>

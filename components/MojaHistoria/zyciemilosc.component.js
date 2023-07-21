@@ -5,7 +5,7 @@ const ZycieMilosc = () => {
   return (
     <>
       <Image
-        src={'/images/mojahistoria/zyciemilosc1.jpg'}
+        src={'/images/mojahistoria/zyciemilosc.jpg'}
         alt={`kasia-img`}
         width={390}
         height={273}
@@ -38,13 +38,6 @@ const ZycieMilosc = () => {
         męża, który bezgranicznie mnie kocha. Śpiewem ptaków, które codziennie
         zupełnie za darmo dają koncert powitalny, bo jestem. Wszyscy oni są
         moimi guru.
-        <Image
-          src={'/images/mojahistoria/zyciemilosc2.jpg'}
-          alt={`kasia-img`}
-          width={390}
-          height={216}
-          layout='responsive'
-        />
       </p>
     </>
   );

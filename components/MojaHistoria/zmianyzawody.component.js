@@ -5,10 +5,10 @@ const ZmianyZawody = () => {
   return (
     <>
       <Image
-        src={'/images/mojahistoria/zmiany.jpg'}
+        src={'/images/zmiany_new.JPG'}
         alt={`kasia-img`}
-        width={390}
-        height={269}
+        width={1890}
+        height={1417}
         layout='responsive'
       />
       <p className='font-spartan-light leading-[23px] mt-4 mb-4'>

@@ -177,7 +177,7 @@ const Navigation = () => {
                 </Link>
               </li>
               <li className='border-b border-gray-400 my-8 uppercase cursor-pointer'>
-                <Link href='/kontakt' passHref>
+                <Link href='/#footer' passHref onClick={() => setIsNavOpen(false)}>
                   <span className='font-spartan-bold md:text-5xl hover:opacity-60'>
                     Kontakt
                   </span>
