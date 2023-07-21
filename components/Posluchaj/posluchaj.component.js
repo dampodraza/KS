@@ -6,7 +6,7 @@ import PodcastCoverImg from '../../public/images/podcast_podmiana.png'
 const Posluchaj = () => {
   return (
     <div className='grid px-5'>
-      <div className='grid grid-cols-1 md:grid-cols-12 md:gap-8'>
+      <div className='grid grid-cols-1 md:grid-cols-12 '>
         {/* <div className='md:hidden'> */}
           {/* <iframe
             title='episode 1'
