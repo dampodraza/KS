@@ -2,8 +2,6 @@ import React from 'react';
 import Layout from '../../components/ui/layout';
 import Image from 'next/image';
 import PodcastCoverImg from '../../public/images/podcast_podmiana.png'
-import SpotifyIcon from '../../public/images/listen_spotify.png'
-import AppleIcon from '../../public/images/listen_apple.png'
 
 const Podcasty = () => {
   return (
