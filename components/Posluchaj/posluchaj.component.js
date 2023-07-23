@@ -6,7 +6,7 @@ import PodcastCoverImg from '../../public/images/podcast_podmiana.png'
 const Posluchaj = () => {
   return (
     <div className='grid px-5'>
-      <div className='grid grid-cols-1 md:grid-cols-12 '>
+      <div className='grid grid-cols-1 md:grid-cols-12 md:gap-8'>
         {/* <div className='md:hidden'> */}
           {/* <iframe
             title='episode 1'
@@ -56,7 +56,7 @@ const Posluchaj = () => {
             Podcast
           </p>
           <p className='mb-2 pt-2 text-2xl font-bold  md:mb-0 md:font-spartan-bold md:text-4xl'>
-            Wszystko jest ok
+            Dobre miejsce
           </p>
           <div className='  text-center text-sm sm:px-10 sm:pt-4 md:pt-0 md:text-justify md:text-base'>
             <p className='font-josefin mb-2 text-xs  md:pt-4 md:text-center md:text-sm '>
