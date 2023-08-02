@@ -11,7 +11,7 @@ const Layout = ({ children, noPadding = false }) => {
         <Head>
           <title>Kasia Podraza | Psychologia, zdrowie i coaching</title>
           <meta name='description' content='Pracuję z drugim człowiekiem jako całością w wymiarze fizycznym, psychicznym, emocjonalnym i duchowym. Umów się na konsultację już dziś.' />
-          <meta property="og:image" content="/landing-facebook.png" />
+          <meta property="og:image" content="https://www.kasiapodraza.pl/images/landing-facebook.png" />
           <link rel='icon' href='/favicon.ico' />
         </Head>
         <Navigation />
